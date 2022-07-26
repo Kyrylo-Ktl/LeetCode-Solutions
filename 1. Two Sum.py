@@ -3,8 +3,8 @@ from typing import List
 
 class Solution:
     """
-    Time:   O(n + m)
-    Memory: O(1)
+    Time:   O(n)
+    Memory: O(n)
     """
 
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
