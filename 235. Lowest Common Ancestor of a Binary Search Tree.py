@@ -13,12 +13,12 @@ class Solution:
 
     def lowestCommonAncestor(self, root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode:
         if p.val < q.val:
-            return self.lca(root, p, q)
+            return self._find_lca(root, p, q)
         else:
-            return self.lca(root, q, p)
+            return self._find_lca(root, q, p)
 
     @classmethod
-    def lca(cls, tree: TreeNode, lower: TreeNode, higher: TreeNode) -> TreeNode:
+    def _find_lca(cls, tree: TreeNode, lower: TreeNode, higher: TreeNode) -> TreeNode:
         if tree.val == lower.val or tree.val == higher.val:
             return tree
 
@@ -26,6 +26,6 @@ class Solution:
             return tree
 
         if higher.val < tree.val:
-            return cls.lca(tree.left, lower, higher)
+            return cls._find_lca(tree.left, lower, higher)
         else:
-            return cls.lca(tree.right, lower, higher)
+            return cls._find_lca(tree.right, lower, higher)
