@@ -1,7 +1,7 @@
 class Solution:
     """
     Time:   O(n)
-    Memory: O(n)
+    Memory: O(1)
     """
 
     def repeatedCharacter(self, s: str) -> str:
