@@ -4,7 +4,7 @@ from typing import List
 
 class Solution:
     """
-    Time:   O(nlog)
+    Time:   O(n*log(n))
     Memory: O(n)
     """
 
