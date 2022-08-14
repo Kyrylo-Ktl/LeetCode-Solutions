@@ -1,5 +1,6 @@
 from enum import Enum
 from threading import Condition
+from time import sleep
 from typing import Callable
 
 
@@ -37,3 +38,19 @@ class Foo:
             self.state = State.ONE
             self.cond.notifyAll()
             print_third()
+
+
+class Foo:
+    @staticmethod
+    def first(print_first: Callable[[], None]) -> None:
+        print_first()
+
+    @staticmethod
+    def second(print_second: Callable[[], None]) -> None:
+        sleep(0.05)
+        print_second()
+
+    @staticmethod
+    def third(print_third: Callable[[], None]) -> None:
+        sleep(0.1)
+        print_third()
