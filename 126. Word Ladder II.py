@@ -26,15 +26,13 @@ class Solution:
         queue = deque([begin_word])
 
         while queue and not found:
-            n = len(queue)
-
             visited_this_level = {}
 
-            for i in range(n):
+            for _ in range(len(queue)):
                 word = queue.popleft()
 
-                for j in range(len(word)):
-                    pattern = word[:j] + Solution.WILDCARD + word[j + 1:]
+                for i in range(len(word)):
+                    pattern = word[:i] + Solution.WILDCARD + word[i + 1:]
 
                     for next_word in adjacency_list[pattern]:
                         if next_word == end_word:
