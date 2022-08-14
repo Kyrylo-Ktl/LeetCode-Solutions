@@ -21,7 +21,7 @@ class Solution:
 class Solution:
     def digitSum(self, s: str, k: int) -> str:
         while len(s) > k:
-            s = self.digitSum(self.round(s, k), k)
+            s = self.round(s, k)
         return s
 
     @classmethod
