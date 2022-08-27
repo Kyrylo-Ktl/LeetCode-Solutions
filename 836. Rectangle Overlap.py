@@ -10,5 +10,4 @@ class Solution:
     def isRectangleOverlap(self, rectangle_a: List[int], rectangle_b: List[int]) -> bool:
         x1, y1, x2, y2 = rectangle_a
         x3, y3, x4, y4 = rectangle_b
-        return min(x2, x4) > max(x1, x3) and \
-               min(y2, y4) > max(y1, y3)
+        return x1 < x4 and x3 < x2 and y1 < y4 and y3 < y2
