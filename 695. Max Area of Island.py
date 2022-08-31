@@ -4,7 +4,7 @@ from typing import List
 class Solution:
     """
     Time:   O(n^2)
-    Memory: O(1)
+    Memory: O(n^2)
     """
 
     WATER = 0
@@ -19,19 +19,20 @@ class Solution:
         if grid[row][col] != cls.LAND:
             return 0
 
+        n, m = len(grid), len(grid[0])
         grid[row][col] = cls.WATER
         area = 1
 
         if row > 0:
             area += cls.island_area(row - 1, col, grid)
 
-        if row + 1 < len(grid):
+        if row < n - 1:
             area += cls.island_area(row + 1, col, grid)
 
         if col > 0:
             area += cls.island_area(row, col - 1, grid)
 
-        if col + 1 < len(grid[0]):
+        if col < m - 1:
             area += cls.island_area(row, col + 1, grid)
 
         return area
