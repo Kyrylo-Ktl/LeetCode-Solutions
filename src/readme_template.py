@@ -1,9 +1,9 @@
-TEMPLATE = """
+MARKDOWN_TEMPLATE = """
 # [LeetCode](https://leetcode.com/problemset/all/)
 
-Some description
+The repository contains the best versions of my solutions to LeetCode problems
 
-# All solutions
+## Solutions
 
 {all_solutions}
 """

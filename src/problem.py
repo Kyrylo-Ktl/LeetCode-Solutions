@@ -3,6 +3,7 @@ from typing import Generator
 
 from pydantic import BaseModel, Field, FilePath, ValidationError
 
+import config
 from config import LANGUAGES, get_solution_path
 
 
@@ -15,8 +16,9 @@ class Solution(BaseModel):
     path: FilePath
     language: LanguageEnum
 
-    def format(self) -> str:
-        return '[{}](./{})'.format(self.language, self.path.as_posix().replace(' ', '%20'))
+    @property
+    def url_path(self) -> str:
+        return self.path.relative_to(config.ABSOLUTE_PATH).as_posix().replace(' ', '%20')
 
     class Config:
         use_enum_values = True
@@ -28,15 +30,10 @@ class DifficultyEnum(str, Enum):
     hard = 'Hard'
 
 
-class Tag(BaseModel):
-    name: str
-
-
 class Problem(BaseModel):
     id: int = Field(alias='questionFrontendId')
     title: str
     slug: str = Field(alias='titleSlug')
-    tags: list[Tag] = Field(alias='topicTags')
     difficulty: DifficultyEnum
     is_premium: bool = Field(alias='isPaidOnly')
 

@@ -1,21 +1,22 @@
 from typing import Iterable
 
+import config
+
 
 class MarkdownTable:
     NO_DATA = '-'
 
-    def __init__(self, headers: list, order_by: str):
-        self._headers = headers
-        self._order_by = order_by
-
-    def __call__(self, content: Iterable[dict]) -> str:
-        content = sorted(content, key=lambda x: x.get(self._order_by))
-        head = self._format_head()
-        rows = self._format_rows(content)
+    @classmethod
+    def format(cls, content: Iterable[dict]) -> str:
+        content = sorted(content, key=lambda x: x.get(config.ORDER_BY))
+        head = cls._format_head()
+        rows = cls._format_rows(content)
         return '\n'.join(map(lambda x: f'| {x} |', head + rows))
 
-    def _format_head(self) -> list:
-        return [' | '.join(self._headers), ' | '.join([':----:'] * len(self._headers))]
+    @staticmethod
+    def _format_head() -> list:
+        return [' | '.join(config.TABLE_HEADERS), ' | '.join([':----:'] * len(config.TABLE_HEADERS))]
 
-    def _format_rows(self, content: list) -> list:
-        return [' | '.join(str(row.get(col, self.NO_DATA)) for col in self._headers) for row in content]
+    @staticmethod
+    def _format_rows(content: list) -> list:
+        return [' | '.join(str(row.get(col, config.NO_DATA)) for col in config.TABLE_HEADERS) for row in content]
