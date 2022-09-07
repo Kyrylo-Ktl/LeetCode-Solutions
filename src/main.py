@@ -4,16 +4,14 @@ from typing import Generator, Iterable
 
 import config
 from markdown_table import MarkdownTable
-from problem import Problem
+from models import Problem
 from readme_template import MARKDOWN_TEMPLATE
-from src.parser import LeetCodeProblemParser
+from src.parser import LeetCodeProblemDataParser
 
 logger = logging.getLogger(__name__)
 
 
 class SolutionsCollector:
-    TABLE_HEADERS = ['№', 'Title', 'Solutions', 'Time', 'Memory', 'Difficulty', 'Note']
-
     @staticmethod
     def collect_solutions() -> Generator:
         for language, props in config.LANGUAGES.items():
@@ -26,37 +24,22 @@ class SolutionsCollector:
                 else:
                     logger.error('TODO LOGGING')
 
-    @staticmethod
-    def collect_problems(titles: Iterable) -> Generator:
+    @classmethod
+    def collect_problems(cls, titles: Iterable) -> Generator:
         with open(config.GRAPHQL_QUERY_PATH, 'rt') as query_file:
-            parser = LeetCodeProblemParser(query_file.read())
+            parser = LeetCodeProblemDataParser(query_file.read())
 
         for title in titles:
-            problem = parser.get_problem(config.to_slug(title))
-            if problem is not None:
-                logger.info(problem.title)
-                yield problem
-            else:
+            problem_data = parser.get_problem_data(title)
+
+            if problem_data is None:
                 logger.error('TODO LOGGING 2')
+                continue
+
+            yield Problem.get_or_create(title, problem_data)
 
 
 class MarkdownFormatter:
-    @staticmethod
-    def _format_problem(problem: Problem) -> dict:
-        problem_solutions = ', '.join(
-            '[{}]({})'.format(
-                solution.language,
-                solution.url_path,
-            )
-            for solution in problem.solutions
-        )
-        return {
-            '№': problem.id,
-            'Title': f'[{problem.title}](https://leetcode.com/problems/{problem.slug}/)',
-            'Solutions': problem_solutions,
-            'Difficulty': problem.difficulty,
-        }
-
     @classmethod
     def format(cls):
         with open(config.README, 'wt') as readme:
@@ -70,3 +53,15 @@ class MarkdownFormatter:
         return MARKDOWN_TEMPLATE.format(
             all_solutions=MarkdownTable.format(map(cls._format_problem, problems)),
         )
+
+    @staticmethod
+    def _format_problem(problem: Problem) -> dict:
+        return {
+            '№': problem.id,
+            'Title': f'[{problem.title}](https://leetcode.com/problems/{problem.slug}/)',
+            'Solutions': ', '.join(f'[{language}]({path})' for language, path in problem.solutions),
+            'Time': problem.time,
+            'Memory': problem.memory,
+            'Difficulty': problem.difficulty,
+            'Notes': problem.notes,
+        }

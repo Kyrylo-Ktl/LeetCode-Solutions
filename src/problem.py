@@ -1,27 +1,8 @@
 from enum import Enum
-from typing import Generator
 
-from pydantic import BaseModel, Field, FilePath, ValidationError
+from pydantic import BaseModel, Field
 
-import config
-from config import LANGUAGES, get_solution_path
-
-
-class LanguageEnum(str, Enum):
-    python = 'Python'
-    sql = 'SQL'
-
-
-class Solution(BaseModel):
-    path: FilePath
-    language: LanguageEnum
-
-    @property
-    def url_path(self) -> str:
-        return self.path.relative_to(config.ABSOLUTE_PATH).as_posix().replace(' ', '%20')
-
-    class Config:
-        use_enum_values = True
+from models import Problem
 
 
 class DifficultyEnum(str, Enum):
@@ -30,20 +11,15 @@ class DifficultyEnum(str, Enum):
     hard = 'Hard'
 
 
-class Problem(BaseModel):
+class ProblemSchema(BaseModel):
     id: int = Field(alias='questionFrontendId')
     title: str
-    slug: str = Field(alias='titleSlug')
     difficulty: DifficultyEnum
     is_premium: bool = Field(alias='isPaidOnly')
 
     @property
-    def solutions(self) -> Generator:
-        for language in LANGUAGES:
-            try:
-                yield Solution(language=language, path=get_solution_path(language, self.title))
-            except ValidationError:
-                pass
+    def slug(self) -> str:
+        return Problem.to_slug(self.title)
 
     class Config:
         use_enum_values = True
