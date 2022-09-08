@@ -5,7 +5,7 @@ from math import isqrt
 class Solution:
     """
     Time:   O(n*√n)
-    Memory: O(log(n))
+    Memory: O(n)
     """
 
     def numSquares(self, n: int) -> int:

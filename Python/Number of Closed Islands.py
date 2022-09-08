@@ -3,8 +3,8 @@ from typing import List
 
 class Solution:
     """
-    Time:   O(n^2)
-    Memory: O(n^2)
+    Time:   O(n*m)
+    Memory: O(n*m)
     """
 
     LAND = 0

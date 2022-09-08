@@ -1,7 +1,7 @@
 class Solution:
     """
-    Time:   O(2*26*log(2*26))
-    Memory: O(2*26)
+    Time:   O(1)
+    Memory: O(1)
     """
 
     def greatestLetter(self, s: str) -> str:
