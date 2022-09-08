@@ -29,4 +29,4 @@ TABLE_HEADERS = ['№', 'Title', 'Solutions', 'Time', 'Memory', 'Difficulty', 'N
 ORDER_BY = '№'
 NO_DATA = '-'
 
-DATETIME_FORMAT = '%Y-%m-%d %H:%M'
+DATETIME_FORMAT = '%Y-%m-%d %H:%M %z'

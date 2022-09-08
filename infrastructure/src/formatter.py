@@ -1,5 +1,5 @@
 import logging
-from datetime import datetime
+from datetime import datetime, timezone
 
 from infrastructure.config import DATETIME_FORMAT, README_PATH
 from infrastructure.src.collector import SolutionsCollector
@@ -23,7 +23,7 @@ class MarkdownFormatter:
 
         return MARKDOWN_TEMPLATE.format(
             all_solutions=MarkdownTable.format(map(cls._format_problem, problems)),
-            now=datetime.now().strftime(DATETIME_FORMAT)
+            now=datetime.now(timezone.utc).strftime(DATETIME_FORMAT)
         )
 
     @staticmethod
