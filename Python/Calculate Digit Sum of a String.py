@@ -1,4 +1,9 @@
 class Solution:
+    """
+    Time:   O(logk(n))
+    Memory: O(logk(n))
+    """
+
     def digitSum(self, s: str, k: int) -> str:
         if len(s) <= k:
             return s
@@ -19,6 +24,11 @@ class Solution:
 
 
 class Solution:
+    """
+    Time:   O(logk(n))
+    Memory: O(logk(n))
+    """
+
     def digitSum(self, s: str, k: int) -> str:
         while len(s) > k:
             s = self.round(s, k)
