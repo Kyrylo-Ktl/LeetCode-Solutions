@@ -1,6 +1,6 @@
 import logging
 
-from src.formatter import MarkdownFormatter
+from infrastructure.src.formatter import MarkdownFormatter
 
 if __name__ == '__main__':
     logging.basicConfig(

@@ -5,9 +5,9 @@ import pydantic
 import requests
 from requests.exceptions import ConnectionError
 
-from config import GRAPHQL_QUERY, LEETCODE_API_URL
-from models import Problem
-from schemas import ProblemSchema
+from infrastructure.config import GRAPHQL_QUERY, LEETCODE_API_URL
+from infrastructure.src.models import Problem
+from infrastructure.src.schemas import ProblemSchema
 
 
 class LeetCodeParser:

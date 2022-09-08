@@ -2,9 +2,9 @@ import logging
 import os
 from typing import Generator, Iterable
 
-import config
-from models import Problem
-from src.parser import LeetCodeParser
+from infrastructure import config
+from infrastructure.src.models import Problem
+from infrastructure.src.parser import LeetCodeParser
 
 logger = logging.getLogger(__name__)
 

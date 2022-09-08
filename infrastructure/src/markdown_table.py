@@ -1,6 +1,6 @@
 from typing import Iterable
 
-from config import NO_DATA, ORDER_BY, TABLE_HEADERS
+from infrastructure.config import NO_DATA, ORDER_BY, TABLE_HEADERS
 
 
 class MarkdownTable:

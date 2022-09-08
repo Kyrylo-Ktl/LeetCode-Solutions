@@ -1,10 +1,10 @@
 import logging
 
-import config
-from markdown_table import MarkdownTable
-from models import Problem
-from readme_template import MARKDOWN_TEMPLATE
-from src.collector import SolutionsCollector
+from infrastructure import config
+from infrastructure.src.collector import SolutionsCollector
+from infrastructure.src.markdown_table import MarkdownTable
+from infrastructure.src.models import Problem
+from infrastructure.src.readme_template import MARKDOWN_TEMPLATE
 
 logger = logging.getLogger(__name__)
 

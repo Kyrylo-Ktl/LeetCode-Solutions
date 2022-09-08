@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
 
-from config import PROBLEMS_DB_URL
+from infrastructure.config import PROBLEMS_DB_URL
 
 Base = declarative_base()
 

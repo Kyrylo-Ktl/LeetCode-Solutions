@@ -7,8 +7,8 @@ from sqlalchemy import Boolean, Column, Integer, String, exc
 from sqlalchemy.ext.hybrid import hybrid_property
 from sqlalchemy.orm import Session
 
-from config import ABSOLUTE_PATH, LANGUAGES
-from src.db import Base, db
+from infrastructure.config import LANGUAGES, BASE_DIR
+from infrastructure.src.db import Base, db
 
 logger = logging.getLogger(__name__)
 
@@ -66,7 +66,7 @@ class Problem(BaseModel):
             filename = self.title + LANGUAGES[language]['extension']
             path = LANGUAGES[language]['directory'] / filename
             if os.path.exists(path):
-                yield language, path.relative_to(ABSOLUTE_PATH).as_posix().replace(' ', '%20')
+                yield language, path.relative_to(BASE_DIR).as_posix().replace(' ', '%20')
 
 
 db.create_all()
