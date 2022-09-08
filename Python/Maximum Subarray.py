@@ -3,6 +3,11 @@ from typing import List
 
 
 class Solution:
+    """
+    Time:   O(n)
+    Memory: O(1)
+    """
+
     def maxSubArray(self, nums: List[int]) -> int:
         max_sum, curr_sum = -maxsize, 0
 

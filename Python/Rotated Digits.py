@@ -1,7 +1,7 @@
 class Solution:
     """
-    Time:   O(n*log(n))
-    Memory: O(log(n))
+    Time:   O(n*log10(n))
+    Memory: O(log10(n))
     """
 
     SINGLE = {'0', '1', '8'}
