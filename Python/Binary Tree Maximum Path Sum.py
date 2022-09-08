@@ -12,7 +12,7 @@ class TreeNode:
 class Solution:
     """
     Time:   O(n)
-    Memory: O(log(n))
+    Memory: O(n)
     """
 
     def maxPathSum(self, root: Optional[TreeNode]) -> int:

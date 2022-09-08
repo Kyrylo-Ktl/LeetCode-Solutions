@@ -7,7 +7,7 @@ class Solution:
     Memory: O(n)
     """
 
-    MOD = 1000000007
+    MOD = 10 ** 9 + 7
 
     def numFactoredBinaryTrees(self, arr: List[int]) -> int:
         arr.sort()

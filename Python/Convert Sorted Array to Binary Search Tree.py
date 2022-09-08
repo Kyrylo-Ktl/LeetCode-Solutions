@@ -11,7 +11,7 @@ class TreeNode:
 class Solution:
     """
     Time:   O(n)
-    Memory: O(1)
+    Memory: O(log(n))
     """
 
     def sortedArrayToBST(self, nums: List[int]) -> Optional[TreeNode]:

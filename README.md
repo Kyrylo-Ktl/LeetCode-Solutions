@@ -14,7 +14,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [Python](Python/Integer%20to%20Roman.py) | $O(1)$ | $O(1)$ | Medium | - |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](Python/Roman%20to%20Integer.py) | $O(1)$ | $O(1)$ | Easy | - |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Python](Python/Remove%20Nth%20Node%20From%20End%20of%20List.py) | - | - | Medium | - |
-| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Python](Python/Valid%20Parentheses.py) | - | - | Easy | - |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Python](Python/Valid%20Parentheses.py) | $O(n)$ | $O(n)$ | Easy | - |
 | 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [Python](Python/Substring%20with%20Concatenation%20of%20All%20Words.py) | - | - | Hard | - |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Python](Python/Trapping%20Rain%20Water.py) | - | - | Hard | - |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](Python/Rotate%20Image.py) | - | - | Medium | - |
@@ -25,15 +25,15 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Python](Python/Set%20Matrix%20Zeroes.py) | - | - | Medium | - |
 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [Python](Python/Remove%20Duplicates%20from%20Sorted%20Array%20II.py) | - | - | Medium | - |
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/) | [Python](Python/Partition%20List.py) | - | - | Medium | - |
-| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python](Python/Binary%20Tree%20Inorder%20Traversal.py) | - | - | Easy | - |
+| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python](Python/Binary%20Tree%20Inorder%20Traversal.py) | $O(n)$ | $O(n)$ | Easy | - |
 | 95 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [Python](Python/Unique%20Binary%20Search%20Trees%20II.py) | - | - | Medium | - |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Python](Python/Unique%20Binary%20Search%20Trees.py) | - | - | Medium | - |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](Python/Validate%20Binary%20Search%20Tree.py) | - | - | Medium | - |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python](Python/Maximum%20Depth%20of%20Binary%20Tree.py) | - | - | Easy | - |
-| 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Python](Python/Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.py) | - | - | Easy | - |
+| 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Python](Python/Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.py) | $O(n)$ | $O(\log_2 n)$ | Easy | - |
 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | [Python](Python/Convert%20Sorted%20List%20to%20Binary%20Search%20Tree.py) | - | - | Medium | - |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | [Python](Python/Flatten%20Binary%20Tree%20to%20Linked%20List.py) | - | - | Medium | - |
-| 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Python](Python/Binary%20Tree%20Maximum%20Path%20Sum.py) | - | - | Hard | - |
+| 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Python](Python/Binary%20Tree%20Maximum%20Path%20Sum.py) | $O(n)$ | $O(n)$ | Hard | - |
 | 126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | [Python](Python/Word%20Ladder%20II.py) | - | - | Hard | - |
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | [Python](Python/Word%20Ladder.py) | - | - | Hard | - |
 | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | [Python](Python/Factorial%20Trailing%20Zeroes.py) | - | - | Medium | - |
@@ -50,7 +50,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Python](Python/Longest%20Increasing%20Subsequence.py) | - | - | Medium | - |
 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | [Python](Python/Power%20of%20Three.py) | - | - | Easy | - |
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [Python](Python/Power%20of%20Four.py) | - | - | Easy | - |
-| 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Python](Python/Combination%20Sum%20IV.py) | - | - | Medium | - |
+| 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Python](Python/Combination%20Sum%20IV.py) | $O(2^{n})$ | $O(n)$ | Medium | - |
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [Python](Python/Ransom%20Note.py) | - | - | Easy | - |
 | 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python](Python/First%20Unique%20Character%20in%20a%20String.py) | - | - | Easy | - |
 | 417 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Python](Python/Pacific%20Atlantic%20Water%20Flow.py) | - | - | Medium | - |
@@ -61,7 +61,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 547 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | [Python](Python/Number%20of%20Provinces.py) | - | - | Medium | - |
 | 551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/) | [Python](Python/Student%20Attendance%20Record%20I.py) | - | - | Easy | - |
 | 592 | [Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction/) | [Python](Python/Fraction%20Addition%20and%20Subtraction.py) | - | - | Medium | - |
-| 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | [Python](Python/Construct%20String%20from%20Binary%20Tree.py) | - | - | Easy | - |
+| 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | [Python](Python/Construct%20String%20from%20Binary%20Tree.py) | $O(n)$ | $O(n)$ | Easy | - |
 | 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Python](Python/Average%20of%20Levels%20in%20Binary%20Tree.py) | - | - | Easy | - |
 | 659 | [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Python](Python/Split%20Array%20into%20Consecutive%20Subsequences.py) | - | - | Medium | - |
 | 695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Python](Python/Max%20Area%20of%20Island.py) | - | - | Medium | - |
@@ -72,9 +72,10 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 748 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | [Python](Python/Shortest%20Completing%20Word.py) | - | - | Easy | - |
 | 788 | [Rotated Digits](https://leetcode.com/problems/rotated-digits/) | [Python](Python/Rotated%20Digits.py) | - | - | Medium | - |
 | 797 | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [Python](Python/All%20Paths%20From%20Source%20to%20Target.py) | - | - | Medium | - |
+| 802 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | [Python](Python/Find%20Eventual%20Safe%20States.py) | - | - | Medium | - |
 | 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | [Python](Python/Unique%20Morse%20Code%20Words.py) | - | - | Easy | - |
-| 814 | [Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) | [Python](Python/Binary%20Tree%20Pruning.py) | - | - | Medium | - |
-| 823 | [Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/) | [Python](Python/Binary%20Trees%20With%20Factors.py) | - | - | Medium | - |
+| 814 | [Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) | [Python](Python/Binary%20Tree%20Pruning.py) | $O(n)$ | $O(n)$ | Medium | - |
+| 823 | [Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/) | [Python](Python/Binary%20Trees%20With%20Factors.py) | $O(n^{2})$ | $O(n)$ | Medium | - |
 | 836 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | [Python](Python/Rectangle%20Overlap.py) | - | - | Easy | - |
 | 841 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | [Python](Python/Keys%20and%20Rooms.py) | - | - | Medium | - |
 | 869 | [Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/) | [Python](Python/Reordered%20Power%20of%202.py) | - | - | Medium | - |
