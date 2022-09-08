@@ -20,7 +20,8 @@ LANGUAGES = {
     }
 }
 
-PROBLEMS_FILE_PATH = ABSOLUTE_PATH / 'src' / 'resources' / 'problems.jsonl'
+PROBLEMS_DB_PATH = ABSOLUTE_PATH / 'src' / 'resources' / 'problems.db'
+PROBLEMS_DB_URL = f'sqlite:///{PROBLEMS_DB_PATH}'
 GRAPHQL_QUERY_PATH = ABSOLUTE_PATH / 'src' / 'resources' / 'test.graphql'
 README = ABSOLUTE_PATH / 'README.md'
 
