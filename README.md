@@ -3,7 +3,7 @@
 
 The repository contains the best versions of my solutions to LeetCode problems
 
-## Solutions (created: 2022-09-08 22:18)
+## Solutions
 
 | № | Title | Solutions | Time | Memory | Difficulty | Notes |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
@@ -121,3 +121,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2380 | [Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/) | [Python](Python/Time%20Needed%20to%20Rearrange%20a%20Binary%20String.py) | $O(n)$ | $O(1)$ | Medium | - |
 | 2384 | [Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/) | [Python](Python/Largest%20Palindromic%20Number.py) | $O(1)$ | $O(1)$ | Medium | - |
 | 2389 | [Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/) | [Python](Python/Longest%20Subsequence%20With%20Limited%20Sum.py) | $O(n*\log_2 n)$ | $O(n)$ | Easy | - |
+
+## Last update
+
+Solution table for problems was generated automatically on 2022-09-08 19:23
