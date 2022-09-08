@@ -3,12 +3,12 @@ from typing import List
 
 class Solution:
     """
-    Time:   O(n^2)
-    Memory: O(n^2)
+    Time:   O(n*m)
+    Memory: O(n*m)
     """
 
-    WATER = 0
     LAND = 1
+    WATER = 0
 
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         n, m = len(grid), len(grid[0])
