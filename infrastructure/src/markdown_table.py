@@ -4,8 +4,6 @@ from infrastructure.config import NO_DATA, ORDER_BY, TABLE_HEADERS
 
 
 class MarkdownTable:
-    NO_DATA = '-'
-
     @classmethod
     def format(cls, content: Iterable[dict]) -> str:
         content = sorted(content, key=lambda x: x.get(ORDER_BY))
