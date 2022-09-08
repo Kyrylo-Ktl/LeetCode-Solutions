@@ -1,29 +1,35 @@
+import logging
 from typing import Optional
 
+import pydantic
 import requests
 from requests.exceptions import ConnectionError
+from problem import ProblemSchema
 
-from problem import Problem
+from models import Problem
 
 
-class LeetCodeProblemParser:
+class LeetCodeProblemDataParser:
     URL = 'https://leetcode.com/graphql'
 
     def __init__(self, graphql_query: str):
         self._graphql_query = graphql_query
 
-    def get_problem(self, slug: str) -> Optional[Problem]:
-        response = self._make_request(slug)
+    def get_problem_data(self, title: str) -> Optional[dict]:
+        response = self._make_request(Problem.to_slug(title))
 
         if response is None:
             return None
 
         if 'errors' in response:
-            print('Response errors', response['errors'])
+            logging.error('Response errors', response['errors'])
             return None
 
-        problem = Problem.parse_obj(response['data']['question'])
-        return problem
+        try:
+            problem_data = response['data']['question']
+            return ProblemSchema.parse_obj(problem_data).dict()
+        except pydantic.ValidationError:
+            logging.error('TODO logging 3')
 
     def _make_request(self, slug: str) -> Optional[dict]:
         data = {
