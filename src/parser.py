@@ -4,19 +4,16 @@ from typing import Optional
 import pydantic
 import requests
 from requests.exceptions import ConnectionError
-from problem import ProblemSchema
 
+from config import GRAPHQL_QUERY, LEETCODE_API_URL
 from models import Problem
+from schemas import ProblemSchema
 
 
-class LeetCodeProblemDataParser:
-    URL = 'https://leetcode.com/graphql'
-
-    def __init__(self, graphql_query: str):
-        self._graphql_query = graphql_query
-
-    def get_problem_data(self, title: str) -> Optional[dict]:
-        response = self._make_request(Problem.to_slug(title))
+class LeetCodeParser:
+    @classmethod
+    def get_problem_data(cls, title: str) -> Optional[dict]:
+        response = cls._make_request(Problem.to_slug(title))
 
         if response is None:
             return None
@@ -25,19 +22,25 @@ class LeetCodeProblemDataParser:
             logging.error('Response errors', response['errors'])
             return None
 
-        try:
-            problem_data = response['data']['question']
-            return ProblemSchema.parse_obj(problem_data).dict()
-        except pydantic.ValidationError:
-            logging.error('TODO logging 3')
+        problem_data = response['data']['question']
 
-    def _make_request(self, slug: str) -> Optional[dict]:
-        data = {
+        try:
+            return ProblemSchema.parse_obj(problem_data).dict()
+        except pydantic.ValidationError as err:
+            logging.error(f'Invalid problem data: {problem_data}, error: {err}')
+
+    @classmethod
+    def _make_request(cls, slug: str) -> Optional[dict]:
+        try:
+            data = cls._get_request_data(slug)
+            return requests.get(LEETCODE_API_URL, json=data).json()
+        except ConnectionError as err:
+            logging.error(f'Error making request for slug "{slug}": {err}')
+
+    @staticmethod
+    def _get_request_data(slug: str) -> dict:
+        return {
             'operationName': 'questionData',
             'variables': {'titleSlug': slug},
-            'query': self._graphql_query,
+            'query': GRAPHQL_QUERY,
         }
-        try:
-            return requests.get(self.URL, json=data).json()
-        except ConnectionError:
-            return None

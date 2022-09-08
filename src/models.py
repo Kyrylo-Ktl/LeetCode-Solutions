@@ -7,7 +7,7 @@ from sqlalchemy import Boolean, Column, Integer, String, exc
 from sqlalchemy.ext.hybrid import hybrid_property
 from sqlalchemy.orm import Session
 
-from config import LANGUAGES, get_solution_path, ABSOLUTE_PATH
+from config import ABSOLUTE_PATH, LANGUAGES
 from src.db import Base, db
 
 logger = logging.getLogger(__name__)
@@ -37,7 +37,7 @@ class Problem(BaseModel):
     notes = Column(String, nullable=True)
 
     @classmethod
-    def get_or_create(cls, title: str, data: dict):
+    def update_or_create(cls, title: str, data: dict):
         with db.session() as session:
             instance = session.query(cls).filter(cls.title == title).first()
 
@@ -63,7 +63,8 @@ class Problem(BaseModel):
     @property
     def solutions(self) -> Generator:
         for language in LANGUAGES:
-            path = get_solution_path(language, self.title)
+            filename = self.title + LANGUAGES[language]['extension']
+            path = LANGUAGES[language]['directory'] / filename
             if os.path.exists(path):
                 yield language, path.relative_to(ABSOLUTE_PATH).as_posix().replace(' ', '%20')
 
