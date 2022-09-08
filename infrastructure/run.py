@@ -1,5 +1,7 @@
 import logging
+import sys
 
+sys.path.append('.')
 from infrastructure.src.formatter import MarkdownFormatter
 
 if __name__ == '__main__':

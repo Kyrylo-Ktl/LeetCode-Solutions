@@ -31,4 +31,4 @@ class SolutionsCollector:
                 logger.error(f'Failed to retrieve "{title}" details')
             else:
                 yield Problem.update_or_create(title, problem_data)
-                logger.info(f'Successfully updated: {title}')
+                logger.info(f'Successfully parsed details for: {title}')

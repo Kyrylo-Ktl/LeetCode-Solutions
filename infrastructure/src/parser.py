@@ -1,8 +1,8 @@
 import logging
 from typing import Optional
 
-import pydantic
 import requests
+from pydantic import ValidationError
 from requests.exceptions import ConnectionError
 
 from infrastructure.config import GRAPHQL_QUERY, LEETCODE_API_URL
@@ -28,7 +28,7 @@ class LeetCodeParser:
 
         try:
             return ProblemSchema.parse_obj(problem_data).dict()
-        except pydantic.ValidationError as err:
+        except ValidationError as err:
             logger.error(f'Invalid problem data: {problem_data}, error: {err}')
 
     @classmethod
