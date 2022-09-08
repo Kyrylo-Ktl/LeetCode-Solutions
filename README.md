@@ -10,7 +10,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](Python/Two%20Sum.py) | $O(n)$ | $O(n)$ | Easy | - |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](Python/Add%20Two%20Numbers.py) | $O(n+m)$ | $O(1)$ | Medium | - |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Python](Python/String%20to%20Integer%20(atoi).py) | $O(n)$ | $O(n)$ | Medium | RegEx |
-| 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Python](Python/Regular%20Expression%20Matching.py) | $O(n*m)$ | $O(n*m)$ | Hard | Top-Down-DP |
+| 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Python](Python/Regular%20Expression%20Matching.py) | $O(n*m)$ | $O(n*m)$ | Hard | DP |
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [Python](Python/Integer%20to%20Roman.py) | $O(1)$ | $O(1)$ | Medium | - |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](Python/Roman%20to%20Integer.py) | $O(1)$ | $O(1)$ | Easy | - |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Python](Python/Remove%20Nth%20Node%20From%20End%20of%20List.py) | $O(n)$ | $O(1)$ | Medium | - |
@@ -20,7 +20,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](Python/Rotate%20Image.py) | $O(n^{2})$ | $O(1)$ | Medium | - |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Python](Python/Pow(x,%20n).py) | $O(\log_2 n)$ | $O(\log_2 n)$ | Medium | - |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](Python/Maximum%20Subarray.py) | $O(n)$ | $O(1)$ | Medium | - |
-| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Python](Python/Unique%20Paths.py) | $O(n*m)$ | $O(n*m)$ | Medium | Bottom-Up-DP, Top-Down-DP |
+| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Python](Python/Unique%20Paths.py) | $O(n*m)$ | $O(n*m)$ | Medium | DP |
 | 68 | [Text Justification](https://leetcode.com/problems/text-justification/) | [Python](Python/Text%20Justification.py) | $O(n)$ | $O(n)$ | Hard | - |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Python](Python/Set%20Matrix%20Zeroes.py) | $O(n*m)$ | $O(n+m)$ | Medium | - |
 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [Python](Python/Remove%20Duplicates%20from%20Sorted%20Array%20II.py) | $O(n)$ | $O(1)$ | Medium | - |
@@ -28,10 +28,10 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python](Python/Binary%20Tree%20Inorder%20Traversal.py) | $O(n)$ | $O(n)$ | Easy | - |
 | 95 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [Python](Python/Unique%20Binary%20Search%20Trees%20II.py) | $O(n^{2})$ | $O(\log_2 n)$ | Medium | - |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Python](Python/Unique%20Binary%20Search%20Trees.py) | $O(n)$ | $O(1)$ | Medium | - |
-| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](Python/Validate%20Binary%20Search%20Tree.py) | - | - | Medium | - |
-| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python](Python/Maximum%20Depth%20of%20Binary%20Tree.py) | - | - | Easy | - |
+| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](Python/Validate%20Binary%20Search%20Tree.py) | $O(n)$ | $O(n)$ | Medium | DFS |
+| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python](Python/Maximum%20Depth%20of%20Binary%20Tree.py) | $O(n)$ | $O(n)$ | Easy | DFS |
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Python](Python/Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.py) | $O(n)$ | $O(\log_2 n)$ | Easy | - |
-| 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | [Python](Python/Convert%20Sorted%20List%20to%20Binary%20Search%20Tree.py) | - | - | Medium | - |
+| 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | [Python](Python/Convert%20Sorted%20List%20to%20Binary%20Search%20Tree.py) | $O(n*\log_2 n)$ | $O(\log_2 n)$ | Medium | DFS |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | [Python](Python/Flatten%20Binary%20Tree%20to%20Linked%20List.py) | - | - | Medium | - |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Python](Python/Binary%20Tree%20Maximum%20Path%20Sum.py) | $O(n)$ | $O(n)$ | Hard | - |
 | 126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | [Python](Python/Word%20Ladder%20II.py) | - | - | Hard | - |
@@ -70,7 +70,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | [Python](Python/Flood%20Fill.py) | - | - | Easy | - |
 | 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [Python](Python/Largest%20Number%20At%20Least%20Twice%20of%20Others.py) | - | - | Easy | - |
 | 748 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | [Python](Python/Shortest%20Completing%20Word.py) | - | - | Easy | - |
-| 788 | [Rotated Digits](https://leetcode.com/problems/rotated-digits/) | [Python](Python/Rotated%20Digits.py) | $O(n * \log_10 n)$ | $O(\log_10 n)$ | Medium | - |
+| 788 | [Rotated Digits](https://leetcode.com/problems/rotated-digits/) | [Python](Python/Rotated%20Digits.py) | $O(n * \log_{10} n)$ | $O(\log_{10} n)$ | Medium | - |
 | 797 | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [Python](Python/All%20Paths%20From%20Source%20to%20Target.py) | - | - | Medium | - |
 | 802 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | [Python](Python/Find%20Eventual%20Safe%20States.py) | - | - | Medium | - |
 | 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | [Python](Python/Unique%20Morse%20Code%20Words.py) | - | - | Easy | - |
