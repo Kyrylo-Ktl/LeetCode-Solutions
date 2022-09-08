@@ -28,3 +28,5 @@ README_PATH = BASE_DIR / 'README.md'
 TABLE_HEADERS = ['№', 'Title', 'Solutions', 'Time', 'Memory', 'Difficulty', 'Notes']
 ORDER_BY = '№'
 NO_DATA = '-'
+
+DATETIME_FORMAT = '%Y-%m-%d %H:%M'

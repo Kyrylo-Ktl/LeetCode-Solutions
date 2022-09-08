@@ -3,7 +3,7 @@
 
 The repository contains the best versions of my solutions to LeetCode problems
 
-## Solutions
+## Solutions (created: 2022-09-08 22:18)
 
 | № | Title | Solutions | Time | Memory | Difficulty | Notes |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
