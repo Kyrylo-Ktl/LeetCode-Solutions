@@ -4,7 +4,7 @@ from datetime import datetime
 from infrastructure.config import DATETIME_FORMAT, README_PATH
 from infrastructure.src.collector import SolutionsCollector
 from infrastructure.src.markdown_table import MarkdownTable
-from infrastructure.src.models import Problem
+from infrastructure.src.db.models import Problem
 from infrastructure.src.resources.template import MARKDOWN_TEMPLATE
 
 logger = logging.getLogger(__name__)

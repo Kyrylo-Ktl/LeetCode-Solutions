@@ -3,7 +3,7 @@ import os
 from typing import Generator, Iterable
 
 from infrastructure import config
-from infrastructure.src.models import Problem
+from infrastructure.src.db.models import Problem
 from infrastructure.src.parser import LeetCodeParser
 
 logger = logging.getLogger(__name__)

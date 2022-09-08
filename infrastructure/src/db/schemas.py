@@ -2,7 +2,7 @@ from enum import Enum
 
 from pydantic import BaseModel, Field
 
-from infrastructure.src.models import Problem
+from infrastructure.src.db.models import Problem
 
 
 class DifficultyEnum(str, Enum):

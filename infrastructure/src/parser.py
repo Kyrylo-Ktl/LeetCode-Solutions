@@ -6,8 +6,8 @@ from pydantic import ValidationError
 from requests.exceptions import ConnectionError
 
 from infrastructure.config import GRAPHQL_QUERY, LEETCODE_API_URL
-from infrastructure.src.models import Problem
-from infrastructure.src.schemas import ProblemSchema
+from infrastructure.src.db.models import Problem
+from infrastructure.src.db.schemas import ProblemSchema
 
 logger = logging.getLogger(__name__)
 
