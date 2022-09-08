@@ -9,6 +9,8 @@ from infrastructure.config import GRAPHQL_QUERY, LEETCODE_API_URL
 from infrastructure.src.models import Problem
 from infrastructure.src.schemas import ProblemSchema
 
+logger = logging.getLogger(__name__)
+
 
 class LeetCodeParser:
     @classmethod
@@ -19,7 +21,7 @@ class LeetCodeParser:
             return None
 
         if 'errors' in response:
-            logging.error('Response errors', response['errors'])
+            logger.error('Response errors', response['errors'])
             return None
 
         problem_data = response['data']['question']
@@ -27,7 +29,7 @@ class LeetCodeParser:
         try:
             return ProblemSchema.parse_obj(problem_data).dict()
         except pydantic.ValidationError as err:
-            logging.error(f'Invalid problem data: {problem_data}, error: {err}')
+            logger.error(f'Invalid problem data: {problem_data}, error: {err}')
 
     @classmethod
     def _make_request(cls, slug: str) -> Optional[dict]:
@@ -35,7 +37,7 @@ class LeetCodeParser:
             data = cls._get_request_data(slug)
             return requests.get(LEETCODE_API_URL, json=data).json()
         except ConnectionError as err:
-            logging.error(f'Error making request for slug "{slug}": {err}')
+            logger.error(f'Error making request for slug "{slug}": {err}')
 
     @staticmethod
     def _get_request_data(slug: str) -> dict:
