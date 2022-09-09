@@ -1,7 +1,7 @@
 class Solution:
     """
-    Time:   O(log(n))
-    Memory: O(log(n))
+    Time:   O(log5(n))
+    Memory: O(log5(n))
     """
 
     def trailingZeroes(self, n: int) -> int:
