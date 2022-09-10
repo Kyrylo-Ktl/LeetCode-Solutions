@@ -8,6 +8,10 @@ LANGUAGES = {
         'extension': '.py',
         'directory': BASE_DIR / 'Python',
     },
+    'Java': {
+        'extension': '.java',
+        'directory': BASE_DIR / 'Java',
+    },
     'SQL': {
         'extension': '.sql',
         'directory': BASE_DIR / 'SQL',
