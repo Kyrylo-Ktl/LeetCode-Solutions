@@ -21,7 +21,7 @@ class LeetCodeParser:
             return None
 
         if 'errors' in response:
-            logger.error('Response errors', response['errors'])
+            logger.error(f'Response errors: {response["errors"]}')
             return None
 
         problem_data = response['data']['question']
