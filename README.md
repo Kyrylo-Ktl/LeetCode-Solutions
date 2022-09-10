@@ -120,6 +120,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2357 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | [Python](Python/Make%20Array%20Zero%20by%20Subtracting%20Equal%20Amounts.py) | $O(n)$ | $O(n)$ | Easy | - |
 | 2359 | [Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/) | [Python](Python/Find%20Closest%20Node%20to%20Given%20Two%20Nodes.py) | $O(n)$ | $O(n)$ | Medium | DFS |
 | 2363 | [Merge Similar Items](https://leetcode.com/problems/merge-similar-items/) | [Python](Python/Merge%20Similar%20Items.py) | $O(n*\log_2 n)$ | $O(n)$ | Easy | - |
+| 2364 | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/) | [Python](Python/Count%20Number%20of%20Bad%20Pairs.py) | - | - | Medium | - |
 | 2367 | [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/) | [Python](Python/Number%20of%20Arithmetic%20Triplets.py) | $O(n)$ | $O(n)$ | Easy | - |
 | 2373 | [Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/) | [Python](Python/Largest%20Local%20Values%20in%20a%20Matrix.py) | $O(n^{2})$ | $O(1)$ | Easy | - |
 | 2374 | [Node With Highest Edge Score](https://leetcode.com/problems/node-with-highest-edge-score/) | [Python](Python/Node%20With%20Highest%20Edge%20Score.py) | $O(n)$ | $O(n)$ | Medium | - |
@@ -133,4 +134,4 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-09 20:36 +0000
+Solution table for problems was generated automatically on 2022-09-10 15:54 +0000
