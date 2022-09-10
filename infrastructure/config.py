@@ -13,6 +13,7 @@ LANGUAGES = {
         'directory': BASE_DIR / 'SQL',
     }
 }
+IGNORE = '_'
 
 PROBLEMS_DB_PATH = CODE_DIR / 'src' / 'resources' / 'problems.db'
 PROBLEMS_DB_URL = f'sqlite:///{PROBLEMS_DB_PATH}'

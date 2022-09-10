@@ -2,7 +2,7 @@ import logging
 import os
 from typing import Generator, Iterable
 
-from infrastructure import config
+from infrastructure.config import IGNORE, LANGUAGES
 from infrastructure.src.db.models import Problem
 from infrastructure.src.parser import LeetCodeParser
 
@@ -12,11 +12,13 @@ logger = logging.getLogger(__name__)
 class SolutionsCollector:
     @staticmethod
     def collect_solutions() -> Generator:
-        for language, props in config.LANGUAGES.items():
+        for language, props in LANGUAGES.items():
             directory = props['directory']
             extension = props['extension']
 
             for file in os.listdir(directory):
+                if file.startswith(IGNORE):
+                    continue
                 if file.endswith(extension):
                     yield file.removesuffix(extension)
                 else:
