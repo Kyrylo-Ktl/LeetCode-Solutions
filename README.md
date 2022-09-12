@@ -114,6 +114,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1905 | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/) | [Python](Python/Count%20Sub%20Islands.py) | $O(n^{2})$ | $O(n^{2})$ | Medium | - |
 | 1996 | [The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/) | [Python](Python/The%20Number%20of%20Weak%20Characters%20in%20the%20Game.py) | $O(n * \log_2 n)$ | $O(n)$ | Medium | - |
 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | [Python](Python/Calculate%20Digit%20Sum%20of%20a%20String.py) | $O(\log_k n)$ | $O(\log_k n)$ | Easy | - |
+| 2294 | [Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/) | [Python](Python/Partition%20Array%20Such%20That%20Maximum%20Difference%20Is%20K.py) | - | - | Medium | - |
 | 2309 | [Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/) | [Python](Python/Greatest%20English%20Letter%20in%20Upper%20and%20Lower%20Case.py) | $O(1)$ | $O(1)$ | Easy | - |
 | 2315 | [Count Asterisks](https://leetcode.com/problems/count-asterisks/) | [Python](Python/Count%20Asterisks.py) | $O(n)$ | $O(1)$ | Easy | - |
 | 2316 | [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/) | [Python](Python/Count%20Unreachable%20Pairs%20of%20Nodes%20in%20an%20Undirected%20Graph.py) | $O(n)$ | $O(n)$ | Medium | - |
@@ -140,4 +141,4 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-12 13:56 +0000
+Solution table for problems was generated automatically on 2022-09-12 16:28 +0000
