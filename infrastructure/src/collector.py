@@ -16,6 +16,9 @@ class SolutionsCollector:
             directory = props['directory']
             extension = props['extension']
 
+            if not os.path.exists(directory):
+                continue
+
             for file in os.listdir(directory):
                 if file.startswith(IGNORE):
                     continue
