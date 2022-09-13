@@ -48,6 +48,8 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Python](Python/Binary%20Tree%20Maximum%20Path%20Sum.py) | $O(n)$ | $O(n)$ | Hard | - |
 | 126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | [Python](Python/Word%20Ladder%20II.py) | - | - | Hard | - |
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | [Python](Python/Word%20Ladder.py) | - | - | Hard | - |
+| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](Python/Linked%20List%20Cycle.py) | - | - | Easy | - |
+| 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Python](Python/Reverse%20Words%20in%20a%20String.py) | - | - | Medium | - |
 | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | [Python](Python/Factorial%20Trailing%20Zeroes.py) | $O(\log_5 n)$ | $O(\log_5 n)$ | Medium | - |
 | 178 | [Rank Scores](https://leetcode.com/problems/rank-scores/) | [SQL](SQL/Rank%20Scores.sql) | SQL | SQL | Medium | - |
 | 184 | [Department Highest Salary](https://leetcode.com/problems/department-highest-salary/) | [SQL](SQL/Department%20Highest%20Salary.sql) | SQL | SQL | Medium | - |
@@ -161,4 +163,4 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-13 10:09 +0000
+Solution table for problems was generated automatically on 2022-09-13 10:39 +0000
