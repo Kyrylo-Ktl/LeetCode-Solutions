@@ -15,6 +15,10 @@ LANGUAGES = {
     'SQL': {
         'extension': '.sql',
         'directory': BASE_DIR / 'SQL',
+    },
+    'Shell': {
+        'extension': '.sh',
+        'directory': BASE_DIR / 'Shell',
     }
 }
 IGNORE = '_'
