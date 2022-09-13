@@ -21,6 +21,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Python](Python/Remove%20Nth%20Node%20From%20End%20of%20List.py) | $O(n)$ | $O(1)$ | Medium | - |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Python](Python/Valid%20Parentheses.py) | $O(n)$ | $O(n)$ | Easy | Stack |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](Python/Remove%20Duplicates%20from%20Sorted%20Array.py) | $O(n)$ | $O(1)$ | Easy | - |
+| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Python](Python/Remove%20Element.py), [Java](Java/Remove%20Element.java) | - | - | Easy | - |
 | 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [Python](Python/Substring%20with%20Concatenation%20of%20All%20Words.py) | $O(n*k)$ | $O(m*k)$ | Hard | - |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](Python/Valid%20Sudoku.py) | $O(n^{2})$ | $O(n^{2})$ | Medium | - |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Python](Python/Trapping%20Rain%20Water.py) | $O(n)$ | $O(n)$ | Hard | - |
@@ -204,4 +205,4 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-13 18:54 +0000
+Solution table for problems was generated automatically on 2022-09-13 19:17 +0000
