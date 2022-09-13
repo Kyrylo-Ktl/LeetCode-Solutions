@@ -11,7 +11,9 @@ logger = logging.getLogger(__name__)
 
 class SolutionsCollector:
     @staticmethod
-    def collect_solutions() -> Generator:
+    def collect_solutions() -> set:
+        solutions = set()
+
         for language, props in LANGUAGES.items():
             directory = props['directory']
             extension = props['extension']
@@ -23,9 +25,11 @@ class SolutionsCollector:
                 if file.startswith(IGNORE):
                     continue
                 if file.endswith(extension):
-                    yield file.removesuffix(extension)
+                    solutions.add(file.removesuffix(extension))
                 else:
                     logger.warning(f'File with unknown extension for {language}: {file}')
+
+        return solutions
 
     @classmethod
     def collect_problems(cls, titles: Iterable) -> Generator:
