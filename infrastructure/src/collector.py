@@ -25,7 +25,7 @@ class SolutionsCollector:
                 if file.startswith(IGNORE):
                     continue
                 if file.endswith(extension):
-                    solutions.add(file.removesuffix(extension))
+                    solutions.add(file.removesuffix(extension).replace('|', '/'))
                 else:
                     logger.warning(f'File with unknown extension for {language}: {file}')
 
