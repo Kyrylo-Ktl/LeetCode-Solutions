@@ -9,7 +9,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](Python/Two%20Sum.py) | $O(n)$ | $O(n)$ | Easy | - |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](Python/Add%20Two%20Numbers.py) | $O(n+m)$ | $O(1)$ | Medium | - |
-| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](Python/Longest%20Substring%20Without%20Repeating%20Characters.py) | - | - | Medium | - |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](Python/Longest%20Substring%20Without%20Repeating%20Characters.py) | $O(n)$ | $O(n)$ | Medium | - |
 | 6 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Python](Python/Zigzag%20Conversion.py) | - | - | Medium | - |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Python](Python/String%20to%20Integer%20(atoi).py) | $O(n)$ | $O(n)$ | Medium | RegEx |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](Python/Palindrome%20Number.py) | $O(\log_10 n)$ | $O(1)$ | Easy | - |
@@ -25,6 +25,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](Python/Valid%20Sudoku.py) | $O(n^{2})$ | $O(n^{2})$ | Medium | - |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Python](Python/Trapping%20Rain%20Water.py) | $O(n)$ | $O(n)$ | Hard | - |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](Python/Rotate%20Image.py) | $O(n^{2})$ | $O(1)$ | Medium | - |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Python](Python/Group%20Anagrams.py) | $O(n*m*\log_2 m)$ | $O(n*m)$ | Medium | - |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Python](Python/Pow(x,%20n).py) | $O(\log_2 n)$ | $O(\log_2 n)$ | Medium | BinPow |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](Python/Maximum%20Subarray.py) | $O(n)$ | $O(1)$ | Medium | Kadane's |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/) | [Python](Python/Rotate%20List.py) | $O(n)$ | $O(1)$ | Medium | - |
@@ -159,4 +160,4 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-13 09:53 +0000
+Solution table for problems was generated automatically on 2022-09-13 10:04 +0000
