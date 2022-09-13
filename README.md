@@ -57,6 +57,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Python](Python/Perfect%20Squares.py) | $O(n*\sqrt{n})$ | $O(n)$ | Medium | - |
 | 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Python](Python/Serialize%20and%20Deserialize%20Binary%20Tree.py) | $O(n)$ | $O(n)$ | Hard | Preorder |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Python](Python/Longest%20Increasing%20Subsequence.py) | $O(n*\log_2 n)$ | $O(n)$ | Medium | - |
+| 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | [Python](Python/Range%20Sum%20Query%202D%20-%20Immutable.py) | $O(n*m)$/$O(1)$ | $O(n*m)$/$O(1)$ | Medium | - |
 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | [Python](Python/Power%20of%20Three.py) | $O(1)$ | $O(1)$ | Easy | - |
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [Python](Python/Power%20of%20Four.py) | $O(1)$ | $O(1)$ | Easy | - |
 | 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Python](Python/Combination%20Sum%20IV.py) | $O(2^{n})$ | $O(n)$ | Medium | - |
@@ -65,6 +66,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 393 | [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [Python](Python/UTF-8%20Validation.py) | $O(n)$ | $O(1)$ | Medium | - |
 | 417 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Python](Python/Pacific%20Atlantic%20Water%20Flow.py) | $O(n*m)$ | $O(n*m)$ | Medium | DFS |
 | 429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | [Python](Python/N-ary%20Tree%20Level%20Order%20Traversal.py) | $O(n)$ | $O(n)$ | Medium | - |
+| 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/) | [Python](Python/Island%20Perimeter.py) | $O(n*m)$ | $O(1)$ | Easy | - |
 | 468 | [Validate IP Address](https://leetcode.com/problems/validate-ip-address/) | [Python](Python/Validate%20IP%20Address.py) | $O(1)$ | $O(1)$ | Medium | - |
 | 491 | [Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/) | [Python](Python/Increasing%20Subsequences.py) | $O(n^{2})$ | $O(n^{2})$ | Medium | - |
 | 506 | [Relative Ranks](https://leetcode.com/problems/relative-ranks/) | [Python](Python/Relative%20Ranks.py) | $O(n * \log_{2} n)$ | $O(n)$ | Easy | - |
@@ -154,4 +156,4 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-13 07:36 +0000
+Solution table for problems was generated automatically on 2022-09-13 08:15 +0000
