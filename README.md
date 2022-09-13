@@ -51,6 +51,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | [Python](Python/Factorial%20Trailing%20Zeroes.py) | $O(\log_5 n)$ | $O(\log_5 n)$ | Medium | - |
 | 178 | [Rank Scores](https://leetcode.com/problems/rank-scores/) | [SQL](SQL/Rank%20Scores.sql) | SQL | SQL | Medium | - |
 | 184 | [Department Highest Salary](https://leetcode.com/problems/department-highest-salary/) | [SQL](SQL/Department%20Highest%20Salary.sql) | SQL | SQL | Medium | - |
+| 195 | [Tenth Line](https://leetcode.com/problems/tenth-line/) | [Shell](Shell/Tenth%20Line.sh) | - | - | Easy | - |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](Python/Number%20of%20Islands.py) | $O(n*m)$ | $O(n*m)$ | Medium | DFS |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](Python/Reverse%20Linked%20List.py) | $O(n)$ | $O(1)$ | Easy | - |
 | 223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | [Python](Python/Rectangle%20Area.py) | $O(1)$ | $O(1)$ | Medium | Math |
@@ -160,4 +161,4 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-13 10:04 +0000
+Solution table for problems was generated automatically on 2022-09-13 10:09 +0000
