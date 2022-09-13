@@ -58,7 +58,7 @@ class Problem(BaseModel):
 
     @staticmethod
     def to_slug(title: str) -> str:
-        return '-'.join(re.sub(r'[^\w\- ]', '', title).lower().split())
+        return '-'.join(re.sub(r'[^\w\- ]', '', title.replace(' - ', ' ')).lower().split())
 
     @property
     def solutions(self) -> Generator:
