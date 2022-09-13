@@ -1,8 +1,9 @@
 import java.util.Arrays;
 
 class Solution {
+
     /**
-     * Time:   O(n)
+     * Time:   O(n*log(n))
      * Memory: O(1)
      */
     public int partitionArray(int[] nums, int k) {
