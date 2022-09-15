@@ -28,7 +28,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](Python/Rotate%20Image.py) | $O(n^{2})$ | $O(1)$ | Medium | - |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Python](Python/Group%20Anagrams.py) | $O(n*m*\log_{2} m)$ | $O(n*m)$ | Medium | - |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Python](Python/Pow(x,%20n).py) | $O(\log_{2} n)$ | $O(\log_{2} n)$ | Medium | BinPow |
-| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](Python/Maximum%20Subarray.py) | $O(n)$ | $O(1)$ | Medium | Kadane's |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](Python/Maximum%20Subarray.py), [Java](Java/Maximum%20Subarray.java) | $O(n)$ | $O(1)$ | Medium | Kadane's |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/) | [Python](Python/Rotate%20List.py) | $O(n)$ | $O(1)$ | Medium | - |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Python](Python/Unique%20Paths.py) | $O(n*m)$ | $O(n*m)$ | Medium | DP |
 | 68 | [Text Justification](https://leetcode.com/problems/text-justification/) | [Python](Python/Text%20Justification.py) | $O(n)$ | $O(n)$ | Hard | - |
@@ -207,4 +207,4 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-15 09:29 +0000
+Solution table for problems was generated automatically on 2022-09-15 18:29 +0000
