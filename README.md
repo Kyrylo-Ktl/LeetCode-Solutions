@@ -172,6 +172,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1729 | [Find Followers Count](https://leetcode.com/problems/find-followers-count/) | [SQL](SQL/Find%20Followers%20Count.sql) | SQL | SQL | Easy | - |
 | 1741 | [Find Total Time Spent by Each Employee](https://leetcode.com/problems/find-total-time-spent-by-each-employee/) | [SQL](SQL/Find%20Total%20Time%20Spent%20by%20Each%20Employee.sql) | SQL | SQL | Easy | - |
 | 1757 | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | [SQL](SQL/Recyclable%20and%20Low%20Fat%20Products.sql) | SQL | SQL | Easy | - |
+| 1770 | [Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) | [Python](Python/Maximum%20Score%20from%20Performing%20Multiplication%20Operations.py) | $O(m^{2})$ | $O(m)$ | Medium | DP |
 | 1795 | [Rearrange Products Table](https://leetcode.com/problems/rearrange-products-table/) | [SQL](SQL/Rearrange%20Products%20Table.sql) | SQL | SQL | Easy | - |
 | 1873 | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/) | [SQL](SQL/Calculate%20Special%20Bonus.sql) | SQL | SQL | Easy | - |
 | 1890 | [The Latest Login in 2020](https://leetcode.com/problems/the-latest-login-in-2020/) | [SQL](SQL/The%20Latest%20Login%20in%202020.sql) | SQL | SQL | Easy | - |
@@ -208,4 +209,4 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-15 19:03 +0000
+Solution table for problems was generated automatically on 2022-09-16 10:56 +0000
