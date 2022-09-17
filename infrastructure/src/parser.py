@@ -3,6 +3,7 @@ from typing import Optional
 
 import requests
 from pydantic import ValidationError
+from requests import JSONDecodeError
 from requests.exceptions import ConnectionError
 
 from infrastructure.config import GRAPHQL_QUERY, LEETCODE_API_URL
@@ -36,7 +37,7 @@ class LeetCodeParser:
         try:
             data = cls._get_request_data(slug)
             return requests.get(LEETCODE_API_URL, json=data).json()
-        except ConnectionError as err:
+        except (ConnectionError, JSONDecodeError) as err:
             logger.error(f'Error making request for slug "{slug}": {err}')
 
     @staticmethod
