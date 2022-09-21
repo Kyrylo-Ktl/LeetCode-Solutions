@@ -128,6 +128,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 871 | [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | [Python](Python/Minimum%20Number%20of%20Refueling%20Stops.py) | $O(n * \log_{2} n)$ | $O(n)$ | Hard | - |
 | 890 | [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/) | [Python](Python/Find%20and%20Replace%20Pattern.py) | $O(n*k)$ | $O(k)$ | Medium | - |
 | 895 | [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | [Python](Python/Maximum%20Frequency%20Stack.py) | $O(n)$ | $O(n)+O(1)$ | Hard | - |
+| 925 | [Long Pressed Name](https://leetcode.com/problems/long-pressed-name/) | [Python](Python/Long%20Pressed%20Name.py) | $O(max(n,m))$ | $O(1)$ | Easy | - |
 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | [Python](Python/Binary%20Subarrays%20With%20Sum.py) | $O(n)$ | $O(n)$ | Medium | - |
 | 936 | [Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/) | [Python](Python/Stamping%20The%20Sequence.py) | $O(m*(m-n))$ | $O(m*(m-n))$ | Hard | - |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Python](Python/Range%20Sum%20of%20BST.py) | $O(n)$ | $O(n)$ | Easy | DFS |
@@ -219,4 +220,4 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-21 10:46 +0000
+Solution table for problems was generated automatically on 2022-09-21 14:48 +0000
