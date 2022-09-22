@@ -1,7 +1,7 @@
 class Solution:
     """
     Time:   O(log10(n)*k)
-    Memory: O(k)
+    Memory: O(log10(n))
     """
 
     def divisorSubstrings(self, num: int, k: int) -> int:
