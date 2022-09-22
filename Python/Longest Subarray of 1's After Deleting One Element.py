@@ -13,9 +13,8 @@ class Solution:
         for bit in nums:
             if bit:
                 curr += 1
+                longest = max(longest, prev + curr)
             else:
                 prev, curr = curr, 0
-
-            longest = max(longest, prev + curr)
 
         return longest - (longest == len(nums))
