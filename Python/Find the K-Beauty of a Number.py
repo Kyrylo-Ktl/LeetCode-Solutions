@@ -1,6 +1,6 @@
 class Solution:
     """
-    Time:   O(n*k)
+    Time:   O(log10(n)*k)
     Memory: O(k)
     """
 
@@ -15,7 +15,7 @@ class Solution:
 
 class Solution:
     """
-    Time:   O(n)
+    Time:   O(log10(n))
     Memory: O(1)
     """
 
