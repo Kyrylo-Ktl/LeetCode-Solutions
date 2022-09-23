@@ -1,14 +1,17 @@
 from datetime import datetime, timezone
 
 from infrastructure.config import (
+    LEETCODE_URL,
     NUMBER_OF_OPERATIONS_TABLE,
     COMPLEXITY_NOTATIONS_TABLE,
     DATETIME_FORMAT,
+    AUTHOR,
+    LEETCODE_PROFILE_URL,
     README_PATH,
 )
 
 MARKDOWN_TEMPLATE = """
-# [LeetCode](https://leetcode.com/problemset/all/)
+# [LeetCode]({leetcode})
 
 The repository contains the best versions of my solutions to LeetCode problems
 
@@ -36,17 +39,20 @@ Solution table for problems was generated automatically on {now}
 
 ## Author
 
-- [Kyrylo-Ktl](https://leetcode.com/Kyrylo-Ktl/) on LeetCode
+- [{author}]({profile}) on LeetCode
 
 """
 
 
 def format_markdown(solutions: str) -> str:
     return MARKDOWN_TEMPLATE.format(
+        leetcode=LEETCODE_URL,
         number_of_operations_table=NUMBER_OF_OPERATIONS_TABLE,
         complexity_notations_table=COMPLEXITY_NOTATIONS_TABLE,
         all_solutions=solutions,
         now=datetime.now(timezone.utc).strftime(DATETIME_FORMAT),
+        author=AUTHOR,
+        profile=LEETCODE_PROFILE_URL,
     )
 
 

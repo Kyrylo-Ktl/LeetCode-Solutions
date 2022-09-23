@@ -2,7 +2,7 @@ import logging
 import os
 from typing import Generator, Iterable
 
-from infrastructure.config import IGNORE, LANGUAGES
+from infrastructure.config import IGNORE_FILE_PREFIX, LANGUAGES
 from infrastructure.src.db.models import Problem
 from infrastructure.src.parser import LeetCodeParser
 
@@ -22,7 +22,7 @@ class SolutionsCollector:
                 continue
 
             for file in os.listdir(directory):
-                if file.startswith(IGNORE):
+                if file.startswith(IGNORE_FILE_PREFIX):
                     continue
                 if file.endswith(extension):
                     solutions.add(file.removesuffix(extension).replace('|', '/'))

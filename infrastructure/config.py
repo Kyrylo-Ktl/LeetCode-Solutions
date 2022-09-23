@@ -23,14 +23,17 @@ LANGUAGES = {
         'directory': BASE_DIR / 'Shell',
     }
 }
-IGNORE = '_'
+IGNORE_FILE_PREFIX = '_'
 
 PROBLEMS_DB_PATH = RESOURCES_PATH / 'problems.db'
 PROBLEMS_DB_URL = f'sqlite:///{PROBLEMS_DB_PATH}'
 
-LEETCODE_API_URL = 'https://leetcode.com/graphql'
+AUTHOR = 'Kyrylo-Ktl'
+LEETCODE_URL = 'https://leetcode.com/'
+LEETCODE_PROFILE_URL = LEETCODE_URL + AUTHOR
+LEETCODE_API_URL = LEETCODE_URL + 'graphql'
 
-GRAPHQL_QUERY_PATH = RESOURCES_PATH / 'test.graphql'
+GRAPHQL_QUERY_PATH = RESOURCES_PATH / 'problem_details_query.graphql'
 with open(GRAPHQL_QUERY_PATH, 'rt') as query_file:
     GRAPHQL_QUERY = query_file.read()
 
