@@ -3,7 +3,13 @@
 
 The repository contains the best versions of my solutions to LeetCode problems
 
-## Complexity analysis
+## Complexity chart
+
+<p align="center">
+  <img alt="complexity_chart" src="https://user-images.githubusercontent.com/93226646/191949453-8b4a432e-a24d-4f23-813b-fc658d2b4e1e.png">
+</p>
+
+## Complexity notations
 
 | Notation |     Name     |  Sign  |          Meaning           |
 |:--------:|:------------:|:------:|:--------------------------:|
@@ -12,10 +18,6 @@ The repository contains the best versions of my solutions to LeetCode problems
 | $\Theta$ |    Theta     |  $=$   |          Equal to          |
 | $\Omega$ |  Big Omega   | $\geq$ |        Greater than        |
 | $\omega$ | Little Omega |  $>$   | Greater than, not equal to |
-
-<p align="center">
-  <img alt="complexity_chart" src="https://user-images.githubusercontent.com/93226646/191949453-8b4a432e-a24d-4f23-813b-fc658d2b4e1e.png">
-</p>
 
 ## Solutions
 
@@ -247,7 +249,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-23 12:30 +0000
+Solution table for problems was generated automatically on 2022-09-23 12:42 +0000
 
 ## Author
 
