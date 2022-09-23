@@ -1,11 +1,10 @@
 import logging
-from datetime import datetime, timezone
 
-from infrastructure.config import DATETIME_FORMAT, README_PATH
+from infrastructure.config import README_PATH
 from infrastructure.src.collector import SolutionsCollector
 from infrastructure.src.markdown_table import MarkdownTable
 from infrastructure.src.db.models import Problem
-from infrastructure.src.resources.template import MARKDOWN_TEMPLATE
+from infrastructure.src.resources.template import create_readme
 
 logger = logging.getLogger(__name__)
 
@@ -20,11 +19,8 @@ class MarkdownFormatter:
     def format_markdown(cls) -> str:
         solutions = SolutionsCollector.collect_solutions()
         problems = SolutionsCollector.collect_problems(solutions)
-
-        return MARKDOWN_TEMPLATE.format(
-            all_solutions=MarkdownTable.format(map(cls._format_problem, problems)),
-            now=datetime.now(timezone.utc).strftime(DATETIME_FORMAT)
-        )
+        solutions_table = MarkdownTable.format(map(cls._format_problem, problems))
+        return create_readme(solutions=solutions_table)
 
     @staticmethod
     def _format_problem(problem: Problem) -> dict:
