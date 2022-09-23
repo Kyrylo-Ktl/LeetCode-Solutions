@@ -183,11 +183,12 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1587 | [Bank Account Summary II](https://leetcode.com/problems/bank-account-summary-ii/) | [SQL](SQL/Bank%20Account%20Summary%20II.sql) | SQL | SQL | Easy | - |
 | 1663 | [Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/) | [Python](Python/Smallest%20String%20With%20A%20Given%20Numeric%20Value.py) | $O(n)$ | $O(n)$ | Medium | - |
 | 1667 | [Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/) | [SQL](SQL/Fix%20Names%20in%20a%20Table.sql) | SQL | SQL | Easy | - |
+| 1680 | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | [Python](Python/Concatenation%20of%20Consecutive%20Binary%20Numbers.py) | $O(n*\log_{2} n)$ | $O(1)$ | Medium | - |
 | 1693 | [Daily Leads and Partners](https://leetcode.com/problems/daily-leads-and-partners/) | [SQL](SQL/Daily%20Leads%20and%20Partners.sql) | SQL | SQL | Easy | - |
 | 1729 | [Find Followers Count](https://leetcode.com/problems/find-followers-count/) | [SQL](SQL/Find%20Followers%20Count.sql) | SQL | SQL | Easy | - |
 | 1741 | [Find Total Time Spent by Each Employee](https://leetcode.com/problems/find-total-time-spent-by-each-employee/) | [SQL](SQL/Find%20Total%20Time%20Spent%20by%20Each%20Employee.sql) | SQL | SQL | Easy | - |
 | 1757 | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | [SQL](SQL/Recyclable%20and%20Low%20Fat%20Products.sql) | SQL | SQL | Easy | - |
-| 1770 | [Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) | [Python](Python/Maximum%20Score%20from%20Performing%20Multiplication%20Operations.py) | $O(m^{2})$ | $O(m)$ | Medium | DP |
+| 1770 | [Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) | [Python](Python/Maximum%20Score%20from%20Performing%20Multiplication%20Operations.py) | $O(m^{2})$ | $O(m)$ | Hard | DP |
 | 1795 | [Rearrange Products Table](https://leetcode.com/problems/rearrange-products-table/) | [SQL](SQL/Rearrange%20Products%20Table.sql) | SQL | SQL | Easy | - |
 | 1817 | [Finding the Users Active Minutes](https://leetcode.com/problems/finding-the-users-active-minutes/) | [Python](Python/Finding%20the%20Users%20Active%20Minutes.py) | $O(n)$ | $O(n+k)$ | Medium | - |
 | 1839 | [Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/) | [Python](Python/Longest%20Substring%20Of%20All%20Vowels%20in%20Order.py) | $O(n)$ | $O(1)$ | Medium | - |
@@ -232,4 +233,4 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-22 19:12 +0000
+Solution table for problems was generated automatically on 2022-09-23 07:45 +0000
