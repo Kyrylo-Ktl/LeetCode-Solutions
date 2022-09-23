@@ -6,7 +6,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 ## Complexity chart
 
 <p align="center">
-  <img alt="complexity_chart" src="https://user-images.githubusercontent.com/93226646/191949453-8b4a432e-a24d-4f23-813b-fc658d2b4e1e.png">
+    <img alt="complexity_chart" src="https://user-images.githubusercontent.com/93226646/191962988-602fb801-6d39-42f2-ac5b-32fd6452cddd.png">
 </p>
 
 ## Complexity notations
@@ -249,7 +249,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-23 12:42 +0000
+Solution table for problems was generated automatically on 2022-09-23 12:46 +0000
 
 ## Author
 
