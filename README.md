@@ -9,6 +9,18 @@ The repository contains the best versions of my solutions to LeetCode problems
     <img alt="complexity_chart" src="https://user-images.githubusercontent.com/93226646/191962988-602fb801-6d39-42f2-ac5b-32fd6452cddd.png">
 </p>
 
+## Number of operations for complexity
+
+|    $f(n)$    |       $n = 10$       |     $n = 10^{2}$     |     $n = 10^{3}$      |      $n = 10^{4}$      |       $n = 10^{5}$        |       $n = 10^{6}$        |
+|:------------:|:--------------------:|:----------------------:|:-----------------------:|:------------------------:|:---------------------------:|:---------------------------:|
+|     $1$      |         $1$          |          $1$           |           $1$           |           $1$            |             $1$             |             $1$             |
+|   $\log n$   |   $pproxeq 3.32$   |    $pproxeq 6.64$    |    $pproxeq 9.97$     |  $pproxeq 1.33 * 10$   |    $pproxeq 1.66 * 10$    |    $pproxeq 1.99 * 10$    |
+|     $n$      |         $10$         |       $10^{2}$       |       $10^{3}$        |        $10^{4}$        |         $10^{5}$          |         $10^{6}$          |
+| $n * \log n$ |     $3.32 * 10$      |   $6.64 * 10^{2}$    |    $9.97 * 10^{3}$    |    $1.33 * 10^{5}$     | $pproxeq 1.66 * 10^{6}$ | $pproxeq 1.99 * 10^{7}$ |
+|  $n^{2}$   |      $10^{2}$      |       $10^{4}$       |       $10^{6}$        |        $10^{8}$        |         $10^{10}$         |         $10^{12}$         |
+|  $2^{n}$   | $pproxeq 10^{3}$ | $pproxeq 10^{30}$  | $pproxeq 10^{301}$  | $pproxeq 10^{3010}$  |  $pproxeq 10^{30102}$   |  $pproxeq 10^{301030}$  |
+|     $n!$     | $pproxeq 10^{7}$ | $pproxeq 10^{156}$ | $pproxeq 10^{2568}$ | $pproxeq 10^{35660}$ |  $pproxeq 10^{456574}$  | $pproxeq 10^{5565709}$  |
+
 ## Complexity notations
 
 | Notation |     Name     |  Sign  |           Meaning           |
@@ -249,7 +261,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-23 12:49 +0000
+Solution table for problems was generated automatically on 2022-09-23 13:43 +0000
 
 ## Author
 
