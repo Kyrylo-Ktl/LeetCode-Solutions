@@ -127,7 +127,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 506 | [Relative Ranks](https://leetcode.com/problems/relative-ranks/) | [Python](Python/Relative%20Ranks.py) | $O(n * \log_{2} n)$ | $O(n)$ | Easy | - |
 | 511 | [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/) | [SQL](SQL/Game%20Play%20Analysis%20I.sql) | SQL | SQL | Easy | - |
 | 547 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | [Python](Python/Number%20of%20Provinces.py) | $O(n^{2})$ | $O(n)$ | Medium | DSU |
-| 551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/) | [Python](Python/Student%20Attendance%20Record%20I.py) | $O(n)$ | $O(1)$ | Easy | - |
+| 551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/) | [Python](Python/Student%20Attendance%20Record%20I.py), [Java](Java/Student%20Attendance%20Record%20I.java) | $O(n)$ | $O(1)$ | Easy | - |
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Python](Python/Reverse%20Words%20in%20a%20String%20III.py), [Java](Java/Reverse%20Words%20in%20a%20String%20III.java) | $O(n)$ | $O(n)$ | Easy | - |
 | 584 | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | [SQL](SQL/Find%20Customer%20Referee.sql) | SQL | SQL | Easy | - |
 | 586 | [Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/) | [SQL](SQL/Customer%20Placing%20the%20Largest%20Number%20of%20Orders.sql) | SQL | SQL | Easy | - |
@@ -265,7 +265,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-23 21:49 +0000
+Solution table for problems was generated automatically on 2022-09-23 21:55 +0000
 
 ## Author
 
