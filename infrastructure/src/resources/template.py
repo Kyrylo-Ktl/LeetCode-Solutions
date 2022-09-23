@@ -11,13 +11,13 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Complexity notations
 
-| Notation |     Name     |  Sign  |          Meaning           |
-|:--------:|:------------:|:------:|:--------------------------:|
-|   $o$    |   Little O   |  $<$   |  Less than, not equal to   |
-|   $O$    |    Big O     | $\leq$ |         Less than          |
-| $\Theta$ |    Theta     |  $=$   |          Equal to          |
-| $\Omega$ |  Big Omega   | $\geq$ |        Greater than        |
-| $\omega$ | Little Omega |  $>$   | Greater than, not equal to |
+| Notation |     Name     |  Sign  |           Meaning           |
+|:--------:|:------------:|:------:|:---------------------------:|
+|   $o$    |   Little O   |  $<$   |          Less than          |
+|   $O$    |    Big O     | $\leq$ |    Less than or equal to    |
+| $\Theta$ |    Theta     |  $=$   |          Equal to           |
+| $\Omega$ |  Big Omega   | $\geq$ |  Greater than or equal to   |
+| $\omega$ | Little Omega |  $>$   |        Greater than         |
 
 ## Solutions
 
