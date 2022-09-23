@@ -3,6 +3,10 @@
 
 The repository contains the best versions of my solutions to LeetCode problems
 
+## Complexity analysis
+
+<img width="829" alt="complexity_chart" src="https://user-images.githubusercontent.com/93226646/191949453-8b4a432e-a24d-4f23-813b-fc658d2b4e1e.png">
+
 ## Solutions
 
 | № | Title | Solutions | Time | Memory | Difficulty | Notes |
