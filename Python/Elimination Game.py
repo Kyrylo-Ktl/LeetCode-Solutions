@@ -1,7 +1,7 @@
 class Solution:
     """
     Time:   O(log(n))
-    Memory: O(1)
+    Memory: O(log(n))
 
     Explanation:
     1. Initially we start elimination from left to right:
@@ -21,7 +21,6 @@ class Solution:
     """
 
     def lastRemaining(self, n: int) -> int:
-        n = 1
-        while 2*n != n - n&1:
-            n = n + 1
-        return n
+        if n == 1:
+            return 1
+        return 2 * (n // 2 + 1 - self.lastRemaining(n // 2))
