@@ -80,6 +80,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](Python/Linked%20List%20Cycle.py) | $O(n)$ | $O(1)$ | Easy | - |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Python](Python/Evaluate%20Reverse%20Polish%20Notation.py) | $O(n)$ | $O(n)$ | Medium | - |
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Python](Python/Reverse%20Words%20in%20a%20String.py) | $O(n)$ | $O(n)$ | Medium | - |
+| 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | [Python](Python/Compare%20Version%20Numbers.py) | $O(max(n,m))$ | $O(n+m)$ | Medium | - |
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | [Python](Python/Excel%20Sheet%20Column%20Title.py) | $O(\log_{26} n)$ | $O(1)$ | Easy | - |
 | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | [Python](Python/Factorial%20Trailing%20Zeroes.py) | $O(\log_{5} n)$ | $O(\log_{5} n)$ | Medium | - |
 | 175 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | [SQL](SQL/Combine%20Two%20Tables.sql) | SQL | SQL | Easy | - |
@@ -264,7 +265,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-23 21:37 +0000
+Solution table for problems was generated automatically on 2022-09-23 21:49 +0000
 
 ## Author
 
