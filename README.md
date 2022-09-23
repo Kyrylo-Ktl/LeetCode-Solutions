@@ -1,5 +1,5 @@
 
-# [LeetCode](https://leetcode.com/problemset/all/)
+# [LeetCode](https://leetcode.com/)
 
 The repository contains the best versions of my solutions to LeetCode problems
 
@@ -261,9 +261,9 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-23 14:22 +0000
+Solution table for problems was generated automatically on 2022-09-23 14:34 +0000
 
 ## Author
 
-- [Kyrylo-Ktl](https://leetcode.com/Kyrylo-Ktl/) on LeetCode
+- [Kyrylo-Ktl](https://leetcode.com/Kyrylo-Ktl) on LeetCode
 
