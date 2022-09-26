@@ -110,6 +110,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](Python/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.py) | $O(n)$ | $O(n)$ | Medium | - |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](Python/Valid%20Anagram.py) | $O(max(n,m))$ | $O(n+m)$ | Easy | - |
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Python](Python/Perfect%20Squares.py) | $O(n*\sqrt{n})$ | $O(n)$ | Medium | - |
+| 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | [Python](Python/Word%20Pattern.py) | $O(n)$ | $O(n)$ | Easy | - |
 | 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Python](Python/Serialize%20and%20Deserialize%20Binary%20Tree.py) | $O(n)$ | $O(n)$ | Hard | Preorder |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Python](Python/Longest%20Increasing%20Subsequence.py) | $O(n*\log_{2} n)$ | $O(n)$ | Medium | - |
 | 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | [Python](Python/Range%20Sum%20Query%202D%20-%20Immutable.py) | $O(n*m) + O(1)$ | $O(n*m) + O(1)$ | Medium | - |
@@ -275,7 +276,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-26 21:08 +0000
+Solution table for problems was generated automatically on 2022-09-26 21:10 +0000
 
 ## Author
 
