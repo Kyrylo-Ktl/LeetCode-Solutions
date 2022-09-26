@@ -125,7 +125,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Python](Python/Longest%20Repeating%20Character%20Replacement.py) | $O(n)$ | $O(1)$ | Medium | - |
 | 429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | [Python](Python/N-ary%20Tree%20Level%20Order%20Traversal.py) | $O(n)$ | $O(n)$ | Medium | - |
 | 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/) | [Python](Python/Island%20Perimeter.py) | $O(n*m)$ | $O(1)$ | Easy | - |
-| 468 | [Validate IP Address](https://leetcode.com/problems/validate-ip-address/) | [Python](Python/Validate%20IP%20Address.py) | $O(1)$ | $O(1)$ | Medium | - |
+| 468 | [Validate IP Address](https://leetcode.com/problems/validate-ip-address/) | [Python](Python/Validate%20IP%20Address.py) | $O(1)$ | $O(1)$ | Medium | RegEx |
 | 491 | [Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/) | [Python](Python/Increasing%20Subsequences.py) | $O(n^{2})$ | $O(n^{2})$ | Medium | - |
 | 506 | [Relative Ranks](https://leetcode.com/problems/relative-ranks/) | [Python](Python/Relative%20Ranks.py) | $O(n * \log_{2} n)$ | $O(n)$ | Easy | - |
 | 511 | [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/) | [SQL](SQL/Game%20Play%20Analysis%20I.sql) | SQL | SQL | Easy | - |
@@ -180,6 +180,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 982 | [Triples with Bitwise AND Equal To Zero](https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/) | [Python](Python/Triples%20with%20Bitwise%20AND%20Equal%20To%20Zero.py) | $O(n^{3})$ | $O(n^{2})$ | Hard | - |
 | 985 | [Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/) | [Python](Python/Sum%20of%20Even%20Numbers%20After%20Queries.py), [Java](Java/Sum%20of%20Even%20Numbers%20After%20Queries.java) | $O(n + m)$ | $O(1)$ | Medium | - |
 | 986 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | [Python](Python/Interval%20List%20Intersections.py) | $O(n+m)$ | $O(n+m)$ | Medium | - |
+| 990 | [Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/) | [Python](Python/Satisfiability%20of%20Equality%20Equations.py) | $O(n)$ | $O(n)$ | Medium | - |
 | 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [Python](Python/Find%20the%20Town%20Judge.py) | $O(n)$ | $O(n)$ | Easy | - |
 | 998 | [Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/) | [Python](Python/Maximum%20Binary%20Tree%20II.py) | $O(n)$ | $O(n)$ | Medium | - |
 | 1007 | [Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | [Python](Python/Minimum%20Domino%20Rotations%20For%20Equal%20Row.py) | $O(n)$ | $O(1)$ | Medium | - |
@@ -271,7 +272,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-25 20:20 +0000
+Solution table for problems was generated automatically on 2022-09-26 17:02 +0000
 
 ## Author
 
