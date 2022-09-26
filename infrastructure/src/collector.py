@@ -2,10 +2,7 @@ import logging
 import os
 from typing import Generator, Iterable
 
-from sqlalchemy.orm import Session
-
 from infrastructure.config import IGNORE_FILE_PREFIX, LANGUAGES, UPDATE_TIMEDELTA
-from infrastructure.src.db import db
 from infrastructure.src.db.models import Problem
 from infrastructure.src.parser import LeetCodeParser
 
