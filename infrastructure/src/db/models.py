@@ -47,17 +47,19 @@ class Problem(BaseModel):
     difficulty = Column(String, nullable=False)
     is_premium = Column(Boolean, default=False, nullable=False)
     notes = Column(String, nullable=True)
-    last_update = Column(DateTime, onupdate=func.utcnow())
+    last_update = Column(DateTime)
 
     @classmethod
-    def create_or_update_by_title(cls, title: str, **data):
+    def create_or_update_by_title(cls, title: str, data: dict):
         with db.session() as session:
             instance = cls.get_by_title(title)
 
             if instance is None:
-                return cls.create(session, data)
+                instance = cls.create(session, data)
 
             instance.update(session, data)
+            session.refresh(instance)
+            print(instance.last_update)
             return instance
 
     @classmethod
