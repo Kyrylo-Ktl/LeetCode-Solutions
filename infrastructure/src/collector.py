@@ -2,7 +2,10 @@ import logging
 import os
 from typing import Generator, Iterable
 
-from infrastructure.config import IGNORE_FILE_PREFIX, LANGUAGES
+from sqlalchemy.orm import Session
+
+from infrastructure.config import IGNORE_FILE_PREFIX, LANGUAGES, UPDATE_TIMEDELTA
+from infrastructure.src.db import db
 from infrastructure.src.db.models import Problem
 from infrastructure.src.parser import LeetCodeParser
 
@@ -34,10 +37,22 @@ class SolutionsCollector:
     @classmethod
     def collect_problems(cls, titles: Iterable) -> Generator:
         for title in titles:
-            problem_data = LeetCodeParser.get_problem_data(title)
+            problem = Problem.get_by_title(title)
 
-            if problem_data is None:
+            if problem is not None and problem.time_from_last_update < UPDATE_TIMEDELTA:
+                yield problem
+                continue
+
+            problem = cls.parse_from_leetcode(title)
+
+            if problem is None:
                 logger.error(f'Failed to retrieve "{title}" details')
             else:
-                yield Problem.update_or_create(title, problem_data)
                 logger.info(f'Successfully parsed details for: {title}')
+                yield problem
+
+    @staticmethod
+    def parse_from_leetcode(title: str) -> Problem:
+        problem_data = LeetCodeParser.get_problem_data(title)
+        if problem_data is not None:
+            return Problem.create_or_update_by_title(title, **problem_data)

@@ -1,3 +1,4 @@
+from datetime import timedelta
 from pathlib import Path
 
 BASE_DIR = Path(__file__).parent.parent
@@ -52,3 +53,4 @@ ORDER_BY = '№'
 NO_DATA = '-'
 
 DATETIME_FORMAT = '%Y-%m-%d %H:%M %z'
+UPDATE_TIMEDELTA = timedelta(days=7)
