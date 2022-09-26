@@ -5,10 +5,14 @@ class Solution:
     """
 
     def validPalindrome(self, string: str) -> bool:
-        for i in range(len(string)):
-            j = len(string) - 1 - i
+        n = len(string)
+
+        for i in range(n // 2):
+            j = n - 1 - i
             if string[i] != string[j]:
-                return self.is_palindrome(string, i, j - 1) or self.is_palindrome(string, i + 1, j)
+                return self.is_palindrome(string, i, j - 1) or \
+                       self.is_palindrome(string, i + 1, j)
+
         return True
 
     @staticmethod
