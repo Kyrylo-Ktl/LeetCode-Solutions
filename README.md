@@ -111,6 +111,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](Python/Reverse%20Linked%20List.py) | $O(n)$ | $O(1)$ | Easy | - |
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Python](Python/Minimum%20Size%20Subarray%20Sum.py), [Java](Java/Minimum%20Size%20Subarray%20Sum.java) | $O(n)$ | $O(1)$ | Medium | - |
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Python](Python/Contains%20Duplicate%20II.py) | $O(n)$ | $O(n)$ | Easy | - |
+| 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | [Python](Python/Count%20Complete%20Tree%20Nodes.py) | - | - | Medium | - |
 | 223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | [Python](Python/Rectangle%20Area.py) | $O(1)$ | $O(1)$ | Medium | Math |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Python](Python/Palindrome%20Linked%20List.py) | $O(n)$ | $O(1)$ | Easy | - |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](Python/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.py) | $O(n)$ | $O(n)$ | Medium | - |
@@ -290,5 +291,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-27 17:00 +0000
+Solution table for problems was generated automatically on 2022-09-27 20:01 +0000
 
