@@ -78,7 +78,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python](Python/Maximum%20Depth%20of%20Binary%20Tree.py) | $O(n)$ | $O(n)$ | Easy | DFS |
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Python](Python/Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.py) | $O(n)$ | $O(\log_{2} n)$ | Easy | - |
 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | [Python](Python/Convert%20Sorted%20List%20to%20Binary%20Search%20Tree.py) | $O(n*\log_{2} n)$ | $O(\log_{2} n)$ | Medium | DFS |
-| 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Python](Python/Minimum%20Depth%20of%20Binary%20Tree.py) | - | - | Easy | - |
+| 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Python](Python/Minimum%20Depth%20of%20Binary%20Tree.py) | $O(n)$ | $O(n)$ | Easy | - |
 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [Python](Python/Path%20Sum%20II.py) | - | - | Medium | - |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | [Python](Python/Flatten%20Binary%20Tree%20to%20Linked%20List.py) | $O(n)$ | $O(1)$ | Medium | - |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Python](Python/Binary%20Tree%20Maximum%20Path%20Sum.py) | $O(n)$ | $O(n)$ | Hard | - |
@@ -104,6 +104,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 185 | [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) | [SQL](SQL/Department%20Top%20Three%20Salaries.sql) | SQL | SQL | Hard | - |
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [Python](Python/Reverse%20Bits.py), [Java](Java/Reverse%20Bits.java) | $O(1)$ | $O(1)$ | Easy | - |
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Python](Python/Number%20of%201%20Bits.py) | $O(\log_{10} n)$ | $O(1)$ | Easy | - |
+| 192 | [Word Frequency](https://leetcode.com/problems/word-frequency/) | [Shell](Shell/Word%20Frequency.sh) | SHELL | SHELL | Medium | - |
 | 193 | [Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/) | [Shell](Shell/Valid%20Phone%20Numbers.sh) | SHELL | SHELL | Easy | - |
 | 195 | [Tenth Line](https://leetcode.com/problems/tenth-line/) | [Shell](Shell/Tenth%20Line.sh) | SHELL | SHELL | Easy | - |
 | 196 | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | [SQL](SQL/Delete%20Duplicate%20Emails.sql) | SQL | SQL | Easy | - |
@@ -294,5 +295,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-27 21:30 +0000
+Solution table for problems was generated automatically on 2022-09-27 21:36 +0000
 
