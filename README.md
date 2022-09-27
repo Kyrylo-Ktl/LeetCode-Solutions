@@ -277,10 +277,11 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2409 | [Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/) | [Python](Python/Count%20Days%20Spent%20Together.py) | $O(1)$ | $O(1)$ | Easy | - |
 | 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | [Python](Python/Smallest%20Even%20Multiple.py), [Java](Java/Smallest%20Even%20Multiple.java) | $O(1)$ | $O(1)$ | Easy | - |
 | 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people/) | [Python](Python/Sort%20the%20People.py) | $O(n * \log_{2} n)$ | $O(n)$ | Easy | - |
+| 2419 | [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | [Python](Python/Longest%20Subarray%20With%20Maximum%20Bitwise%20AND.py) | $O(n)$ | $O(1)$ | Medium | - |
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-27 09:04 +0000
+Solution table for problems was generated automatically on 2022-09-27 09:13 +0000
 
 ## Author
 
