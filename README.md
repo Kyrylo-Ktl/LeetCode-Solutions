@@ -78,6 +78,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python](Python/Maximum%20Depth%20of%20Binary%20Tree.py) | $O(n)$ | $O(n)$ | Easy | DFS |
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Python](Python/Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.py) | $O(n)$ | $O(\log_{2} n)$ | Easy | - |
 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | [Python](Python/Convert%20Sorted%20List%20to%20Binary%20Search%20Tree.py) | $O(n*\log_{2} n)$ | $O(\log_{2} n)$ | Medium | DFS |
+| 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Python](Python/Minimum%20Depth%20of%20Binary%20Tree.py) | - | - | Easy | - |
 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [Python](Python/Path%20Sum%20II.py) | - | - | Medium | - |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | [Python](Python/Flatten%20Binary%20Tree%20to%20Linked%20List.py) | $O(n)$ | $O(1)$ | Medium | - |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Python](Python/Binary%20Tree%20Maximum%20Path%20Sum.py) | $O(n)$ | $O(n)$ | Hard | - |
@@ -293,5 +294,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-27 21:20 +0000
+Solution table for problems was generated automatically on 2022-09-27 21:30 +0000
 
