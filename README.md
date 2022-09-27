@@ -3,6 +3,10 @@
 
 The repository contains the best versions of my solutions to LeetCode problems
 
+## Author
+
+- [Kyrylo-Ktl](https://leetcode.com/Kyrylo-Ktl) on LeetCode
+
 ## Complexity chart
 
 <p align="center">
@@ -285,9 +289,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-27 16:51 +0000
-
-## Author
-
-- [Kyrylo-Ktl](https://leetcode.com/Kyrylo-Ktl) on LeetCode
+Solution table for problems was generated automatically on 2022-09-27 16:53 +0000
 
