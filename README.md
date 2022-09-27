@@ -139,6 +139,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 494 | [Target Sum](https://leetcode.com/problems/target-sum/) | [Python](Python/Target%20Sum.py) | $O(n*t)$ | $O(n*t)$ | Medium | - |
 | 497 | [Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/) | [Python](Python/Random%20Point%20in%20Non-overlapping%20Rectangles.py) | $O(n) + O(\log_{2} n)$ | $O(n) + O(1)$ | Medium | - |
 | 506 | [Relative Ranks](https://leetcode.com/problems/relative-ranks/) | [Python](Python/Relative%20Ranks.py) | $O(n * \log_{2} n)$ | $O(n)$ | Easy | - |
+| 508 | [Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/) | [Python](Python/Most%20Frequent%20Subtree%20Sum.py) | $O(n)$ | $O(n)$ | Medium | - |
 | 511 | [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/) | [SQL](SQL/Game%20Play%20Analysis%20I.sql) | SQL | SQL | Easy | - |
 | 547 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | [Python](Python/Number%20of%20Provinces.py) | $O(n^{2})$ | $O(n)$ | Medium | DSU |
 | 551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/) | [Python](Python/Student%20Attendance%20Record%20I.py), [Java](Java/Student%20Attendance%20Record%20I.java) | $O(n)$ | $O(1)$ | Easy | - |
@@ -291,5 +292,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-27 20:01 +0000
+Solution table for problems was generated automatically on 2022-09-27 20:32 +0000
 
