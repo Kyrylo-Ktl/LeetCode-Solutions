@@ -155,6 +155,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 592 | [Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction/) | [Python](Python/Fraction%20Addition%20and%20Subtraction.py) | $O(n)$ | $O(n)$ | Medium | - |
 | 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | [SQL](SQL/Big%20Countries.sql) | SQL | SQL | Easy | - |
 | 596 | [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/) | [SQL](SQL/Classes%20More%20Than%205%20Students.sql) | SQL | SQL | Easy | - |
+| 598 | [Range Addition II](https://leetcode.com/problems/range-addition-ii/) | [Python](Python/Range%20Addition%20II.py) | $O(n)$ | $O(1)$ | Easy | - |
 | 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | [Python](Python/Construct%20String%20from%20Binary%20Tree.py) | $O(n)$ | $O(n)$ | Easy | - |
 | 607 | [Sales Person](https://leetcode.com/problems/sales-person/) | [SQL](SQL/Sales%20Person.sql) | SQL | SQL | Easy | - |
 | 608 | [Tree Node](https://leetcode.com/problems/tree-node/) | [SQL](SQL/Tree%20Node.sql) | SQL | SQL | Medium | - |
@@ -303,5 +304,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-28 19:05 +0000
+Solution table for problems was generated automatically on 2022-09-28 20:03 +0000
 
