@@ -170,7 +170,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 659 | [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Python](Python/Split%20Array%20into%20Consecutive%20Subsequences.py) | $O(n)$ | $O(n)$ | Medium | - |
 | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Python](Python/Valid%20Palindrome%20II.py) | $O(n)$ | $O(1)$ | Easy | - |
 | 695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Python](Python/Max%20Area%20of%20Island.py) | $O(n*m)$ | $O(n*m)$ | Medium | - |
-| 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | [Python](Python/Count%20Binary%20Substrings.py) | $O(n)$ | $O(1)$ | Easy | - |
+| 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | [Python](Python/Count%20Binary%20Substrings.py), [Java](Java/Count%20Binary%20Substrings.java) | $O(n)$ | $O(1)$ | Easy | - |
 | 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Python](Python/Search%20in%20a%20Binary%20Search%20Tree.py) | $O(n)$ | $O(1)$ | Easy | - |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [Python](Python/Binary%20Search.py) | $O(\log_{2} n)$ | $O(1)$ | Easy | - |
 | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [Python](Python/Maximum%20Length%20of%20Repeated%20Subarray.py) | $O(n*m)$ | $O(n*m)$ | Medium | DP |
@@ -309,5 +309,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-29 14:28 +0000
+Solution table for problems was generated automatically on 2022-09-29 14:33 +0000
 
