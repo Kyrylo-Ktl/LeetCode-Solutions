@@ -165,6 +165,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 627 | [Swap Salary](https://leetcode.com/problems/swap-salary/) | [SQL](SQL/Swap%20Salary.sql) | SQL | SQL | Easy | - |
 | 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Python](Python/Average%20of%20Levels%20in%20Binary%20Tree.py) | $O(n)$ | $O(\log_{2} n)$ | Easy | - |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [Python](Python/Maximum%20Average%20Subarray%20I.py) | $O(n)$ | $O(1)$ | Easy | - |
+| 658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | [Python](Python/Find%20K%20Closest%20Elements.py) | $O(k + \log_{2} n)$ | $O(1)$ | Medium | - |
 | 659 | [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Python](Python/Split%20Array%20into%20Consecutive%20Subsequences.py) | $O(n)$ | $O(n)$ | Medium | - |
 | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Python](Python/Valid%20Palindrome%20II.py) | $O(n)$ | $O(1)$ | Easy | - |
 | 695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Python](Python/Max%20Area%20of%20Island.py) | $O(n*m)$ | $O(n*m)$ | Medium | - |
@@ -304,5 +305,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-28 20:06 +0000
+Solution table for problems was generated automatically on 2022-09-29 09:35 +0000
 
