@@ -142,6 +142,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 468 | [Validate IP Address](https://leetcode.com/problems/validate-ip-address/) | [Python](Python/Validate%20IP%20Address.py) | $O(1)$ | $O(1)$ | Medium | RegEx |
 | 491 | [Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/) | [Python](Python/Increasing%20Subsequences.py) | $O(n^{2})$ | $O(n^{2})$ | Medium | - |
 | 494 | [Target Sum](https://leetcode.com/problems/target-sum/) | [Python](Python/Target%20Sum.py) | $O(n*t)$ | $O(n*t)$ | Medium | - |
+| 495 | [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/) | [Python](Python/Teemo%20Attacking.py) | $O(n)$ | $O(1)$ | Easy | - |
 | 497 | [Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/) | [Python](Python/Random%20Point%20in%20Non-overlapping%20Rectangles.py) | $O(n) + O(\log_{2} n)$ | $O(n) + O(1)$ | Medium | - |
 | 506 | [Relative Ranks](https://leetcode.com/problems/relative-ranks/) | [Python](Python/Relative%20Ranks.py) | $O(n * \log_{2} n)$ | $O(n)$ | Easy | - |
 | 508 | [Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/) | [Python](Python/Most%20Frequent%20Subtree%20Sum.py) | $O(n)$ | $O(n)$ | Medium | - |
@@ -306,5 +307,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-29 10:50 +0000
+Solution table for problems was generated automatically on 2022-09-29 11:40 +0000
 
