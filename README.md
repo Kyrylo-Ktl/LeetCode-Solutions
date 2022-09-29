@@ -183,7 +183,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | [Python](Python/Unique%20Morse%20Code%20Words.py) | $O(n)$ | $O(n)$ | Easy | - |
 | 814 | [Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) | [Python](Python/Binary%20Tree%20Pruning.py) | $O(n)$ | $O(n)$ | Medium | - |
 | 823 | [Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/) | [Python](Python/Binary%20Trees%20With%20Factors.py) | $O(n^{2})$ | $O(n)$ | Medium | - |
-| 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | [Python](Python/Positions%20of%20Large%20Groups.py) | $O(n)$ | $O(1)$ | Easy | - |
+| 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | [Python](Python/Positions%20of%20Large%20Groups.py), [Java](Java/Positions%20of%20Large%20Groups.java) | $O(n)$ | $O(1)$ | Easy | - |
 | 836 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | [Python](Python/Rectangle%20Overlap.py) | $O(1)$ | $O(1)$ | Easy | Math |
 | 838 | [Push Dominoes](https://leetcode.com/problems/push-dominoes/) | [Python](Python/Push%20Dominoes.py) | $O(n)$ | $O(n)$ | Medium | - |
 | 841 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | [Python](Python/Keys%20and%20Rooms.py) | $O(n)$ | $O(n)$ | Medium | - |
@@ -308,5 +308,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-29 12:13 +0000
+Solution table for problems was generated automatically on 2022-09-29 12:21 +0000
 
