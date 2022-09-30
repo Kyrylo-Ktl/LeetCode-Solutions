@@ -85,9 +85,6 @@ class Problem(BaseModel):
             filename = self.title.replace('/', '%') + LANGUAGES[language]['extension']
             path = LANGUAGES[language]['directory'] / filename
 
-            if 'Gain' in self.title:
-                print(self.title, os.path.exists(path))
-
             if os.path.exists(path):
                 yield language, path.relative_to(BASE_DIR).as_posix().replace(' ', '%20')
 
