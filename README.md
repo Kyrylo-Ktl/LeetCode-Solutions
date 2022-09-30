@@ -288,6 +288,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2341 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/) | [Python](Python/Maximum%20Number%20of%20Pairs%20in%20Array.py) | $O(n)$ | $O(n)$ | - |
 | 2347 | [Best Poker Hand](https://leetcode.com/problems/best-poker-hand/) | [Python](Python/Best%20Poker%20Hand.py) | $O(1)$ | $O(1)$ | - |
 | 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/) | [Python](Python/First%20Letter%20to%20Appear%20Twice.py) | $O(n)$ | $O(1)$ | - |
+| 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | [Python](Python/Equal%20Row%20and%20Column%20Pairs.py) | $O(n^{3}) / O(n^{2})$ | $O(1) / O(n)$ | - |
 | 2357 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | [Python](Python/Make%20Array%20Zero%20by%20Subtracting%20Equal%20Amounts.py) | $O(n)$ | $O(n)$ | - |
 | 2359 | [Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/) | [Python](Python/Find%20Closest%20Node%20to%20Given%20Two%20Nodes.py) | $O(n)$ | $O(n)$ | DFS |
 | 2363 | [Merge Similar Items](https://leetcode.com/problems/merge-similar-items/) | [Python](Python/Merge%20Similar%20Items.py) | $O(n*\log_{2} n)$ | $O(n)$ | - |
@@ -315,5 +316,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-30 17:11 +0000
+Solution table for problems was generated automatically on 2022-09-30 18:00 +0000
 
