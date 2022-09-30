@@ -278,6 +278,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1984 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) | [Python](Python/Minimum%20Difference%20Between%20Highest%20and%20Lowest%20of%20K%20Scores.py) | $O(n*\log_{2} n)$ | $O(1)$ | - |
 | 1996 | [The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/) | [Python](Python/The%20Number%20of%20Weak%20Characters%20in%20the%20Game.py) | $O(n * \log_{2} n)$ | $O(n)$ | - |
 | 2007 | [Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/) | [Python](Python/Find%20Original%20Array%20From%20Doubled%20Array.py), [Java](Java/Find%20Original%20Array%20From%20Doubled%20Array.java) | $O(n+k*\log_{2}k)$ | $O(k)$ | - |
+| 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | [Python](Python/Counting%20Words%20With%20a%20Given%20Prefix.py) | $O(n*k)$ | $O(1)$ | - |
 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | [Python](Python/Calculate%20Digit%20Sum%20of%20a%20String.py) | $O(\log_{k} n)$ | $O(\log_{k} n)$ | - |
 | 2269 | [Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/) | [Python](Python/Find%20the%20K-Beauty%20of%20a%20Number.py) | $O(\log_{10} n)$ | $O(1)$ | - |
 | 2294 | [Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/) | [Python](Python/Partition%20Array%20Such%20That%20Maximum%20Difference%20Is%20K.py), [Java](Java/Partition%20Array%20Such%20That%20Maximum%20Difference%20Is%20K.java) | $O(n * \log_{2} n)$ | $O(1)$ | - |
@@ -317,5 +318,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-30 20:56 +0000
+Solution table for problems was generated automatically on 2022-09-30 21:02 +0000
 
