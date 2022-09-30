@@ -77,13 +77,17 @@ class Problem(BaseModel):
 
     @staticmethod
     def to_slug(title: str) -> str:
-        return '-'.join(re.sub(r'[^\w\- ]', '', title.replace(' - ', ' ').replace('|', '/')).lower().split())
+        return '-'.join(re.sub(r'[^\w\- ]', '', title.replace(' - ', ' ').replace('%', '/')).lower().split())
 
     @property
     def solutions(self) -> Generator:
         for language in LANGUAGES:
-            filename = self.title.replace('/', '|') + LANGUAGES[language]['extension']
+            filename = self.title.replace('/', '%') + LANGUAGES[language]['extension']
             path = LANGUAGES[language]['directory'] / filename
+
+            if 'Gain' in self.title:
+                print(self.title, os.path.exists(path))
+
             if os.path.exists(path):
                 yield language, path.relative_to(BASE_DIR).as_posix().replace(' ', '%20')
 
