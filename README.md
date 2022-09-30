@@ -200,6 +200,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 871 | [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | [Python](Python/Minimum%20Number%20of%20Refueling%20Stops.py) | $O(n * \log_{2} n)$ | $O(n)$ | - |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | [Python](Python/Stone%20Game.py), [Java](Java/Stone%20Game.java) | $O(1)$ | $O(1)$ | - |
 | 890 | [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/) | [Python](Python/Find%20and%20Replace%20Pattern.py) | $O(n*k)$ | $O(k)$ | - |
+| 894 | [All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) | [Python](Python/All%20Possible%20Full%20Binary%20Trees.py) | $O(2^{n})$ | $O(2^{n})$ | - |
 | 895 | [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | [Python](Python/Maximum%20Frequency%20Stack.py) | $O(n)$ | $O(n)+O(1)$ | - |
 | 904 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) | [Python](Python/Fruit%20Into%20Baskets.py) | $O(n)$ | $O(k)$ | - |
 | 923 | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) | [Python](Python/3Sum%20With%20Multiplicity.py) | $O(k^{2})$ | $O(k)$ | - |
@@ -242,7 +243,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1338 | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/) | [Python](Python/Reduce%20Array%20Size%20to%20The%20Half.py) | $O(n * \log_{2} n)$ | $O(n)$ | - |
 | 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | [Python](Python/Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram.py) | $O(n)$ | $O(1)$ | - |
 | 1383 | [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/) | [Python](Python/Maximum%20Performance%20of%20a%20Team.py) | $O(n * \log_{2} n)$ | $O(n)$ | - |
-| 1393 | [Capital Gain/Loss](https://leetcode.com/problems/capital-gainloss/) | [SQL](SQL/Capital%20Gain|Loss.sql) | - | - | - |
+| 1393 | [Capital Gain/Loss](https://leetcode.com/problems/capital-gainloss/) | [SQL](SQL/Capital%20Gain|Loss.sql) | SQL | SQL | - |
 | 1407 | [Top Travellers](https://leetcode.com/problems/top-travellers/) | [SQL](SQL/Top%20Travellers.sql) | SQL | SQL | - |
 | 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | [Python](Python/String%20Matching%20in%20an%20Array.py) | $O(n^{2}*k^{2})$ | $O(1)$ | - |
 | 1414 | [Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/) | [Python](Python/Find%20the%20Minimum%20Number%20of%20Fibonacci%20Numbers%20Whose%20Sum%20Is%20K.py) | $O(\log_{2} k)$ | $O(\log_{2} k)$ | - |
@@ -316,5 +317,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-30 20:41 +0000
+Solution table for problems was generated automatically on 2022-09-30 20:42 +0000
 
