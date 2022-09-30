@@ -13,10 +13,10 @@ public class Solution {
     }
 
     public void reverse(int[] nums, int start, int end) {
-        while (start < end) {
+        for (; start < end; ++start, --end) {
             int temp = nums[start];
-            nums[start++] = nums[end];
-            nums[end--] = temp;
+            nums[start] = nums[end];
+            nums[end] = temp;
         }
     }
 }
