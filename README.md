@@ -77,6 +77,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 95 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [Python](Python/Unique%20Binary%20Search%20Trees%20II.py) | $O(n^{2})$ | $O(\log_{2} n)$ | Medium | - |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Python](Python/Unique%20Binary%20Search%20Trees.py) | $O(n)$ | $O(1)$ | Medium | - |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](Python/Validate%20Binary%20Search%20Tree.py) | $O(n)$ | $O(n)$ | Medium | DFS |
+| 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Python](Python/Symmetric%20Tree.py) | $O(n)$ | $O(n)$ | Easy | DFS, BFS |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python](Python/Maximum%20Depth%20of%20Binary%20Tree.py) | $O(n)$ | $O(n)$ | Easy | DFS |
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Python](Python/Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.py) | $O(n)$ | $O(\log_{2} n)$ | Easy | - |
 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | [Python](Python/Convert%20Sorted%20List%20to%20Binary%20Search%20Tree.py) | $O(n*\log_{2} n)$ | $O(\log_{2} n)$ | Medium | DFS |
@@ -312,5 +313,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-30 12:21 +0000
+Solution table for problems was generated automatically on 2022-09-30 12:45 +0000
 
