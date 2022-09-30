@@ -82,7 +82,7 @@ class Problem(BaseModel):
     @property
     def solutions(self) -> Generator:
         for language in LANGUAGES:
-            filename = self.title + LANGUAGES[language]['extension']
+            filename = self.title.replace('/', '|') + LANGUAGES[language]['extension']
             path = LANGUAGES[language]['directory'] / filename
             if os.path.exists(path):
                 yield language, path.relative_to(BASE_DIR).as_posix().replace(' ', '%20')
