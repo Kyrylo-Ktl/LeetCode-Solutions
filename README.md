@@ -182,6 +182,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 797 | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [Python](Python/All%20Paths%20From%20Source%20to%20Target.py) | $O(n)$ | $O(n)$ | Medium | - |
 | 802 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | [Python](Python/Find%20Eventual%20Safe%20States.py) | $O(V+E)$ | $O(V)$ | Medium | - |
 | 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | [Python](Python/Unique%20Morse%20Code%20Words.py) | $O(n)$ | $O(n)$ | Easy | - |
+| 811 | [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/) | [Python](Python/Subdomain%20Visit%20Count.py) | $O(n*k)$ | $O(n*k)$ | Medium | - |
 | 814 | [Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) | [Python](Python/Binary%20Tree%20Pruning.py) | $O(n)$ | $O(n)$ | Medium | - |
 | 823 | [Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/) | [Python](Python/Binary%20Trees%20With%20Factors.py) | $O(n^{2})$ | $O(n)$ | Medium | - |
 | 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | [Python](Python/Positions%20of%20Large%20Groups.py), [Java](Java/Positions%20of%20Large%20Groups.java) | $O(n)$ | $O(1)$ | Easy | - |
@@ -310,5 +311,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-29 16:24 +0000
+Solution table for problems was generated automatically on 2022-09-30 12:07 +0000
 
