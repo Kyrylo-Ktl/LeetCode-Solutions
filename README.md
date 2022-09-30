@@ -105,7 +105,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 183 | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | [SQL](SQL/Customers%20Who%20Never%20Order.sql) | SQL | SQL | - |
 | 184 | [Department Highest Salary](https://leetcode.com/problems/department-highest-salary/) | [SQL](SQL/Department%20Highest%20Salary.sql) | SQL | SQL | - |
 | 185 | [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) | [SQL](SQL/Department%20Top%20Three%20Salaries.sql) | SQL | SQL | - |
-| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Python](Python/Rotate%20Array.py) | $O(n)$ | $O(1)$ | - |
+| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Python](Python/Rotate%20Array.py), [Java](Java/Rotate%20Array.java) | $O(n)$ | $O(1)$ | - |
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [Python](Python/Reverse%20Bits.py), [Java](Java/Reverse%20Bits.java) | $O(1)$ | $O(1)$ | - |
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Python](Python/Number%20of%201%20Bits.py) | $O(\log_{10} n)$ | $O(1)$ | - |
 | 192 | [Word Frequency](https://leetcode.com/problems/word-frequency/) | [Shell](Shell/Word%20Frequency.sh) | SHELL | SHELL | - |
@@ -314,5 +314,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-30 16:27 +0000
+Solution table for problems was generated automatically on 2022-09-30 16:48 +0000
 
