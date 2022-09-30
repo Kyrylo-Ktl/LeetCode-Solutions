@@ -304,7 +304,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2395 | [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | [Python](Python/Find%20Subarrays%20With%20Equal%20Sum.py) | $O(n)$ | $O(n)$ | - |
 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | [Python](Python/Strictly%20Palindromic%20Number.py) | $O(1)$ | $O(1)$ | - |
 | 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | [Python](Python/Check%20Distances%20Between%20Same%20Letters.py) | $O(1)$ | $O(1)$ | - |
-| 2401 | [Longest Nice Subarray](https://leetcode.com/problems/longest-nice-subarray/) | [Python](Python/Longest%20Nice%20Subarray.py), [Java](Java/Longest%20Nice%20Subarray.java) | $O(n)$ | $O(1)$ | - |
+| 2401 | [Longest Nice Subarray](https://leetcode.com/problems/longest-nice-subarray/) | [Python](Python/Longest%20Nice%20Subarray.py), [Java](Java/Longest%20Nice%20Subarray.java) | $O(n)$ | $O(1)$ | Sliding Window |
 | 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/) | [Python](Python/Most%20Frequent%20Even%20Element.py), [Java](Java/Most%20Frequent%20Even%20Element.java) | $O(n)$ | $O(n)$ | - |
 | 2405 | [Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/) | [Python](Python/Optimal%20Partition%20of%20String.py), [Java](Java/Optimal%20Partition%20of%20String.java) | $O(n)$ | $O(1)$ | - |
 | 2406 | [Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/) | [Python](Python/Divide%20Intervals%20Into%20Minimum%20Number%20of%20Groups.py) | $O(n)$ | $O(n)$ | - |
@@ -316,5 +316,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-30 20:17 +0000
+Solution table for problems was generated automatically on 2022-09-30 20:18 +0000
 
