@@ -315,8 +315,9 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2414 | [Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/) | [Python](Python/Length%20of%20the%20Longest%20Alphabetical%20Continuous%20Substring.py) | $O(n)$ | $O(1)$ | - |
 | 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people/) | [Python](Python/Sort%20the%20People.py) | $O(n * \log_{2} n)$ | $O(n)$ | - |
 | 2419 | [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | [Python](Python/Longest%20Subarray%20With%20Maximum%20Bitwise%20AND.py) | $O(n)$ | $O(1)$ | - |
+| 2424 | [Longest Uploaded Prefix](https://leetcode.com/problems/longest-uploaded-prefix/) | [Python](Python/Longest%20Uploaded%20Prefix.py) | $O(1)$ | $O(n)$ | - |
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-09-30 21:02 +0000
+Solution table for problems was generated automatically on 2022-10-01 18:06 +0000
 
