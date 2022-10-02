@@ -231,7 +231,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | [Python](Python/N-th%20Tribonacci%20Number.py) | $O(n)$ | $O(1)$ | - |
 | 1141 | [User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/) | [SQL](SQL/User%20Activity%20for%20the%20Past%2030%20Days%20I.sql) | SQL | SQL | - |
 | 1148 | [Article Views I](https://leetcode.com/problems/article-views-i/) | [SQL](SQL/Article%20Views%20I.sql) | SQL | SQL | - |
-| 1155 | [Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) | [Python](Python/Number%20of%20Dice%20Rolls%20With%20Target%20Sum.py) | - | - | - |
+| 1155 | [Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) | [Python](Python/Number%20of%20Dice%20Rolls%20With%20Target%20Sum.py) | $O(n*k)$ | $O(n*k)$ | DP |
 | 1158 | [Market Analysis I](https://leetcode.com/problems/market-analysis-i/) | [SQL](SQL/Market%20Analysis%20I.sql) | SQL | SQL | - |
 | 1162 | [As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/) | [Python](Python/As%20Far%20from%20Land%20as%20Possible.py) | $O(n*m)$ | $O(n*m)$ | - |
 | 1179 | [Reformat Department Table](https://leetcode.com/problems/reformat-department-table/) | [SQL](SQL/Reformat%20Department%20Table.sql) | SQL | SQL | - |
@@ -290,6 +290,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2316 | [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/) | [Python](Python/Count%20Unreachable%20Pairs%20of%20Nodes%20in%20an%20Undirected%20Graph.py) | $O(n)$ | $O(n)$ | - |
 | 2331 | [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | [Python](Python/Evaluate%20Boolean%20Binary%20Tree.py) | $O(n)$ | $O(n)$ | - |
 | 2335 | [Minimum Amount of Time to Fill Cups](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/) | [Python](Python/Minimum%20Amount%20of%20Time%20to%20Fill%20Cups.py) | $O(1)$ | $O(1)$ | - |
+| 2336 | [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/) | [Python](Python/Smallest%20Number%20in%20Infinite%20Set.py) | $O(1) + O(\log_{2} n)$ | $O(n)$ | - |
 | 2341 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/) | [Python](Python/Maximum%20Number%20of%20Pairs%20in%20Array.py) | $O(n)$ | $O(n)$ | - |
 | 2347 | [Best Poker Hand](https://leetcode.com/problems/best-poker-hand/) | [Python](Python/Best%20Poker%20Hand.py) | $O(1)$ | $O(1)$ | - |
 | 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/) | [Python](Python/First%20Letter%20to%20Appear%20Twice.py) | $O(n)$ | $O(1)$ | - |
@@ -322,5 +323,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-02 19:53 +0000
+Solution table for problems was generated automatically on 2022-10-02 20:31 +0000
 
