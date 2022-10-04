@@ -6,7 +6,6 @@ from typing import Generator
 
 from sqlalchemy import Boolean, Column, DateTime, Integer, String, exc
 from sqlalchemy.orm import Session
-from sqlalchemy.sql import func
 
 from infrastructure.config import LANGUAGES, BASE_DIR
 from infrastructure.src.db import Base, db
@@ -59,7 +58,6 @@ class Problem(BaseModel):
 
             instance.update(session, data)
             session.refresh(instance)
-            print(instance.last_update)
             return instance
 
     @classmethod

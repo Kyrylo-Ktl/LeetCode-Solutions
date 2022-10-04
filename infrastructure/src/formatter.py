@@ -1,6 +1,5 @@
 import logging
 
-from infrastructure.config import README_PATH
 from infrastructure.src.collector import SolutionsCollector
 from infrastructure.src.markdown_table import MarkdownTable
 from infrastructure.src.db.models import Problem

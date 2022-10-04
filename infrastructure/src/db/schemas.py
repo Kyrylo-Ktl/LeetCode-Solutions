@@ -1,4 +1,3 @@
-from datetime import datetime, timezone
 from enum import Enum
 
 from pydantic import BaseModel, Field
@@ -17,7 +16,6 @@ class ProblemSchema(BaseModel):
     title: str
     difficulty: DifficultyEnum
     is_premium: bool = Field(alias='isPaidOnly')
-    last_update: datetime = datetime.now(timezone.utc)
 
     @property
     def slug(self) -> str:

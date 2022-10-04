@@ -1,5 +1,6 @@
 import logging
 import os
+from datetime import datetime, timezone
 from typing import Generator, Iterable
 
 from infrastructure.config import IGNORE_FILE_PREFIX, LANGUAGES, UPDATE_TIMEDELTA
@@ -52,4 +53,5 @@ class SolutionsCollector:
     def parse_from_leetcode(title: str) -> Problem:
         problem_data = LeetCodeParser.get_problem_data(title)
         if problem_data is not None:
+            problem_data['last_update'] = datetime.now(timezone.utc)
             return Problem.create_or_update_by_title(title, problem_data)
