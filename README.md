@@ -128,6 +128,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](Python/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.py) | $O(n)$ | $O(n)$ | - |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](Python/Valid%20Anagram.py) | $O(max(n,m))$ | $O(n+m)$ | - |
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Python](Python/Perfect%20Squares.py) | $O(n*\sqrt{n})$ | $O(n)$ | - |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](Python/Move%20Zeroes.py) | $O(n)$ | $O(1)$ | - |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | [Python](Python/Word%20Pattern.py) | $O(n)$ | $O(n)$ | - |
 | 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | [Python](Python/Nim%20Game.py), [Java](Java/Nim%20Game.java) | $O(1)$ | $O(1)$ | Math |
 | 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Python](Python/Serialize%20and%20Deserialize%20Binary%20Tree.py) | $O(n)$ | $O(n)$ | Preorder |
@@ -330,5 +331,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-07 18:14 +0000
+Solution table for problems was generated automatically on 2022-10-07 21:05 +0000
 
