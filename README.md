@@ -333,8 +333,9 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2419 | [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | [Python](Python/Longest%20Subarray%20With%20Maximum%20Bitwise%20AND.py) | $O(n)$ | $O(1)$ | - |
 | 2424 | [Longest Uploaded Prefix](https://leetcode.com/problems/longest-uploaded-prefix/) | [Python](Python/Longest%20Uploaded%20Prefix.py) | $O(1)$ | $O(n)$ | - |
 | 2427 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/) | [Python](Python/Number%20of%20Common%20Factors.py) | $O(min(n,m))$ | $O(1)$ | - |
+| 2428 | [Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/) | [Python](Python/Maximum%20Sum%20of%20an%20Hourglass.py) | $O(n*m)$ | $O(n*m)$ | - |
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-08 18:07 +0000
+Solution table for problems was generated automatically on 2022-10-08 21:31 +0000
 
