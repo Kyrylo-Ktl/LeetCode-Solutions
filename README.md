@@ -205,7 +205,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 838 | [Push Dominoes](https://leetcode.com/problems/push-dominoes/) | [Python](Python/Push%20Dominoes.py) | $O(n)$ | $O(n)$ | - |
 | 841 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | [Python](Python/Keys%20and%20Rooms.py) | $O(n)$ | $O(n)$ | - |
 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [Python](Python/Backspace%20String%20Compare.py) | $O(min(n,m))$ | $O(1)$ | - |
-| 847 | [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | [Python](Python/Shortest%20Path%20Visiting%20All%20Nodes.py) | $O(n^{2}*2^{n})$ | $O(n*2^{n})$ | - |
+| 847 | [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | [Python](Python/Shortest%20Path%20Visiting%20All%20Nodes.py) | $O(n^{2}*2^{n})$ | $O(n*2^{n})$ | BFS |
 | 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | [Python](Python/Lemonade%20Change.py), [Java](Java/Lemonade%20Change.java) | $O(n)$ | $O(1)$ | - |
 | 869 | [Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/) | [Python](Python/Reordered%20Power%20of%202.py) | $O({\log_{2} n}^{2})$ | $O(\log_{2} n)$ | - |
 | 871 | [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | [Python](Python/Minimum%20Number%20of%20Refueling%20Stops.py) | $O(n * \log_{2} n)$ | $O(n)$ | - |
@@ -251,12 +251,13 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1254 | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | [Python](Python/Number%20of%20Closed%20Islands.py) | $O(n*m)$ | $O(n*m)$ | DFS |
 | 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | [Python](Python/Shift%202D%20Grid.py) | $O(n^{2})$ | $O(n^{2})$ | - |
 | 1319 | [Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) | [Python](Python/Number%20of%20Operations%20to%20Make%20Network%20Connected.py) | $O(n)$ | $O(n)$ | - |
-| 1328 | [Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/) | [Python](Python/Break%20a%20Palindrome.py) | - | - | - |
+| 1328 | [Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/) | [Python](Python/Break%20a%20Palindrome.py) | $O(n)$ | $O(n)$ | - |
 | 1329 | [Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/) | [Python](Python/Sort%20the%20Matrix%20Diagonally.py) | - | - | - |
 | 1331 | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | [Python](Python/Rank%20Transform%20of%20an%20Array.py) | $O(n * \log_{2} n)$ | $O(n)$ | - |
 | 1332 | [Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/) | [Python](Python/Remove%20Palindromic%20Subsequences.py), [Java](Java/Remove%20Palindromic%20Subsequences.java) | $O(n)$ | $O(1)$ | - |
 | 1338 | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/) | [Python](Python/Reduce%20Array%20Size%20to%20The%20Half.py) | $O(n * \log_{2} n)$ | $O(n)$ | - |
 | 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | [Python](Python/Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram.py) | $O(n)$ | $O(1)$ | - |
+| 1376 | [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) | [Python](Python/Time%20Needed%20to%20Inform%20All%20Employees.py) | $O(n)$ | $O(n)$ | DFS |
 | 1383 | [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/) | [Python](Python/Maximum%20Performance%20of%20a%20Team.py) | $O(n * \log_{2} n)$ | $O(n)$ | - |
 | 1393 | [Capital Gain/Loss](https://leetcode.com/problems/capital-gainloss/) | [SQL](SQL/Capital%20Gain%Loss.sql) | SQL | SQL | - |
 | 1407 | [Top Travellers](https://leetcode.com/problems/top-travellers/) | [SQL](SQL/Top%20Travellers.sql) | SQL | SQL | - |
@@ -265,7 +266,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1423 | [Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) | [Python](Python/Maximum%20Points%20You%20Can%20Obtain%20from%20Cards.py) | $O(n)$ | $O(1)$ | Sliding Window |
 | 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | [Python](Python/Count%20Good%20Nodes%20in%20Binary%20Tree.py) | $O(n)$ | $O(n)$ | DFS |
 | 1457 | [Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) | [Python](Python/Pseudo-Palindromic%20Paths%20in%20a%20Binary%20Tree.py), [Java](Java/Pseudo-Palindromic%20Paths%20in%20a%20Binary%20Tree.java) | $O(n)$ | $O(n)$ | DFS |
-| 1466 | [Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | [Python](Python/Reorder%20Routes%20to%20Make%20All%20Paths%20Lead%20to%20the%20City%20Zero.py) | $O(n)$ | $O(n)$ | - |
+| 1466 | [Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | [Python](Python/Reorder%20Routes%20to%20Make%20All%20Paths%20Lead%20to%20the%20City%20Zero.py) | $O(n)$ | $O(n)$ | DFS |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | [Python](Python/Shuffle%20the%20Array.py), [Java](Java/Shuffle%20the%20Array.java) | $O(n)$ | $O(1)$ | - |
 | 1484 | [Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/) | [SQL](SQL/Group%20Sold%20Products%20By%20The%20Date.sql) | SQL | SQL | - |
 | 1493 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | [Python](Python/Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element.py), [Java](Java/Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element.java) | $O(n)$ | $O(1)$ | - |
@@ -340,5 +341,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-10 12:14 +0000
+Solution table for problems was generated automatically on 2022-10-10 12:54 +0000
 
