@@ -198,6 +198,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 752 | [Open the Lock](https://leetcode.com/problems/open-the-lock/) | [Python](Python/Open%20the%20Lock.py) | $O(n)$ | $O(n)$ | BFS |
 | 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | [Python](Python/Toeplitz%20Matrix.py) | $O(n*m)$ | $O(1)$ | - |
 | 788 | [Rotated Digits](https://leetcode.com/problems/rotated-digits/) | [Python](Python/Rotated%20Digits.py) | $O(n * \log_{10} n)$ | $O(\log_{10} n)$ | - |
+| 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | [Python](Python/Custom%20Sort%20String.py) | $O(n * \log_{2} n)$ | $O(n + m)$ | - |
 | 797 | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [Python](Python/All%20Paths%20From%20Source%20to%20Target.py) | $O(n)$ | $O(n)$ | - |
 | 802 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | [Python](Python/Find%20Eventual%20Safe%20States.py) | $O(V+E)$ | $O(V)$ | - |
 | 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | [Python](Python/Unique%20Morse%20Code%20Words.py) | $O(n)$ | $O(n)$ | - |
@@ -359,5 +360,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-13 19:44 +0000
+Solution table for problems was generated automatically on 2022-10-13 19:59 +0000
 
