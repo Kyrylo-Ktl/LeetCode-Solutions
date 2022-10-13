@@ -301,6 +301,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1876 | [Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/) | [Python](Python/Substrings%20of%20Size%20Three%20with%20Distinct%20Characters.py), [Java](Java/Substrings%20of%20Size%20Three%20with%20Distinct%20Characters.java) | $O(n)$ | $O(min(n,k))$ | Sliding Window |
 | 1890 | [The Latest Login in 2020](https://leetcode.com/problems/the-latest-login-in-2020/) | [SQL](SQL/The%20Latest%20Login%20in%202020.sql) | SQL | SQL | - |
 | 1905 | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/) | [Python](Python/Count%20Sub%20Islands.py) | $O(n^{2})$ | $O(n^{2})$ | DFS |
+| 1945 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) | [Python](Python/Sum%20of%20Digits%20of%20String%20After%20Convert.py) | $O(n)$ | $O(n)$ | - |
 | 1965 | [Employees With Missing Information](https://leetcode.com/problems/employees-with-missing-information/) | [SQL](SQL/Employees%20With%20Missing%20Information.sql) | SQL | SQL | - |
 | 1979 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | [Python](Python/Find%20Greatest%20Common%20Divisor%20of%20Array.py), [Java](Java/Find%20Greatest%20Common%20Divisor%20of%20Array.java) | $O(n)$ | $O(1)$ | GCD |
 | 1984 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) | [Python](Python/Minimum%20Difference%20Between%20Highest%20and%20Lowest%20of%20K%20Scores.py) | $O(n*\log_{2} n)$ | $O(1)$ | - |
@@ -357,5 +358,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-13 18:16 +0000
+Solution table for problems was generated automatically on 2022-10-13 19:14 +0000
 
