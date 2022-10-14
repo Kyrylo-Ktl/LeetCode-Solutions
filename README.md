@@ -361,8 +361,9 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2427 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/) | [Python](Python/Number%20of%20Common%20Factors.py) | $O(min(n,m))$ | $O(1)$ | - |
 | 2428 | [Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/) | [Python](Python/Maximum%20Sum%20of%20an%20Hourglass.py) | $O(n*m)$ | $O(n*m)$ | - |
 | 2432 | [The Employee That Worked on the Longest Task](https://leetcode.com/problems/the-employee-that-worked-on-the-longest-task/) | [Python](Python/The%20Employee%20That%20Worked%20on%20the%20Longest%20Task.py) | $O(n)$ | $O(1)$ | - |
+| 2433 | [Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/) | [Python](Python/Find%20The%20Original%20Array%20of%20Prefix%20Xor.py) | $O(n)$ | $O(1)$ | - |
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-14 09:07 +0000
+Solution table for problems was generated automatically on 2022-10-14 09:56 +0000
 
