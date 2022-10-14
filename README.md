@@ -317,6 +317,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2078 | [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/) | [Python](Python/Two%20Furthest%20Houses%20With%20Different%20Colors.py) | $O(n)$ | $O(1)$ | - |
 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | [Python](Python/Delete%20the%20Middle%20Node%20of%20a%20Linked%20List.py) | $O(n)$ | $O(1)$ | - |
 | 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | [Python](Python/Counting%20Words%20With%20a%20Given%20Prefix.py) | $O(n*k)$ | $O(1)$ | - |
+| 2186 | [Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/) | [Python](Python/Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram%20II.py) | $O(n+m)$ | $O(n+m)$ | - |
 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | [Python](Python/Calculate%20Digit%20Sum%20of%20a%20String.py) | $O(\log_{k} n)$ | $O(\log_{k} n)$ | - |
 | 2255 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | [Python](Python/Count%20Prefixes%20of%20a%20Given%20String.py) | $O(n*m)$ | $O(n*m)$ | - |
 | 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | [Python](Python/Largest%203-Same-Digit%20Number%20in%20String.py) | $O(n)$ | $O(1)$ | - |
@@ -367,5 +368,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-14 11:04 +0000
+Solution table for problems was generated automatically on 2022-10-14 11:09 +0000
 
