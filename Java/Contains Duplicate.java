@@ -1,4 +1,5 @@
 import java.util.HashSet;
+import java.util.Set;
 
 public class Solution {
 
@@ -7,14 +8,11 @@ public class Solution {
      * Memory: O(n)
      */
     public boolean containsDuplicate(int[] nums) {
-        HashSet<Integer> uniq = new HashSet<Integer>();
+        Set<Integer> set = new HashSet<Integer>();
 
-        for (int num : nums) {
-            if (uniq.contains(num)) {
+        for (int num : nums)
+            if (!set.add(num))
                 return true;
-            }
-            uniq.add(num);
-        }
 
         return false;
     }
