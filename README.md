@@ -369,9 +369,9 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2432 | [The Employee That Worked on the Longest Task](https://leetcode.com/problems/the-employee-that-worked-on-the-longest-task/) | [Python](Python/The%20Employee%20That%20Worked%20on%20the%20Longest%20Task.py) | $O(n)$ | $O(1)$ | - |
 | 2433 | [Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/) | [Python](Python/Find%20The%20Original%20Array%20of%20Prefix%20Xor.py), [Java](Java/Find%20The%20Original%20Array%20of%20Prefix%20Xor.java) | $O(n)$ | $O(1)$ | - |
 | 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/) | [Python](Python/Largest%20Positive%20Integer%20That%20Exists%20With%20Its%20Negative.py) | $O(n) / O(n * \log_{2} n)$ | $O(n) / O(1)$ | - |
-| 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/) | [Python](Python/Count%20Number%20of%20Distinct%20Integers%20After%20Reverse%20Operations.py) | $O(n)$ | $O(n)$ | - |
+| 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/) | [Python](Python/Count%20Number%20of%20Distinct%20Integers%20After%20Reverse%20Operations.py), [Java](Java/Count%20Number%20of%20Distinct%20Integers%20After%20Reverse%20Operations.java) | $O(n)$ | $O(n)$ | - |
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-17 07:30 +0000
+Solution table for problems was generated automatically on 2022-10-17 07:46 +0000
 
