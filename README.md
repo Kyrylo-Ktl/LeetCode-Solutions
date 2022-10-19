@@ -274,6 +274,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | [Python](Python/Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram.py) | $O(n)$ | $O(1)$ | - |
 | 1376 | [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) | [Python](Python/Time%20Needed%20to%20Inform%20All%20Employees.py) | $O(n)$ | $O(n)$ | DFS |
 | 1383 | [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/) | [Python](Python/Maximum%20Performance%20of%20a%20Team.py) | $O(n * \log_{2} n)$ | $O(n)$ | - |
+| 1387 | [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/) | [Python](Python/Sort%20Integers%20by%20The%20Power%20Value.py) | $O(n * \log_{2} n)$ | $O(n)$ | - |
 | 1393 | [Capital Gain/Loss](https://leetcode.com/problems/capital-gainloss/) | [SQL](SQL/Capital%20Gain%Loss.sql) | SQL | SQL | - |
 | 1407 | [Top Travellers](https://leetcode.com/problems/top-travellers/) | [SQL](SQL/Top%20Travellers.sql) | SQL | SQL | - |
 | 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | [Python](Python/String%20Matching%20in%20an%20Array.py) | $O(n^{2}*k^{2})$ | $O(1)$ | - |
@@ -381,5 +382,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-19 05:08 +0000
+Solution table for problems was generated automatically on 2022-10-19 05:47 +0000
 
