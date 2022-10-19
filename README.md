@@ -189,6 +189,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | [Python](Python/Find%20K%20Closest%20Elements.py) | $O(k + \log_{2} n)$ | $O(1)$ | Binary Search |
 | 659 | [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Python](Python/Split%20Array%20into%20Consecutive%20Subsequences.py) | $O(n)$ | $O(n)$ | - |
 | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Python](Python/Valid%20Palindrome%20II.py) | $O(n)$ | $O(1)$ | - |
+| 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [Python](Python/Top%20K%20Frequent%20Words.py) | $O(n * \log_{2} n)$ | $O(n)$ | - |
 | 695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Python](Python/Max%20Area%20of%20Island.py) | $O(n*m)$ | $O(n*m)$ | DFS |
 | 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | [Python](Python/Count%20Binary%20Substrings.py), [Java](Java/Count%20Binary%20Substrings.java) | $O(n)$ | $O(1)$ | - |
 | 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Python](Python/Search%20in%20a%20Binary%20Search%20Tree.py) | $O(n)$ | $O(1)$ | - |
@@ -380,5 +381,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-19 00:45 +0000
+Solution table for problems was generated automatically on 2022-10-19 05:08 +0000
 
