@@ -255,6 +255,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1084 | [Sales Analysis III](https://leetcode.com/problems/sales-analysis-iii/) | [SQL](SQL/Sales%20Analysis%20III.sql) | SQL | SQL | - |
 | 1091 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | [Python](Python/Shortest%20Path%20in%20Binary%20Matrix.py) | $O(n^{2})$ | $O(n^{2})$ | BFS |
 | 1114 | [Print in Order](https://leetcode.com/problems/print-in-order/) | [Python](Python/Print%20in%20Order.py) | CONCURRENCY | CONCURRENCY | - |
+| 1131 | [Maximum of Absolute Value Expression](https://leetcode.com/problems/maximum-of-absolute-value-expression/) | [Python](Python/Maximum%20of%20Absolute%20Value%20Expression.py) | $O(n)$ | $O(n)$ | - |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | [Python](Python/N-th%20Tribonacci%20Number.py) | $O(n)$ | $O(1)$ | - |
 | 1141 | [User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/) | [SQL](SQL/User%20Activity%20for%20the%20Past%2030%20Days%20I.sql) | SQL | SQL | - |
 | 1148 | [Article Views I](https://leetcode.com/problems/article-views-i/) | [SQL](SQL/Article%20Views%20I.sql) | SQL | SQL | - |
@@ -386,5 +387,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-19 18:20 +0000
+Solution table for problems was generated automatically on 2022-10-19 20:29 +0000
 
