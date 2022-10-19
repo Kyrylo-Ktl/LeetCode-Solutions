@@ -121,7 +121,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 196 | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | [SQL](SQL/Delete%20Duplicate%20Emails.sql) | SQL | SQL | - |
 | 197 | [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | [SQL](SQL/Rising%20Temperature.sql) | SQL | SQL | - |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](Python/Number%20of%20Islands.py), [Java](Java/Number%20of%20Islands.java) | $O(n*m)$ | $O(n*m)$ | DFS |
-| 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [Python](Python/Bitwise%20AND%20of%20Numbers%20Range.py) | - | - | - |
+| 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [Python](Python/Bitwise%20AND%20of%20Numbers%20Range.py), [Java](Java/Bitwise%20AND%20of%20Numbers%20Range.java) | - | - | - |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](Python/Reverse%20Linked%20List.py) | $O(n)$ | $O(1)$ | - |
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Python](Python/Minimum%20Size%20Subarray%20Sum.py), [Java](Java/Minimum%20Size%20Subarray%20Sum.java) | $O(n)$ | $O(1)$ | - |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](Python/Contains%20Duplicate.py), [Java](Java/Contains%20Duplicate.java) | $O(n)$ | $O(n)$ | - |
@@ -384,5 +384,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-19 10:34 +0000
+Solution table for problems was generated automatically on 2022-10-19 10:39 +0000
 
