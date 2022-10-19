@@ -248,6 +248,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1007 | [Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | [Python](Python/Minimum%20Domino%20Rotations%20For%20Equal%20Row.py) | $O(n)$ | $O(1)$ | - |
 | 1020 | [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) | [Python](Python/Number%20of%20Enclaves.py) | $O(n*m)$ | $O(n*m)$ | DFS |
 | 1026 | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | [Python](Python/Maximum%20Difference%20Between%20Node%20and%20Ancestor.py) | $O(n)$ | $O(n)$ | - |
+| 1039 | [Minimum Score Triangulation of Polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/) | [Python](Python/Minimum%20Score%20Triangulation%20of%20Polygon.py) | $O(n^{2})$ | $O(n^{2})$ | DP |
 | 1048 | [Longest String Chain](https://leetcode.com/problems/longest-string-chain/) | [Python](Python/Longest%20String%20Chain.py) | $O(n*k^{2})$ | $O(n)$ | - |
 | 1050 | [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) | [SQL](SQL/Actors%20and%20Directors%20Who%20Cooperated%20At%20Least%20Three%20Times.sql) | SQL | SQL | - |
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | [Python](Python/Greatest%20Common%20Divisor%20of%20Strings.py) | $O(n+m)$ | $O(n+m)$ | - |
@@ -385,5 +386,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-19 14:15 +0000
+Solution table for problems was generated automatically on 2022-10-19 15:52 +0000
 
