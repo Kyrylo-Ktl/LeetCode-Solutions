@@ -20,3 +20,20 @@ public class Solution {
         return grid[m - 1][n - 1];
     }
 }
+
+
+public class Solution {
+
+    /**
+     * Time:   O(min(n,m))
+     * Memory: O(1)
+     */
+    public int uniquePaths(int n, int m) {
+        long paths = 1;
+
+        for (int i = m + n - 2, j = 1; i >= Math.max(m, n); --i, ++j)
+            paths = (paths * i) / j;
+
+        return (int) paths;
+    }
+}
