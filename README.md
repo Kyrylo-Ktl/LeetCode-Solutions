@@ -297,7 +297,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1496 | [Path Crossing](https://leetcode.com/problems/path-crossing/) | [Python](Python/Path%20Crossing.py) | $O(n)$ | $O(n)$ | - |
 | 1527 | [Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | [SQL](SQL/Patients%20With%20a%20Condition.sql) | SQL | SQL | - |
 | 1539 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/) | [Python](Python/Kth%20Missing%20Positive%20Number.py) | $O(n)$ | $O(n)$ | - |
-| 1557 | [Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/) | [Python](Python/Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.py) | $O(n)$ | $O(n)$ | - |
+| 1557 | [Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/) | [Python](Python/Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.py), [Java](Java/Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.java) | $O(n)$ | $O(n)$ | - |
 | 1576 | [Replace All ?'s to Avoid Consecutive Repeating Characters](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) | [Python](Python/Replace%20All%20?'s%20to%20Avoid%20Consecutive%20Repeating%20Characters.py) | $O(n)$ | $O(n)$ | - |
 | 1578 | [Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) | [Python](Python/Minimum%20Time%20to%20Make%20Rope%20Colorful.py) | $O(n)$ | $O(1)$ | - |
 | 1581 | [Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/) | [SQL](SQL/Customer%20Who%20Visited%20but%20Did%20Not%20Make%20Any%20Transactions.sql) | SQL | SQL | - |
@@ -390,5 +390,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-20 18:23 +0000
+Solution table for problems was generated automatically on 2022-10-20 18:26 +0000
 
