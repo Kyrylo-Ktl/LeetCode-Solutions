@@ -94,7 +94,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Python](Python/Valid%20Palindrome.py), [Java](Java/Valid%20Palindrome.java) | $O(n)$ | $O(1)$ | - |
 | 126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | [Python](Python/Word%20Ladder%20II.py) | - | - | - |
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | [Python](Python/Word%20Ladder.py) | - | - | - |
-| 136 | [Single Number](https://leetcode.com/problems/single-number/) | [Python](Python/Single%20Number.py) | $O(n)$ | $O(1)$ | - |
+| 136 | [Single Number](https://leetcode.com/problems/single-number/) | [Python](Python/Single%20Number.py), [Java](Java/Single%20Number.java) | $O(n)$ | $O(1)$ | - |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](Python/Linked%20List%20Cycle.py), [Java](Java/Linked%20List%20Cycle.java) | $O(n)$ | $O(1)$ | - |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Python](Python/Evaluate%20Reverse%20Polish%20Notation.py) | $O(n)$ | $O(n)$ | - |
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Python](Python/Reverse%20Words%20in%20a%20String.py) | $O(n)$ | $O(n)$ | - |
@@ -390,5 +390,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-20 18:26 +0000
+Solution table for problems was generated automatically on 2022-10-20 18:35 +0000
 
