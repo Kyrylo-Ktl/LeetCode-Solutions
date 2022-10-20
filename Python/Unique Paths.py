@@ -1,10 +1,9 @@
 from functools import lru_cache
+from math import comb
 
 
 class Solution:
     """
-    Top-down dynamic programming approach
-
     Time:   O(n*m)
     Memory: O(n*m)
     """
@@ -21,8 +20,6 @@ class Solution:
 
 class Solution:
     """
-    Bottom-up dynamic programming approach
-
     Time:   O(n*m)
     Memory: O(n*m)
     """
@@ -35,3 +32,13 @@ class Solution:
                 dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
 
         return dp[n - 1][m - 1]
+
+
+class Solution:
+    """
+    Time:   O(n+m)
+    Memory: O(1)
+    """
+
+    def uniquePaths(self, n: int, m: int) -> int:
+        return comb(n + m - 2, m - 1)
