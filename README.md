@@ -57,7 +57,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](Python/Remove%20Duplicates%20from%20Sorted%20Array.py), [Java](Java/Remove%20Duplicates%20from%20Sorted%20Array.java) | $O(n)$ | $O(1)$ | - |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Python](Python/Remove%20Element.py), [Java](Java/Remove%20Element.java) | $O(n)$ | $O(1)$ | - |
 | 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [Python](Python/Substring%20with%20Concatenation%20of%20All%20Words.py) | $O(n*k)$ | $O(m*k)$ | - |
-| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](Python/Valid%20Sudoku.py) | $O(n^{2})$ | $O(n^{2})$ | - |
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](Python/Valid%20Sudoku.py), [Java](Java/Valid%20Sudoku.java) | $O(n^{2})$ | $O(n^{2})$ | - |
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [Python](Python/Count%20and%20Say.py) | $O(2^{n})$ | $O(2^{n})$ | - |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Python](Python/Trapping%20Rain%20Water.py) | $O(n)$ | $O(n)$ | - |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](Python/Rotate%20Image.py) | $O(n^{2})$ | $O(1)$ | - |
@@ -387,5 +387,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-20 08:23 +0000
+Solution table for problems was generated automatically on 2022-10-20 08:35 +0000
 
