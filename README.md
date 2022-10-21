@@ -333,7 +333,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1996 | [The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/) | [Python](Python/The%20Number%20of%20Weak%20Characters%20in%20the%20Game.py) | $O(n * \log_{2} n)$ | $O(n)$ | - |
 | 2007 | [Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/) | [Python](Python/Find%20Original%20Array%20From%20Doubled%20Array.py), [Java](Java/Find%20Original%20Array%20From%20Doubled%20Array.java) | $O(n+k*\log_{2}k)$ | $O(k)$ | - |
 | 2022 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/) | [Python](Python/Convert%201D%20Array%20Into%202D%20Array.py), [Java](Java/Convert%201D%20Array%20Into%202D%20Array.java) | $O(n*m)$ | $O(1)$ | - |
-| 2078 | [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/) | [Python](Python/Two%20Furthest%20Houses%20With%20Different%20Colors.py) | $O(n)$ | $O(1)$ | - |
+| 2078 | [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/) | [Python](Python/Two%20Furthest%20Houses%20With%20Different%20Colors.py), [Java](Java/Two%20Furthest%20Houses%20With%20Different%20Colors.java) | $O(n)$ | $O(1)$ | - |
 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | [Python](Python/Delete%20the%20Middle%20Node%20of%20a%20Linked%20List.py) | $O(n)$ | $O(1)$ | - |
 | 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | [Python](Python/Counting%20Words%20With%20a%20Given%20Prefix.py) | $O(n*k)$ | $O(1)$ | - |
 | 2186 | [Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/) | [Python](Python/Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram%20II.py) | $O(n+m)$ | $O(n+m)$ | - |
@@ -390,5 +390,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-21 12:13 +0000
+Solution table for problems was generated automatically on 2022-10-21 12:22 +0000
 
