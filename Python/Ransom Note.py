@@ -3,8 +3,8 @@ from collections import Counter
 
 class Solution:
     """
-    Time:   O(n + m)
-    Memory: O(n + m)
+    Time:   O(n+m)
+    Memory: O(n+m)
     """
 
     def canConstruct(self, ransom_note: str, magazine: str) -> bool:
