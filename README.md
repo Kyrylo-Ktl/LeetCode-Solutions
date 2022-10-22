@@ -39,8 +39,8 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 | № | Title | Solutions | Time | Memory | Notes | Beats Time | Beats Memory |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](Python/Two%20Sum.py), [Java](Java/Two%20Sum.java) | $O(n)$ | $O(n)$ | - | - | - |
-| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](Python/Add%20Two%20Numbers.py), [Java](Java/Add%20Two%20Numbers.java) | $O(n+m)$ | $O(1)$ | - | 99.78% | 88.62% |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](Python/Two%20Sum.py), [Java](Java/Two%20Sum.java) | $O(n)$ | $O(n)$ | - | 99.78% | 88.62% |
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](Python/Add%20Two%20Numbers.py), [Java](Java/Add%20Two%20Numbers.java) | $O(n+m)$ | $O(1)$ | - | 99.36% | 95.33% |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](Python/Longest%20Substring%20Without%20Repeating%20Characters.py), [Java](Java/Longest%20Substring%20Without%20Repeating%20Characters.java) | $O(n)$ | $O(1)$ | - | - | - |
 | 6 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Python](Python/Zigzag%20Conversion.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Python](Python/String%20to%20Integer%20(atoi).py) | $O(n)$ | $O(n)$ | RegEx | - | - |
@@ -395,5 +395,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-22 21:20 +0000
+Solution table for problems was generated automatically on 2022-10-22 21:22 +0000
 
