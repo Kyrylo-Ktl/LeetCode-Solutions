@@ -4,8 +4,9 @@ import re
 from datetime import timezone, datetime, timedelta
 from typing import Generator
 
-from sqlalchemy import Boolean, Column, DateTime, Integer, String, exc
+from sqlalchemy import Boolean, Column, DateTime, Integer, String, exc, CheckConstraint
 from sqlalchemy.orm import Session
+from sqlalchemy.dialects.sqlite import FLOAT
 
 from infrastructure.config import LANGUAGES, BASE_DIR
 from infrastructure.src.db import Base, db
@@ -43,10 +44,17 @@ class Problem(BaseModel):
     title = Column(String, unique=True, nullable=False, primary_key=True)
     time = Column(String, nullable=True)
     memory = Column(String, nullable=True)
+    beats_time = Column(FLOAT(precision=2), nullable=True)
+    beats_memory = Column(FLOAT(precision=2), nullable=True)
     difficulty = Column(String, nullable=False)
     is_premium = Column(Boolean, default=False, nullable=False)
     notes = Column(String, nullable=True)
     last_update = Column(DateTime)
+
+    __table_args__ = (
+        CheckConstraint("beats_time >= 0 AND beats_time <= 100", name="valid_beats_time_percent_constraint"),
+        CheckConstraint("beats_memory >= 0 AND beats_memory <= 100", name="valid_beats_memory_percent_constraint"),
+    )
 
     @classmethod
     def create_or_update_by_title(cls, title: str, data: dict):

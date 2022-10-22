@@ -48,7 +48,7 @@ with open(COMPLEXITY_NOTATIONS_TABLE_PATH, 'rt') as file:
 
 README_PATH = BASE_DIR / 'README.md'
 
-TABLE_HEADERS = ['№', 'Title', 'Solutions', 'Time', 'Memory', 'Notes']
+TABLE_HEADERS = ['№', 'Title', 'Solutions', 'Time', 'Memory', 'Beats Time', 'Beats Memory', 'Notes']
 ORDER_BY = '№'
 NO_DATA = '-'
 

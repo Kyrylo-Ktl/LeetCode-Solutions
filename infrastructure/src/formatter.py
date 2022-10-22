@@ -24,6 +24,8 @@ class MarkdownFormatter:
             'Solutions': ', '.join(f'[{language}]({path})' for language, path in problem.solutions),
             'Time': problem.time,
             'Memory': problem.memory,
+            'Beats Time': f'{problem.beats_time:.02f}%' if problem.beats_time else None,
+            'Beats Memory': f'{problem.beats_memory:.02f}%' if problem.beats_memory else None,
             'Difficulty': problem.difficulty,
             'Notes': problem.notes,
         }
