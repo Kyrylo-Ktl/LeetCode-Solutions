@@ -41,12 +41,12 @@ The repository contains the best versions of my solutions to LeetCode problems
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](Python/Two%20Sum.py), [Java](Java/Two%20Sum.java) | $O(n)$ | $O(n)$ | - | 99.78% | 88.62% |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](Python/Add%20Two%20Numbers.py), [Java](Java/Add%20Two%20Numbers.java) | $O(n+m)$ | $O(1)$ | - | 99.36% | 95.33% |
-| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](Python/Longest%20Substring%20Without%20Repeating%20Characters.py), [Java](Java/Longest%20Substring%20Without%20Repeating%20Characters.java) | $O(n)$ | $O(1)$ | - | - | - |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](Python/Longest%20Substring%20Without%20Repeating%20Characters.py), [Java](Java/Longest%20Substring%20Without%20Repeating%20Characters.java) | $O(n)$ | $O(1)$ | - | 100.00% | 91.50% |
 | 6 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Python](Python/Zigzag%20Conversion.py) | $O(n)$ | $O(n)$ | - | - | - |
-| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Python](Python/String%20to%20Integer%20(atoi).py) | $O(n)$ | $O(n)$ | RegEx | - | - |
-| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](Python/Palindrome%20Number.py), [Java](Java/Palindrome%20Number.java) | $O(\log_{10} n)$ | $O(1)$ | - | - | - |
+| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Python](Python/String%20to%20Integer%20(atoi).py) | $O(n)$ | $O(n)$ | RegEx | 94.55% | 100.00% |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](Python/Palindrome%20Number.py), [Java](Java/Palindrome%20Number.java) | $O(\log_{10} n)$ | $O(1)$ | - | 95.52% | 100.00% |
 | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Python](Python/Regular%20Expression%20Matching.py) | $O(n*m)$ | $O(n*m)$ | DP | - | - |
-| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Python](Python/Container%20With%20Most%20Water.py), [Java](Java/Container%20With%20Most%20Water.java) | $O(n)$ | $O(1)$ | Two Pointers | - | - |
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Python](Python/Container%20With%20Most%20Water.py), [Java](Java/Container%20With%20Most%20Water.java) | $O(n)$ | $O(1)$ | Two Pointers | 98.13% | 91.81% |
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [Python](Python/Integer%20to%20Roman.py) | $O(1)$ | $O(1)$ | - | - | - |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](Python/Roman%20to%20Integer.py) | $O(1)$ | $O(1)$ | - | - | - |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Python](Python/Longest%20Common%20Prefix.py) | $O(n)$ | $O(1)$ | - | - | - |
@@ -396,5 +396,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-23 19:11 +0000
+Solution table for problems was generated automatically on 2022-10-23 19:21 +0000
 
