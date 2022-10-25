@@ -229,6 +229,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](Python/Middle%20of%20the%20Linked%20List.py), [Java](Java/Middle%20of%20the%20Linked%20List.java) | $O(n)$ | $O(1)$ | - | - | - |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | [Python](Python/Stone%20Game.py), [Java](Java/Stone%20Game.java) | $O(1)$ | $O(1)$ | - | - | - |
 | 890 | [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/) | [Python](Python/Find%20and%20Replace%20Pattern.py) | $O(n*k)$ | $O(k)$ | - | - | - |
+| 893 | [Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/) | [Python](Python/Groups%20of%20Special-Equivalent%20Strings.py) | $O(n * k * \log_{2} k)$ | $O(n * k)$ | - | 93.51% | 88.11% |
 | 894 | [All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) | [Python](Python/All%20Possible%20Full%20Binary%20Trees.py) | $O(2^{n})$ | $O(2^{n})$ | - | - | - |
 | 895 | [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | [Python](Python/Maximum%20Frequency%20Stack.py) | $O(n)$ | $O(n)+O(1)$ | - | - | - |
 | 904 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) | [Python](Python/Fruit%20Into%20Baskets.py) | $O(n)$ | $O(k)$ | - | - | - |
@@ -399,5 +400,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-25 12:14 +0000
+Solution table for problems was generated automatically on 2022-10-25 14:48 +0000
 
