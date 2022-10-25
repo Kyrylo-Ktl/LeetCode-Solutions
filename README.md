@@ -171,7 +171,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Python](Python/Diameter%20of%20Binary%20Tree.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 547 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | [Python](Python/Number%20of%20Provinces.py) | $O(n^{2})$ | $O(n)$ | DSU | - | - |
 | 551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/) | [Python](Python/Student%20Attendance%20Record%20I.py), [Java](Java/Student%20Attendance%20Record%20I.java) | $O(n)$ | $O(1)$ | - | 100.00% | 91.95% |
-| 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Python](Python/Reverse%20Words%20in%20a%20String%20III.py), [Java](Java/Reverse%20Words%20in%20a%20String%20III.java) | $O(n)$ | $O(n)$ | - | - | - |
+| 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Python](Python/Reverse%20Words%20in%20a%20String%20III.py), [Java](Java/Reverse%20Words%20in%20a%20String%20III.java) | $O(n)$ | $O(n)$ | - | 99.26% | 48.16% |
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Python](Python/Subarray%20Sum%20Equals%20K.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | [Python](Python/Distribute%20Candies.py), [Java](Java/Distribute%20Candies.java) | $O(n)$ | $O(n)$ | - | - | - |
 | 584 | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | [SQL](SQL/Find%20Customer%20Referee.sql) | SQL | SQL | - | - | - |
@@ -310,6 +310,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1581 | [Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/) | [SQL](SQL/Customer%20Who%20Visited%20but%20Did%20Not%20Make%20Any%20Transactions.sql) | SQL | SQL | - | - | - |
 | 1587 | [Bank Account Summary II](https://leetcode.com/problems/bank-account-summary-ii/) | [SQL](SQL/Bank%20Account%20Summary%20II.sql) | SQL | SQL | - | - | - |
 | 1646 | [Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/) | [Python](Python/Get%20Maximum%20in%20Generated%20Array.py) | $O(n)$ | $O(n)$ | - | - | - |
+| 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | [Python](Python/Check%20If%20Two%20String%20Arrays%20are%20Equivalent.py) | $O(n)$ | $O(1)$ | - | 99.41% | 98.50% |
 | 1663 | [Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/) | [Python](Python/Smallest%20String%20With%20A%20Given%20Numeric%20Value.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 1667 | [Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/) | [SQL](SQL/Fix%20Names%20in%20a%20Table.sql) | SQL | SQL | - | - | - |
 | 1669 | [Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/) | [Python](Python/Merge%20In%20Between%20Linked%20Lists.py) | $O(n + m)$ | $O(1)$ | - | - | - |
@@ -397,5 +398,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-25 06:44 +0000
+Solution table for problems was generated automatically on 2022-10-25 07:59 +0000
 
