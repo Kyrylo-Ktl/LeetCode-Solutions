@@ -326,7 +326,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | [Python](Python/Check%20if%20Binary%20String%20Has%20at%20Most%20One%20Segment%20of%20Ones.py), [Java](Java/Check%20if%20Binary%20String%20Has%20at%20Most%20One%20Segment%20of%20Ones.java) | $O(n)$ | $O(1)$ | - | - | - |
 | 1795 | [Rearrange Products Table](https://leetcode.com/problems/rearrange-products-table/) | [SQL](SQL/Rearrange%20Products%20Table.sql) | SQL | SQL | - | - | - |
 | 1817 | [Finding the Users Active Minutes](https://leetcode.com/problems/finding-the-users-active-minutes/) | [Python](Python/Finding%20the%20Users%20Active%20Minutes.py) | $O(n)$ | $O(n+k)$ | Hashing | - | - |
-| 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | [Python](Python/Check%20if%20the%20Sentence%20Is%20Pangram.py), [Java](Java/Check%20if%20the%20Sentence%20Is%20Pangram.java) | $O(n)$ | $O(1)$ | - | - | - |
+| 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | [Python](Python/Check%20if%20the%20Sentence%20Is%20Pangram.py), [Java](Java/Check%20if%20the%20Sentence%20Is%20Pangram.java) | $O(n)$ | $O(1)$ | - | 92.75% | 95.79% |
 | 1839 | [Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/) | [Python](Python/Longest%20Substring%20Of%20All%20Vowels%20in%20Order.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 1848 | [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | [Python](Python/Minimum%20Distance%20to%20the%20Target%20Element.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 1873 | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/) | [SQL](SQL/Calculate%20Special%20Bonus.sql) | SQL | SQL | - | - | - |
@@ -393,10 +393,10 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2428 | [Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/) | [Python](Python/Maximum%20Sum%20of%20an%20Hourglass.py) | $O(n*m)$ | $O(n*m)$ | - | - | - |
 | 2432 | [The Employee That Worked on the Longest Task](https://leetcode.com/problems/the-employee-that-worked-on-the-longest-task/) | [Python](Python/The%20Employee%20That%20Worked%20on%20the%20Longest%20Task.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 2433 | [Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/) | [Python](Python/Find%20The%20Original%20Array%20of%20Prefix%20Xor.py), [Java](Java/Find%20The%20Original%20Array%20of%20Prefix%20Xor.java) | $O(n)$ | $O(1)$ | - | - | - |
-| 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/) | [Python](Python/Largest%20Positive%20Integer%20That%20Exists%20With%20Its%20Negative.py) | $O(n) / O(n * \log_{2} n)$ | $O(n) / O(1)$ | - | - | - |
-| 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/) | [Python](Python/Count%20Number%20of%20Distinct%20Integers%20After%20Reverse%20Operations.py), [Java](Java/Count%20Number%20of%20Distinct%20Integers%20After%20Reverse%20Operations.java) | $O(n)$ | $O(n)$ | - | - | - |
+| 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/) | [Python](Python/Largest%20Positive%20Integer%20That%20Exists%20With%20Its%20Negative.py) | $O(n) / O(n * \log_{2} n)$ | $O(n) / O(1)$ | - | 98.91% | 99.35% |
+| 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/) | [Python](Python/Count%20Number%20of%20Distinct%20Integers%20After%20Reverse%20Operations.py), [Java](Java/Count%20Number%20of%20Distinct%20Integers%20After%20Reverse%20Operations.java) | $O(n)$ | $O(n)$ | - | 99.69% | 96.65% |
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-25 07:59 +0000
+Solution table for problems was generated automatically on 2022-10-25 08:17 +0000
 
