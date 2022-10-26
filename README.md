@@ -403,9 +403,9 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/) | [Python](Python/Count%20Number%20of%20Distinct%20Integers%20After%20Reverse%20Operations.py), [Java](Java/Count%20Number%20of%20Distinct%20Integers%20After%20Reverse%20Operations.java) | $O(n)$ | $O(n)$ | - | 99.69% | 96.65% |
 | 2446 | [Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/) | [Python](Python/Determine%20if%20Two%20Events%20Have%20Conflict.py) | $O(1)$ | $O(1)$ | - | 89.91% | 75.19% |
 | 2447 | [Number of Subarrays With GCD Equal to K](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/) | [Python](Python/Number%20of%20Subarrays%20With%20GCD%20Equal%20to%20K.py), [Java](Java/Number%20of%20Subarrays%20With%20GCD%20Equal%20to%20K.java) | $O(n^{2} * \log_{2} m)$ | $O(1)$ | GCD | 98.08% | 95.20% |
-| 2448 | [Minimum Cost to Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal/) | [Python](Python/Minimum%20Cost%20to%20Make%20Array%20Equal.py) | $O(n * \log_{2} m)$ | $O(1)$ | Binary Search | 97.25% | 95.60% |
+| 2448 | [Minimum Cost to Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal/) | [Python](Python/Minimum%20Cost%20to%20Make%20Array%20Equal.py), [Java](Java/Minimum%20Cost%20to%20Make%20Array%20Equal.java) | $O(n * \log_{2} m)$ | $O(1)$ | Binary Search | 99.41% | 98.81% |
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-26 08:46 +0000
+Solution table for problems was generated automatically on 2022-10-26 09:03 +0000
 
