@@ -254,6 +254,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [Python](Python/Find%20the%20Town%20Judge.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 998 | [Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/) | [Python](Python/Maximum%20Binary%20Tree%20II.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 999 | [Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | [Python](Python/Available%20Captures%20for%20Rook.py) | $O(1)$ | $O(1)$ | - | - | - |
+| 1006 | [Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/) | [Python](Python/Clumsy%20Factorial.py) | $O(1)$ | $O(1)$ | - | 96.15% | 97.93% |
 | 1007 | [Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | [Python](Python/Minimum%20Domino%20Rotations%20For%20Equal%20Row.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 1010 | [Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/) | [Python](Python/Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.py), [Java](Java/Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.java) | $O(n)$ | $O(1)$ | - | 96.43% | 85.53% |
 | 1020 | [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) | [Python](Python/Number%20of%20Enclaves.py) | $O(n*m)$ | $O(n*m)$ | DFS | - | - |
@@ -408,5 +409,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-26 12:13 +0000
+Solution table for problems was generated automatically on 2022-10-26 17:27 +0000
 
