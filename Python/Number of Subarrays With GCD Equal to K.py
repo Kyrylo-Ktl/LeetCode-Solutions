@@ -21,7 +21,7 @@ class Solution:
 
                 if curr_gcd == k:
                     sub_arrays += 1
-                elif curr_gcd < k:
+                elif curr_gcd < k or curr_gcd % k:
                     break
 
         return sub_arrays
