@@ -52,7 +52,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Python](Python/Longest%20Common%20Prefix.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | [Python](Python/3Sum.py) | $O(n^{2})$ | $O(1)$ | Two Pointers | - | - |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Python](Python/Remove%20Nth%20Node%20From%20End%20of%20List.py), [Java](Java/Remove%20Nth%20Node%20From%20End%20of%20List.java) | $O(n)$ | $O(1)$ | - | - | - |
-| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Python](Python/Valid%20Parentheses.py), [Java](Java/Valid%20Parentheses.java) | $O(n)$ | $O(n)$ | Stack | - | - |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Python](Python/Valid%20Parentheses.py), [Java](Java/Valid%20Parentheses.java) | $O(n)$ | $O(n)$ | Stack | 99.78% | 94.20% |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Python](Python/Generate%20Parentheses.py), [Java](Java/Generate%20Parentheses.java) | $O(2^{n})$ | $O(n)$ | Backtracking | - | - |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](Python/Remove%20Duplicates%20from%20Sorted%20Array.py), [Java](Java/Remove%20Duplicates%20from%20Sorted%20Array.java) | $O(n)$ | $O(1)$ | - | 100.00% | 85.81% |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Python](Python/Remove%20Element.py), [Java](Java/Remove%20Element.java) | $O(n)$ | $O(1)$ | - | 100.00% | 85.12% |
@@ -371,7 +371,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2337 | [Move Pieces to Obtain a String](https://leetcode.com/problems/move-pieces-to-obtain-a-string/) | [Python](Python/Move%20Pieces%20to%20Obtain%20a%20String.py), [Java](Java/Move%20Pieces%20to%20Obtain%20a%20String.java) | $O(n)$ | $O(1)$ | Two Pointers | 86.68% | 99.25% |
 | 2341 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/) | [Python](Python/Maximum%20Number%20of%20Pairs%20in%20Array.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 2347 | [Best Poker Hand](https://leetcode.com/problems/best-poker-hand/) | [Python](Python/Best%20Poker%20Hand.py) | $O(1)$ | $O(1)$ | - | - | - |
-| 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/) | [Python](Python/First%20Letter%20to%20Appear%20Twice.py) | $O(n)$ | $O(1)$ | - | - | - |
+| 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/) | [Python](Python/First%20Letter%20to%20Appear%20Twice.py), [Java](Java/First%20Letter%20to%20Appear%20Twice.java) | $O(n)$ | $O(1)$ | - | 100.00% | 94.36% |
 | 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | [Python](Python/Equal%20Row%20and%20Column%20Pairs.py) | $O(n^{3}) / O(n^{2})$ | $O(1) / O(n)$ | - | - | - |
 | 2357 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | [Python](Python/Make%20Array%20Zero%20by%20Subtracting%20Equal%20Amounts.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 2359 | [Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/) | [Python](Python/Find%20Closest%20Node%20to%20Given%20Two%20Nodes.py) | $O(n)$ | $O(n)$ | DFS | - | - |
@@ -411,5 +411,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-27 12:13 +0000
+Solution table for problems was generated automatically on 2022-10-27 17:27 +0000
 
