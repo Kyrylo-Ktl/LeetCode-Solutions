@@ -207,7 +207,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [Python](Python/Largest%20Number%20At%20Least%20Twice%20of%20Others.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 748 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | [Python](Python/Shortest%20Completing%20Word.py) | $O(n^{2})$ | $O(n^{2})$ | - | - | - |
 | 752 | [Open the Lock](https://leetcode.com/problems/open-the-lock/) | [Python](Python/Open%20the%20Lock.py) | $O(n)$ | $O(n)$ | BFS | - | - |
-| 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | [Python](Python/Toeplitz%20Matrix.py) | $O(n*m)$ | $O(1)$ | - | - | - |
+| 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | [Python](Python/Toeplitz%20Matrix.py) | $O(n*m)$ | $O(1)$ | - | 71.85% | 99.92% |
 | 777 | [Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) | [Python](Python/Swap%20Adjacent%20in%20LR%20String.py), [Java](Java/Swap%20Adjacent%20in%20LR%20String.java) | $O(n)$ | $O(1)$ | Two Pointers | 100.00% | 98.78% |
 | 788 | [Rotated Digits](https://leetcode.com/problems/rotated-digits/) | [Python](Python/Rotated%20Digits.py) | $O(n * \log_{10} n)$ | $O(\log_{10} n)$ | - | - | - |
 | 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | [Python](Python/Custom%20Sort%20String.py) | $O(n * \log_{2} n)$ | $O(n + m)$ | - | - | - |
@@ -415,5 +415,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-10-31 06:08 +0000
+Solution table for problems was generated automatically on 2022-10-31 06:10 +0000
 
