@@ -6,7 +6,7 @@ class Solution:
     Time:   O(n^2*k^2)
     Memory: O(1)
 
-    where k - longest word length
+    where k - the longest word length
     """
 
     def stringMatching(self, words: List[str]) -> List[str]:
