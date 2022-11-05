@@ -3,6 +3,7 @@ class Solution:
     Time:   O(n)
     Memory: O(1)
     """
+
     MOD = 10 ** 9 + 7
 
     def countVowelPermutation(self, n: int) -> int:
