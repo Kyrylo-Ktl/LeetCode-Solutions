@@ -150,6 +150,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 336 | [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | [Python](Python/Palindrome%20Pairs.py) | $O(n*k^{2})$ | $O(n)$ | - | - | - |
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [Python](Python/Power%20of%20Four.py) | $O(1)$ | $O(1)$ | - | - | - |
 | 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [Python](Python/Reverse%20Vowels%20of%20a%20String.py) | - | - | - | - | - |
+| 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Python](Python/Guess%20Number%20Higher%20or%20Lower.py) | $O(\log_{2} n)$ | $O(1)$ | - | 75.79% | 66.34% |
 | 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Python](Python/Combination%20Sum%20IV.py) | $O(2^{n})$ | $O(n)$ | - | - | - |
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [Python](Python/Ransom%20Note.py), [Java](Java/Ransom%20Note.java) | $O(n+m)$ | $O(n+m)$ | - | - | - |
 | 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python](Python/First%20Unique%20Character%20in%20a%20String.py) | $O(n)$ | $O(1)$ | - | - | - |
@@ -421,5 +422,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-11-16 06:07 +0000
+Solution table for problems was generated automatically on 2022-11-16 08:23 +0000
 
