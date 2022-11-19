@@ -135,7 +135,8 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](Python/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Python](Python/Delete%20Node%20in%20a%20Linked%20List.py), [Java](Java/Delete%20Node%20in%20a%20Linked%20List.java) | $O(1)$ | $O(1)$ | - | - | - |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](Python/Valid%20Anagram.py) | $O(max(n,m))$ | $O(n+m)$ | - | - | - |
-| 263 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | [Python](Python/Ugly%20Number.py) | - | $O(1)$ | - | 99.59% | 60.80% |
+| 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | [Python](Python/Add%20Digits.py) | $O(1)$ | $O(1)$ | - | - | - |
+| 263 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | [Python](Python/Ugly%20Number.py) | $O(\log_{2} n)$ | $O(1)$ | - | 99.59% | 60.80% |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Python](Python/First%20Bad%20Version.py), [Java](Java/First%20Bad%20Version.java) | $O(\log_{2} n)$ | $O(1)$ | - | - | - |
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Python](Python/Perfect%20Squares.py) | $O(n*\sqrt{n})$ | $O(n)$ | - | - | - |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](Python/Move%20Zeroes.py) | $O(n)$ | $O(1)$ | - | - | - |
@@ -423,5 +424,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-11-19 12:08 +0000
+Solution table for problems was generated automatically on 2022-11-19 16:45 +0000
 
