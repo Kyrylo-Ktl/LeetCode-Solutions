@@ -151,7 +151,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 334 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | [Python](Python/Increasing%20Triplet%20Subsequence.py), [Java](Java/Increasing%20Triplet%20Subsequence.java) | $O(n)$ | $O(1)$ | - | - | - |
 | 336 | [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | [Python](Python/Palindrome%20Pairs.py) | $O(n*k^{2})$ | $O(n)$ | - | - | - |
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [Python](Python/Power%20of%20Four.py) | $O(1)$ | $O(1)$ | - | - | - |
-| 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [Python](Python/Reverse%20Vowels%20of%20a%20String.py) | - | - | - | - | - |
+| 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [Python](Python/Reverse%20Vowels%20of%20a%20String.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Python](Python/Guess%20Number%20Higher%20or%20Lower.py) | $O(\log_{2} n)$ | $O(1)$ | - | 75.79% | 66.34% |
 | 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Python](Python/Combination%20Sum%20IV.py) | $O(2^{n})$ | $O(n)$ | - | - | - |
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [Python](Python/Ransom%20Note.py), [Java](Java/Ransom%20Note.java) | $O(n+m)$ | $O(n+m)$ | - | - | - |
@@ -162,7 +162,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 417 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Python](Python/Pacific%20Atlantic%20Water%20Flow.py) | $O(n*m)$ | $O(n*m)$ | DFS | - | - |
 | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Python](Python/Longest%20Repeating%20Character%20Replacement.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | [Python](Python/N-ary%20Tree%20Level%20Order%20Traversal.py) | $O(n)$ | $O(n)$ | - | - | - |
-| 433 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | [Python](Python/Minimum%20Genetic%20Mutation.py) | - | - | - | - | - |
+| 433 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | [Python](Python/Minimum%20Genetic%20Mutation.py) | $O(n*m^{2})$ | $O(n)$ | - | - | - |
 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) | [Python](Python/String%20Compression.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/) | [Python](Python/Island%20Perimeter.py), [Java](Java/Island%20Perimeter.java) | $O(n*m)$ | $O(1)$ | - | 94.28% | 94.13% |
 | 468 | [Validate IP Address](https://leetcode.com/problems/validate-ip-address/) | [Python](Python/Validate%20IP%20Address.py) | $O(1)$ | $O(1)$ | RegEx | - | - |
@@ -291,7 +291,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | [Python](Python/Shift%202D%20Grid.py) | $O(n^{2})$ | $O(n^{2})$ | - | - | - |
 | 1275 | [Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/) | [Python](Python/Find%20Winner%20on%20a%20Tic%20Tac%20Toe%20Game.py), [Java](Java/Find%20Winner%20on%20a%20Tic%20Tac%20Toe%20Game.java) | $O(1)$ | $O(1)$ | - | - | - |
 | 1319 | [Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) | [Python](Python/Number%20of%20Operations%20to%20Make%20Network%20Connected.py) | $O(n)$ | $O(n)$ | - | - | - |
-| 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | [Python](Python/Maximum%2069%20Number.py) | - | - | - | - | - |
+| 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | [Python](Python/Maximum%2069%20Number.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 1328 | [Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/) | [Python](Python/Break%20a%20Palindrome.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 1329 | [Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/) | [Python](Python/Sort%20the%20Matrix%20Diagonally.py) | - | - | - | - | - |
 | 1331 | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | [Python](Python/Rank%20Transform%20of%20an%20Array.py) | $O(n * \log_{2} n)$ | $O(n)$ | - | - | - |
@@ -424,5 +424,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-11-20 18:04 +0000
+Solution table for problems was generated automatically on 2022-11-20 19:41 +0000
 
