@@ -10,6 +10,8 @@ class Solution:
     where m - gen length
     """
 
+    GENS = 'ACGT'
+
     def minMutation(self, start: str, end: str, bank: List[str]) -> int:
         queue = deque([(start, 0)])
         seen = {start}
@@ -27,8 +29,8 @@ class Solution:
 
         return -1
 
-    @staticmethod
-    def get_mutations(gen: str) -> Generator:
+    @classmethod
+    def get_mutations(cls, gen: str) -> Generator:
         for i in range(len(gen)):
-            for c in 'ACGT':
+            for c in cls.GENS:
                 yield gen[:i] + c + gen[i + 1:]
