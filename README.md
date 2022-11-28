@@ -367,6 +367,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | [Python](Python/Counting%20Words%20With%20a%20Given%20Prefix.py) | $O(n*k)$ | $O(1)$ | - | - | - |
 | 2186 | [Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/) | [Python](Python/Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram%20II.py) | $O(n+m)$ | $O(n+m)$ | - | - | - |
 | 2220 | [Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/) | [Python](Python/Minimum%20Bit%20Flips%20to%20Convert%20Number.py), [Java](Java/Minimum%20Bit%20Flips%20to%20Convert%20Number.java) | $O(\log_{2} n)$ | $O(1)$ | - | 100.00% | 97.83% |
+| 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/) | [Python](Python/Find%20Players%20With%20Zero%20or%20One%20Losses.py) | $O(n * \log_{2} n)$ | $O(n)$ | - | 98.66% | 99.40% |
 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | [Python](Python/Calculate%20Digit%20Sum%20of%20a%20String.py) | $O(\log_{k} n)$ | $O(\log_{k} n)$ | - | - | - |
 | 2255 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | [Python](Python/Count%20Prefixes%20of%20a%20Given%20String.py) | $O(n*m)$ | $O(n*m)$ | - | - | - |
 | 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | [Python](Python/Largest%203-Same-Digit%20Number%20in%20String.py) | $O(n)$ | $O(1)$ | - | - | - |
@@ -425,5 +426,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-11-28 06:07 +0000
+Solution table for problems was generated automatically on 2022-11-28 09:53 +0000
 
