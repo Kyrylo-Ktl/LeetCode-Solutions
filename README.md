@@ -425,9 +425,10 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2447 | [Number of Subarrays With GCD Equal to K](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/) | [Python](Python/Number%20of%20Subarrays%20With%20GCD%20Equal%20to%20K.py), [Java](Java/Number%20of%20Subarrays%20With%20GCD%20Equal%20to%20K.java) | $O(n^{2} * \log_{2} m)$ | $O(1)$ | GCD | 98.08% | 95.20% |
 | 2448 | [Minimum Cost to Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal/) | [Python](Python/Minimum%20Cost%20to%20Make%20Array%20Equal.py), [Java](Java/Minimum%20Cost%20to%20Make%20Array%20Equal.java) | $O(n * \log_{2} m)$ | $O(1)$ | Binary Search | 99.41% | 98.81% |
 | 2455 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | [Python](Python/Average%20Value%20of%20Even%20Numbers%20That%20Are%20Divisible%20by%20Three.py) | $O(n)$ | $O(1)$ | - | 100.00% | 85.71% |
+| 2482 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | [Python](Python/Difference%20Between%20Ones%20and%20Zeros%20in%20Row%20and%20Column.py) | $O(n*m)$ | $O(n+m)$ | - | - | - |
 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/) | [Python](Python/Find%20the%20Pivot%20Integer.py) | $O(√n)$ | $O(1)$ | Math | 99.78% | 97.40% |
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-12-03 18:02 +0000
+Solution table for problems was generated automatically on 2022-12-03 21:14 +0000
 
