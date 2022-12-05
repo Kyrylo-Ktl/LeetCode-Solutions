@@ -233,7 +233,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | [Python](Python/Transpose%20Matrix.py), [Java](Java/Transpose%20Matrix.java) | $O(n*m)$ | $O(1)$ | - | - | - |
 | 869 | [Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/) | [Python](Python/Reordered%20Power%20of%202.py) | $O({\log_{2} n}^{2})$ | $O(\log_{2} n)$ | - | - | - |
 | 871 | [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | [Python](Python/Minimum%20Number%20of%20Refueling%20Stops.py) | $O(n * \log_{2} n)$ | $O(n)$ | - | - | - |
-| 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](Python/Middle%20of%20the%20Linked%20List.py), [Java](Java/Middle%20of%20the%20Linked%20List.java) | $O(n)$ | $O(1)$ | - | - | - |
+| 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](Python/Middle%20of%20the%20Linked%20List.py), [Java](Java/Middle%20of%20the%20Linked%20List.java) | $O(n)$ | $O(1)$ | - | 100.00% | 99.73% |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | [Python](Python/Stone%20Game.py), [Java](Java/Stone%20Game.java) | $O(1)$ | $O(1)$ | - | - | - |
 | 890 | [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/) | [Python](Python/Find%20and%20Replace%20Pattern.py) | $O(n*k)$ | $O(k)$ | - | - | - |
 | 893 | [Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/) | [Python](Python/Groups%20of%20Special-Equivalent%20Strings.py) | $O(n * k * \log_{2} k)$ | $O(n * k)$ | - | 93.51% | 88.11% |
@@ -430,5 +430,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-12-05 06:07 +0000
+Solution table for problems was generated automatically on 2022-12-05 10:21 +0000
 
