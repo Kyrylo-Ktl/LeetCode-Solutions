@@ -68,6 +68,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/) | [Python](Python/Rotate%20List.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Python](Python/Unique%20Paths.py), [Java](Java/Unique%20Paths.java) | $O(min(n,m))$ | $O(1)$ | DP / Math | - | - |
 | 68 | [Text Justification](https://leetcode.com/problems/text-justification/) | [Python](Python/Text%20Justification.py) | $O(n)$ | $O(n)$ | - | - | - |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](Python/Climbing%20Stairs.py) | $O(n)$ | $O(n)$ | DP | - | - |
 | 71 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | [Python](Python/Simplify%20Path.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [Python](Python/Edit%20Distance.py), [Java](Java/Edit%20Distance.java) | $O(n*m)$ | $O(n*m)$ | DP | 92.85% | 91.32% |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Python](Python/Set%20Matrix%20Zeroes.py) | $O(n*m)$ | $O(n+m)$ | - | 97.19% | 53.65% |
@@ -433,5 +434,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-12-12 06:07 +0000
+Solution table for problems was generated automatically on 2022-12-12 09:10 +0000
 
