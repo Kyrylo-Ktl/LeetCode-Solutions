@@ -123,6 +123,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 195 | [Tenth Line](https://leetcode.com/problems/tenth-line/) | [Shell](Shell/Tenth%20Line.sh) | SHELL | SHELL | - | - | - |
 | 196 | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | [SQL](SQL/Delete%20Duplicate%20Emails.sql) | SQL | SQL | - | - | - |
 | 197 | [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | [SQL](SQL/Rising%20Temperature.sql) | SQL | SQL | - | - | - |
+| 198 | [House Robber](https://leetcode.com/problems/house-robber/) | [Python](Python/House%20Robber.py) | $O(n)$ | $O(n)$ | DP | - | - |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](Python/Number%20of%20Islands.py), [Java](Java/Number%20of%20Islands.java) | $O(n*m)$ | $O(n*m)$ | DFS | - | - |
 | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [Python](Python/Bitwise%20AND%20of%20Numbers%20Range.py), [Java](Java/Bitwise%20AND%20of%20Numbers%20Range.java) | $O(\log_{2} n)$ | $O(1)$ | - | - | - |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](Python/Reverse%20Linked%20List.py) | $O(n)$ | $O(1)$ | - | - | - |
@@ -281,6 +282,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1131 | [Maximum of Absolute Value Expression](https://leetcode.com/problems/maximum-of-absolute-value-expression/) | [Python](Python/Maximum%20of%20Absolute%20Value%20Expression.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | [Python](Python/N-th%20Tribonacci%20Number.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 1141 | [User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/) | [SQL](SQL/User%20Activity%20for%20the%20Past%2030%20Days%20I.sql) | SQL | SQL | - | - | - |
+| 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Python](Python/Longest%20Common%20Subsequence.py) | $O(n * m)$ | $O(n * m)$ | DP | 96.32% | 81.56% |
 | 1148 | [Article Views I](https://leetcode.com/problems/article-views-i/) | [SQL](SQL/Article%20Views%20I.sql) | SQL | SQL | - | - | - |
 | 1155 | [Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) | [Python](Python/Number%20of%20Dice%20Rolls%20With%20Target%20Sum.py) | $O(n*k)$ | $O(n*k)$ | DP | - | - |
 | 1158 | [Market Analysis I](https://leetcode.com/problems/market-analysis-i/) | [SQL](SQL/Market%20Analysis%20I.sql) | SQL | SQL | - | - | - |
@@ -436,5 +438,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-12-15 06:07 +0000
+Solution table for problems was generated automatically on 2022-12-15 08:59 +0000
 
