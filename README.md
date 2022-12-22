@@ -436,8 +436,9 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence/) | [Python](Python/Circular%20Sentence.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 2491 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | [Python](Python/Divide%20Players%20Into%20Teams%20of%20Equal%20Skill.py) | - | - | - | - | - |
 | 2501 | [Longest Square Streak in an Array](https://leetcode.com/problems/longest-square-streak-in-an-array/) | [Python](Python/Longest%20Square%20Streak%20in%20an%20Array.py) | $O(n * √n)$ | $O(n)$ | - | - | - |
+| 2506 | [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/) | [Python](Python/Count%20Pairs%20Of%20Similar%20Strings.py) | $O(n*m)$ | $O(1)$ | - | - | - |
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-12-22 06:07 +0000
+Solution table for problems was generated automatically on 2022-12-22 11:06 +0000
 
