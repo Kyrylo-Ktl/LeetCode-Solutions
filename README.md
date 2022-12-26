@@ -65,6 +65,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Python](Python/Pow(x,%20n).py) | $O(\log_{2} n)$ | $O(\log_{2} n)$ | BinPow | - | - |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](Python/Maximum%20Subarray.py), [Java](Java/Maximum%20Subarray.java) | $O(n)$ | $O(1)$ | Kadane's | 100.00% | 93.17% |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](Python/Spiral%20Matrix.py) | ? | ? | - | - | - |
+| 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | [Python](Python/Jump%20Game.py) | - | - | - | - | - |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/) | [Python](Python/Rotate%20List.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Python](Python/Unique%20Paths.py), [Java](Java/Unique%20Paths.java) | $O(min(n,m))$ | $O(1)$ | DP / Math | - | - |
 | 68 | [Text Justification](https://leetcode.com/problems/text-justification/) | [Python](Python/Text%20Justification.py) | $O(n)$ | $O(n)$ | - | - | - |
@@ -442,5 +443,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-12-26 12:08 +0000
+Solution table for problems was generated automatically on 2022-12-26 18:02 +0000
 
