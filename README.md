@@ -256,6 +256,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Python](Python/Range%20Sum%20of%20BST.py) | $O(n)$ | $O(n)$ | DFS | - | - |
 | 946 | [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/) | [Python](Python/Validate%20Stack%20Sequences.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 948 | [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/) | [Python](Python/Bag%20of%20Tokens.py) | $O(n * \log_{2} n)$ | $O(1)$ | Two-pointer | - | - |
+| 959 | [Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/) | [Python](Python/Regions%20Cut%20By%20Slashes.py) | $O(n*m)$ | $O(n*m)$ | DFS | - | - |
 | 967 | [Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/) | [Python](Python/Numbers%20With%20Same%20Consecutive%20Differences.py) | $O(2^{n})$ | $O(2^{n})$ | DFS | - | - |
 | 976 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | [Python](Python/Largest%20Perimeter%20Triangle.py), [Java](Java/Largest%20Perimeter%20Triangle.java) | $O(n * \log_{2} n)$ | $O(1)$ | - | - | - |
 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python](Python/Squares%20of%20a%20Sorted%20Array.py) | $O(n)$ | $O(n)$ | - | - | - |
@@ -445,5 +446,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2022-12-30 12:08 +0000
+Solution table for problems was generated automatically on 2022-12-30 13:45 +0000
 
