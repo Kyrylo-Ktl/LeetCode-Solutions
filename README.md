@@ -302,6 +302,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1254 | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | [Python](Python/Number%20of%20Closed%20Islands.py) | $O(n*m)$ | $O(n*m)$ | DFS | - | - |
 | 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | [Python](Python/Shift%202D%20Grid.py) | $O(n^{2})$ | $O(n^{2})$ | - | - | - |
 | 1275 | [Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/) | [Python](Python/Find%20Winner%20on%20a%20Tic%20Tac%20Toe%20Game.py), [Java](Java/Find%20Winner%20on%20a%20Tic%20Tac%20Toe%20Game.java) | $O(1)$ | $O(1)$ | - | - | - |
+| 1306 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | [Python](Python/Jump%20Game%20III.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 1319 | [Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) | [Python](Python/Number%20of%20Operations%20to%20Make%20Network%20Connected.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | [Python](Python/Maximum%2069%20Number.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 1328 | [Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/) | [Python](Python/Break%20a%20Palindrome.py) | $O(n)$ | $O(n)$ | - | - | - |
@@ -447,5 +448,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2023-01-01 20:48 +0000
+Solution table for problems was generated automatically on 2023-01-01 21:08 +0000
 
