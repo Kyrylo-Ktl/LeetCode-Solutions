@@ -255,6 +255,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 931 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [Python](Python/Minimum%20Falling%20Path%20Sum.py) | $O(n * m)$ | $O(1)$ | DP | 40.57% | 92.88% |
 | 936 | [Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/) | [Python](Python/Stamping%20The%20Sequence.py) | $O(m*(m-n))$ | $O(m*(m-n))$ | - | - | - |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Python](Python/Range%20Sum%20of%20BST.py) | $O(n)$ | $O(n)$ | DFS | - | - |
+| 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | [Python](Python/Delete%20Columns%20to%20Make%20Sorted.py) | $O(m * n * \log_{2} n)$ | $O(n)$ | - | - | - |
 | 946 | [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/) | [Python](Python/Validate%20Stack%20Sequences.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 948 | [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/) | [Python](Python/Bag%20of%20Tokens.py) | $O(n * \log_{2} n)$ | $O(1)$ | Two-pointer | - | - |
 | 959 | [Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/) | [Python](Python/Regions%20Cut%20By%20Slashes.py) | $O(n*m)$ | $O(n*m)$ | DFS | - | - |
@@ -449,5 +450,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2023-01-03 06:03 +0000
+Solution table for problems was generated automatically on 2023-01-03 12:02 +0000
 
