@@ -168,6 +168,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | [Python](Python/N-ary%20Tree%20Level%20Order%20Traversal.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 433 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | [Python](Python/Minimum%20Genetic%20Mutation.py) | $O(n*m^{2})$ | $O(n)$ | - | - | - |
 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) | [Python](Python/String%20Compression.py) | $O(n)$ | $O(1)$ | - | - | - |
+| 452 | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [Python](Python/Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons.py) | $O(n * \log_{2} n)$ | $O(1)$ | Greedy | - | - |
 | 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/) | [Python](Python/Island%20Perimeter.py), [Java](Java/Island%20Perimeter.java) | $O(n*m)$ | $O(1)$ | - | 94.28% | 94.13% |
 | 468 | [Validate IP Address](https://leetcode.com/problems/validate-ip-address/) | [Python](Python/Validate%20IP%20Address.py) | $O(1)$ | $O(1)$ | RegEx | - | - |
 | 491 | [Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/) | [Python](Python/Non-decreasing%20Subsequences.py) | $O(n^{2})$ | $O(n^{2})$ | - | - | - |
@@ -451,5 +452,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2023-01-05 06:02 +0000
+Solution table for problems was generated automatically on 2023-01-05 10:12 +0000
 
