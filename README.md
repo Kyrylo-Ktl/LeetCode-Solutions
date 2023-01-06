@@ -156,6 +156,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 336 | [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | [Python](Python/Palindrome%20Pairs.py) | $O(n * k^{2})$ | $O(n)$ | - | - | - |
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [Python](Python/Power%20of%20Four.py) | $O(1)$ | $O(1)$ | - | - | - |
 | 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [Python](Python/Reverse%20Vowels%20of%20a%20String.py) | $O(n)$ | $O(n)$ | - | - | - |
+| 365 | [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | [Python](Python/Water%20and%20Jug%20Problem.py) | $O(\log_{2} max(n, m))$ | $O(\log_{2} max(n, m))$ | - | - | - |
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Python](Python/Guess%20Number%20Higher%20or%20Lower.py) | $O(\log_{2} n)$ | $O(1)$ | - | 75.79% | 66.34% |
 | 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Python](Python/Combination%20Sum%20IV.py) | $O(2^{n})$ | $O(n)$ | - | - | - |
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [Python](Python/Ransom%20Note.py), [Java](Java/Ransom%20Note.java) | $O(n+m)$ | $O(n+m)$ | - | - | - |
@@ -362,6 +363,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1795 | [Rearrange Products Table](https://leetcode.com/problems/rearrange-products-table/) | [SQL](SQL/Rearrange%20Products%20Table.sql) | SQL | SQL | - | - | - |
 | 1817 | [Finding the Users Active Minutes](https://leetcode.com/problems/finding-the-users-active-minutes/) | [Python](Python/Finding%20the%20Users%20Active%20Minutes.py) | $O(n)$ | $O(n + k)$ | Hashing | - | - |
 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | [Python](Python/Check%20if%20the%20Sentence%20Is%20Pangram.py), [Java](Java/Check%20if%20the%20Sentence%20Is%20Pangram.java) | $O(n)$ | $O(1)$ | - | 92.75% | 95.79% |
+| 1833 | [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/) | [Python](Python/Maximum%20Ice%20Cream%20Bars.py) | - | - | - | - | - |
 | 1839 | [Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/) | [Python](Python/Longest%20Substring%20Of%20All%20Vowels%20in%20Order.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 1848 | [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | [Python](Python/Minimum%20Distance%20to%20the%20Target%20Element.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 1873 | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/) | [SQL](SQL/Calculate%20Special%20Bonus.sql) | SQL | SQL | - | - | - |
@@ -449,8 +451,9 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2491 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | [Python](Python/Divide%20Players%20Into%20Teams%20of%20Equal%20Skill.py) | - | - | - | - | - |
 | 2501 | [Longest Square Streak in an Array](https://leetcode.com/problems/longest-square-streak-in-an-array/) | [Python](Python/Longest%20Square%20Streak%20in%20an%20Array.py) | $O(n * √n)$ | $O(n)$ | - | - | - |
 | 2506 | [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/) | [Python](Python/Count%20Pairs%20Of%20Similar%20Strings.py) | $O(n*m)$ | $O(1)$ | - | - | - |
+| 2522 | [Partition String Into Substrings With Values at Most K](https://leetcode.com/problems/partition-string-into-substrings-with-values-at-most-k/) | [Python](Python/Partition%20String%20Into%20Substrings%20With%20Values%20at%20Most%20K.py) | - | - | - | - | - |
 
 ## Last update
 
-Solution table for problems was generated automatically on 2023-01-06 06:06 +0000
+Solution table for problems was generated automatically on 2023-01-06 08:30 +0000
 
