@@ -65,7 +65,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Python](Python/Pow(x,%20n).py) | $O(\log_{2} n)$ | $O(\log_{2} n)$ | BinPow | - | - |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](Python/Maximum%20Subarray.py), [Java](Java/Maximum%20Subarray.java) | $O(n)$ | $O(1)$ | Kadane's | 100.00% | 93.17% |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](Python/Spiral%20Matrix.py) | ? | ? | - | - | - |
-| 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | [Python](Python/Jump%20Game.py) | - | - | - | - | - |
+| 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | [Python](Python/Jump%20Game.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/) | [Python](Python/Rotate%20List.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Python](Python/Unique%20Paths.py), [Java](Java/Unique%20Paths.java) | $O(min(n,m))$ | $O(1)$ | DP / Math | - | - |
 | 68 | [Text Justification](https://leetcode.com/problems/text-justification/) | [Python](Python/Text%20Justification.py) | $O(n)$ | $O(n)$ | - | - | - |
@@ -254,6 +254,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | [Python](Python/Minimum%20Add%20to%20Make%20Parentheses%20Valid.py), [Java](Java/Minimum%20Add%20to%20Make%20Parentheses%20Valid.java) | $O(n)$ | $O(1)$ | - | - | - |
 | 923 | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) | [Python](Python/3Sum%20With%20Multiplicity.py) | $O(k^{2})$ | $O(k)$ | - | - | - |
 | 925 | [Long Pressed Name](https://leetcode.com/problems/long-pressed-name/) | [Python](Python/Long%20Pressed%20Name.py), [Java](Java/Long%20Pressed%20Name.java) | $O(max(n,m))$ | $O(1)$ | - | - | - |
+| 926 | [Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/) | [Python](Python/Flip%20String%20to%20Monotone%20Increasing.py) | - | - | - | - | - |
 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | [Python](Python/Binary%20Subarrays%20With%20Sum.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 931 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [Python](Python/Minimum%20Falling%20Path%20Sum.py) | $O(n * m)$ | $O(1)$ | DP | 40.57% | 92.88% |
 | 936 | [Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/) | [Python](Python/Stamping%20The%20Sequence.py) | $O(m*(m-n))$ | $O(m*(m-n))$ | - | - | - |
@@ -457,5 +458,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2023-01-17 18:03 +0000
+Solution table for problems was generated automatically on 2023-01-17 18:32 +0000
 
