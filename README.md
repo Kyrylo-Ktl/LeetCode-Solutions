@@ -455,8 +455,9 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2506 | [Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/) | [Python](Python/Count%20Pairs%20Of%20Similar%20Strings.py) | $O(n*m)$ | $O(1)$ | - | - | - |
 | 2522 | [Partition String Into Substrings With Values at Most K](https://leetcode.com/problems/partition-string-into-substrings-with-values-at-most-k/) | [Python](Python/Partition%20String%20Into%20Substrings%20With%20Values%20at%20Most%20K.py) | - | - | - | - | - |
 | 2525 | [Categorize Box According to Criteria](https://leetcode.com/problems/categorize-box-according-to-criteria/) | [Python](Python/Categorize%20Box%20According%20to%20Criteria.py) | $O(1)$ | $O(1)$ | - | - | - |
+| 2549 | [Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/) | [Python](Python/Count%20Distinct%20Numbers%20on%20Board.py) | - | - | - | - | - |
 
 ## Last update
 
-Solution table for problems was generated automatically on 2023-01-30 18:04 +0000
+Solution table for problems was generated automatically on 2023-01-30 18:17 +0000
 
