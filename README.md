@@ -458,8 +458,9 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2525 | [Categorize Box According to Criteria](https://leetcode.com/problems/categorize-box-according-to-criteria/) | [Python](Python/Categorize%20Box%20According%20to%20Criteria.py) | $O(1)$ | $O(1)$ | - | - | - |
 | 2549 | [Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/) | [Python](Python/Count%20Distinct%20Numbers%20on%20Board.py) | - | - | - | - | - |
 | 2563 | [Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs/) | [Python](Python/Count%20the%20Number%20of%20Fair%20Pairs.py) | - | - | - | - | - |
+| 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | [Python](Python/Left%20and%20Right%20Sum%20Differences.py) | - | - | - | - | - |
 
 ## Last update
 
-Solution table for problems was generated automatically on 2023-02-27 06:08 +0000
+Solution table for problems was generated automatically on 2023-02-27 10:18 +0000
 
