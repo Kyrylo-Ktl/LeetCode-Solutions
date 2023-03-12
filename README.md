@@ -304,6 +304,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1184 | [Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/) | [Python](Python/Distance%20Between%20Bus%20Stops.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | [Python](Python/Unique%20Number%20of%20Occurrences.py) | $O(n)$ | $O(n)$ | - | 95.89% | 72.74% |
 | 1220 | [Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/) | [Python](Python/Count%20Vowels%20Permutation.py) | $O(n)$ | $O(1)$ | DP | - | - |
+| 1237 | [Find Positive Integer Solution for a Given Equation](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/) | [Python](Python/Find%20Positive%20Integer%20Solution%20for%20a%20Given%20Equation.py) | $O(N + M)$ | $O(1)$ | - | 100.00% | 33.63% |
 | 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | [Python](Python/Maximum%20Length%20of%20a%20Concatenated%20String%20with%20Unique%20Characters.py) | $O(n^{2})$ | $O(n^{2})$ | DP | 94.14% | 8.30% |
 | 1249 | [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [Python](Python/Minimum%20Remove%20to%20Make%20Valid%20Parentheses.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 1254 | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | [Python](Python/Number%20of%20Closed%20Islands.py) | $O(n*m)$ | $O(n*m)$ | DFS | - | - |
@@ -466,5 +467,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2023-03-12 18:02 +0000
+Solution table for problems was generated automatically on 2023-03-12 18:39 +0000
 
