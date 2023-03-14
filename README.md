@@ -99,6 +99,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Python](Python/Valid%20Palindrome.py), [Java](Java/Valid%20Palindrome.java) | $O(n)$ | $O(1)$ | - | 99.31% | 92.66% |
 | 126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | [Python](Python/Word%20Ladder%20II.py) | - | - | - | - | - |
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | [Python](Python/Word%20Ladder.py) | - | - | - | - | - |
+| 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Python](Python/Sum%20Root%20to%20Leaf%20Numbers.py) | $O(n)$ | $O(h)$ | DFS | 97.50% | 95.89% |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | [Python](Python/Single%20Number.py), [Java](Java/Single%20Number.java) | $O(n)$ | $O(1)$ | - | 100.00% | 93.84% |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](Python/Linked%20List%20Cycle.py), [Java](Java/Linked%20List%20Cycle.java) | $O(n)$ | $O(1)$ | - | 100.00% | 95.88% |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Python](Python/Evaluate%20Reverse%20Polish%20Notation.py) | $O(n)$ | $O(n)$ | - | - | - |
@@ -467,5 +468,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2023-03-14 06:08 +0000
+Solution table for problems was generated automatically on 2023-03-14 09:27 +0000
 
