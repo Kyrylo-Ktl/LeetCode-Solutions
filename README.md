@@ -252,6 +252,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 893 | [Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/) | [Python](Python/Groups%20of%20Special-Equivalent%20Strings.py) | $O(n * k * \log_{2} k)$ | $O(n * k)$ | - | 93.51% | 88.11% |
 | 894 | [All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) | [Python](Python/All%20Possible%20Full%20Binary%20Trees.py) | $O(2^{n})$ | $O(2^{n})$ | - | - | - |
 | 895 | [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | [Python](Python/Maximum%20Frequency%20Stack.py) | $O(n)$ | $O(n)+O(1)$ | - | - | - |
+| 896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array/) | [Python](Python/Monotonic%20Array.py) | $O(n)$ | $O(1)$ | - | 98.61% | 94.23% |
 | 904 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) | [Python](Python/Fruit%20Into%20Baskets.py) | $O(n)$ | $O(k)$ | - | - | - |
 | 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | [Python](Python/Minimum%20Add%20to%20Make%20Parentheses%20Valid.py), [Java](Java/Minimum%20Add%20to%20Make%20Parentheses%20Valid.java) | $O(n)$ | $O(1)$ | - | - | - |
 | 923 | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) | [Python](Python/3Sum%20With%20Multiplicity.py) | $O(k^{2})$ | $O(k)$ | - | - | - |
@@ -468,5 +469,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2023-03-16 18:06 +0000
+Solution table for problems was generated automatically on 2023-03-16 18:30 +0000
 
