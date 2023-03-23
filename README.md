@@ -131,6 +131,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](Python/Number%20of%20Islands.py), [Java](Java/Number%20of%20Islands.java) | $O(n*m)$ | $O(n*m)$ | DFS | - | - |
 | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [Python](Python/Bitwise%20AND%20of%20Numbers%20Range.py), [Java](Java/Bitwise%20AND%20of%20Numbers%20Range.java) | $O(\log_{2} n)$ | $O(1)$ | - | - | - |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](Python/Reverse%20Linked%20List.py) | $O(n)$ | $O(1)$ | - | - | - |
+| 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [Python](Python/Course%20Schedule.py) | - | - | - | - | - |
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Python](Python/Minimum%20Size%20Subarray%20Sum.py), [Java](Java/Minimum%20Size%20Subarray%20Sum.java) | $O(n)$ | $O(1)$ | - | - | - |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](Python/Contains%20Duplicate.py), [Java](Java/Contains%20Duplicate.java) | $O(n)$ | $O(n)$ | - | - | - |
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Python](Python/Contains%20Duplicate%20II.py), [Java](Java/Contains%20Duplicate%20II.java) | $O(n)$ | $O(n)$ | - | - | - |
@@ -470,5 +471,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2023-03-23 06:08 +0000
+Solution table for problems was generated automatically on 2023-03-23 10:18 +0000
 
