@@ -4,8 +4,8 @@ from typing import List
 
 class Solution:
     """
-    Time:   O(n)
-    Memory: O(n)
+    Time:   O(V + E)
+    Memory: O(V + E)
     """
 
     def countPairs(self, n: int, edges: List[List[int]]) -> int:
