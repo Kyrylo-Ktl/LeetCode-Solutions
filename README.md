@@ -39,7 +39,6 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 | № | Title | Solutions | Time | Memory | Notes | Beats Time | Beats Memory |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](Python/Two%20Sum.py), [Java](Java/Two%20Sum.java) | $O(n)$ | $O(n)$ | - | 99.78% | 88.62% |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](Python/Add%20Two%20Numbers.py), [Java](Java/Add%20Two%20Numbers.java) | $O(n+m)$ | $O(1)$ | - | 99.36% | 95.33% |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](Python/Longest%20Substring%20Without%20Repeating%20Characters.py), [Java](Java/Longest%20Substring%20Without%20Repeating%20Characters.java) | $O(n)$ | $O(1)$ | - | 100.00% | 91.50% |
 | 6 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Python](Python/Zigzag%20Conversion.py) | $O(n)$ | $O(n)$ | - | - | - |
@@ -51,7 +50,6 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](Python/Roman%20to%20Integer.py) | $O(1)$ | $O(1)$ | - | - | - |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Python](Python/Longest%20Common%20Prefix.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | [Python](Python/3Sum.py) | $O(n^{2})$ | $O(1)$ | Two Pointers | - | - |
-| 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Python](Python/Remove%20Nth%20Node%20From%20End%20of%20List.py), [Java](Java/Remove%20Nth%20Node%20From%20End%20of%20List.java) | $O(n)$ | $O(1)$ | - | - | - |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Python](Python/Valid%20Parentheses.py), [Java](Java/Valid%20Parentheses.java) | $O(n)$ | $O(n)$ | Stack | 99.78% | 94.20% |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Python](Python/Generate%20Parentheses.py), [Java](Java/Generate%20Parentheses.java) | $O(2^{n})$ | $O(n)$ | Backtracking | - | - |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](Python/Remove%20Duplicates%20from%20Sorted%20Array.py), [Java](Java/Remove%20Duplicates%20from%20Sorted%20Array.java) | $O(n)$ | $O(1)$ | - | 100.00% | 85.81% |
@@ -64,7 +62,6 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](Python/Maximum%20Subarray.py), [Java](Java/Maximum%20Subarray.java) | $O(n)$ | $O(1)$ | Kadane's | 100.00% | 93.17% |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](Python/Spiral%20Matrix.py) | ? | ? | - | - | - |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/) | [Python](Python/Rotate%20List.py) | $O(n)$ | $O(1)$ | - | - | - |
-| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Python](Python/Unique%20Paths.py), [Java](Java/Unique%20Paths.java) | $O(min(n,m))$ | $O(1)$ | DP / Math | - | - |
 | 68 | [Text Justification](https://leetcode.com/problems/text-justification/) | [Python](Python/Text%20Justification.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](Python/Climbing%20Stairs.py) | $O(n)$ | $O(n)$ | DP | - | - |
 | 71 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | [Python](Python/Simplify%20Path.py) | $O(n)$ | $O(n)$ | - | - | - |
@@ -77,11 +74,8 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Python](Python/Merge%20Sorted%20Array.py), [Java](Java/Merge%20Sorted%20Array.java) | $O(n + m)$ | $O(1)$ | - | 100.00% | 83.33% |
 | 89 | [Gray Code](https://leetcode.com/problems/gray-code/) | [Python](Python/Gray%20Code.py), [Java](Java/Gray%20Code.java) | $O(2^{n})$ | $O(1)$ | Math | 96.07% | 97.95% |
 | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | [Python](Python/Decode%20Ways.py) | $O(n)$ | $O(n)$ | DP | - | - |
-| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python](Python/Binary%20Tree%20Inorder%20Traversal.py) | $O(n)$ | $O(n)$ | - | - | - |
-| 95 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [Python](Python/Unique%20Binary%20Search%20Trees%20II.py) | $O(n^{2})$ | $O(\log_{2} n)$ | DP | - | - |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](Python/Validate%20Binary%20Search%20Tree.py) | $O(n)$ | $O(n)$ | DFS | - | - |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | [Python](Python/Same%20Tree.py) | $O(n)$ | $O(H)$ | - | - | - |
-| 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Python](Python/Symmetric%20Tree.py) | $O(n)$ | $O(n)$ | DFS, BFS | - | - |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python](Python/Maximum%20Depth%20of%20Binary%20Tree.py) | $O(n)$ | $O(n)$ | DFS | - | - |
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Python](Python/Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.py) | $O(n)$ | $O(\log_{2} n)$ | - | - | - |
 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | [Python](Python/Convert%20Sorted%20List%20to%20Binary%20Search%20Tree.py) | $O(n*\log_{2} n)$ | $O(\log_{2} n)$ | DFS | - | - |
@@ -97,7 +91,6 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](Python/Linked%20List%20Cycle.py), [Java](Java/Linked%20List%20Cycle.java) | $O(n)$ | $O(1)$ | - | 100.00% | 95.88% |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Python](Python/Evaluate%20Reverse%20Polish%20Notation.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [Python](Python/Min%20Stack.py) | $O(1)$ | $O(n)$ | - | - | - |
-| 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | [Python](Python/Excel%20Sheet%20Column%20Title.py) | $O(\log_{26} n)$ | $O(1)$ | - | - | - |
 | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | [Python](Python/Factorial%20Trailing%20Zeroes.py) | $O(\log_{5} n)$ | $O(\log_{5} n)$ | Math | - | - |
 | 175 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | [SQL](SQL/Combine%20Two%20Tables.sql) | SQL | SQL | - | - | - |
 | 176 | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | [SQL](SQL/Second%20Highest%20Salary.sql) | SQL | SQL | - | - | - |
@@ -109,14 +102,11 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Python](Python/Rotate%20Array.py), [Java](Java/Rotate%20Array.java) | $O(n)$ | $O(1)$ | - | - | - |
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [Python](Python/Reverse%20Bits.py), [Java](Java/Reverse%20Bits.java) | $O(1)$ | $O(1)$ | - | - | - |
 | 192 | [Word Frequency](https://leetcode.com/problems/word-frequency/) | [Shell](Shell/Word%20Frequency.sh) | SHELL | SHELL | - | - | - |
-| 193 | [Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/) | [Shell](Shell/Valid%20Phone%20Numbers.sh) | SHELL | SHELL | - | - | - |
 | 194 | [Transpose File](https://leetcode.com/problems/transpose-file/) | [Shell](Shell/Transpose%20File.sh) | SHELL | SHELL | - | - | - |
 | 195 | [Tenth Line](https://leetcode.com/problems/tenth-line/) | [Shell](Shell/Tenth%20Line.sh) | SHELL | SHELL | - | - | - |
 | 197 | [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | [SQL](SQL/Rising%20Temperature.sql) | SQL | SQL | - | - | - |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | [Python](Python/House%20Robber.py) | $O(n)$ | $O(n)$ | DP | - | - |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](Python/Number%20of%20Islands.py), [Java](Java/Number%20of%20Islands.java) | $O(n*m)$ | $O(n*m)$ | DFS | - | - |
-| 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [Python](Python/Bitwise%20AND%20of%20Numbers%20Range.py), [Java](Java/Bitwise%20AND%20of%20Numbers%20Range.java) | $O(\log_{2} n)$ | $O(1)$ | - | - | - |
-| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](Python/Reverse%20Linked%20List.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [Python](Python/Course%20Schedule.py) | - | - | - | - | - |
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Python](Python/Minimum%20Size%20Subarray%20Sum.py), [Java](Java/Minimum%20Size%20Subarray%20Sum.java) | $O(n)$ | $O(1)$ | - | - | - |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](Python/Contains%20Duplicate.py), [Java](Java/Contains%20Duplicate.java) | $O(n)$ | $O(n)$ | - | - | - |
@@ -125,7 +115,6 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | [Python](Python/Rectangle%20Area.py) | $O(1)$ | $O(1)$ | Math | - | - |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Python](Python/Invert%20Binary%20Tree.py), [Java](Java/Invert%20Binary%20Tree.java) | $O(n)$ | $O(n)$ | - | - | - |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Python](Python/Palindrome%20Linked%20List.py) | $O(n)$ | $O(1)$ | - | - | - |
-| 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Python](Python/Delete%20Node%20in%20a%20Linked%20List.py), [Java](Java/Delete%20Node%20in%20a%20Linked%20List.java) | $O(1)$ | $O(1)$ | - | - | - |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](Python/Valid%20Anagram.py) | $O(max(n,m))$ | $O(n+m)$ | - | - | - |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | [Python](Python/Add%20Digits.py) | $O(1)$ | $O(1)$ | - | - | - |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | [Python](Python/Ugly%20Number.py) | $O(\log_{2} n)$ | $O(1)$ | - | 99.59% | 60.80% |
@@ -149,7 +138,6 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 390 | [Elimination Game](https://leetcode.com/problems/elimination-game/) | [Python](Python/Elimination%20Game.py), [Java](Java/Elimination%20Game.java) | $O(\log_{2} n)$ | $O(\log_{2} n)$ | - | - | - |
 | 393 | [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [Python](Python/UTF-8%20Validation.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Python](Python/Fizz%20Buzz.py), [Java](Java/Fizz%20Buzz.java) | $O(n)$ | $O(1)$ | - | - | - |
-| 417 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Python](Python/Pacific%20Atlantic%20Water%20Flow.py) | $O(n * m)$ | $O(n * m)$ | DFS | - | - |
 | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Python](Python/Longest%20Repeating%20Character%20Replacement.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | [Python](Python/N-ary%20Tree%20Level%20Order%20Traversal.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 433 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | [Python](Python/Minimum%20Genetic%20Mutation.py) | $O(n*m^{2})$ | $O(n)$ | - | - | - |
@@ -187,7 +175,6 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [Python](Python/Two%20Sum%20IV%20-%20Input%20is%20a%20BST.py) | $O(n)$ | $O(h)$ | - | - | - |
 | 658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | [Python](Python/Find%20K%20Closest%20Elements.py) | $O(k + \log_{2} n)$ | $O(1)$ | Binary Search | - | - |
 | 659 | [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Python](Python/Split%20Array%20into%20Consecutive%20Subsequences.py) | $O(n)$ | $O(n)$ | - | - | - |
-| 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Python](Python/Valid%20Palindrome%20II.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [Python](Python/Top%20K%20Frequent%20Words.py) | $O(n * \log_{2} n)$ | $O(n)$ | - | - | - |
 | 695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Python](Python/Max%20Area%20of%20Island.py) | $O(n*m)$ | $O(n*m)$ | DFS | - | - |
 | 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | [Python](Python/Count%20Binary%20Substrings.py), [Java](Java/Count%20Binary%20Substrings.java) | $O(n)$ | $O(1)$ | - | - | - |
@@ -209,18 +196,15 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 823 | [Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/) | [Python](Python/Binary%20Trees%20With%20Factors.py) | $O(n^{2})$ | $O(n)$ | - | - | - |
 | 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | [Python](Python/Positions%20of%20Large%20Groups.py), [Java](Java/Positions%20of%20Large%20Groups.java) | $O(n)$ | $O(1)$ | - | - | - |
 | 835 | [Image Overlap](https://leetcode.com/problems/image-overlap/) | [Python](Python/Image%20Overlap.py) | $O(n^{4})$ | $O(1)$ | - | 97.08% | 52.05% |
-| 836 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | [Python](Python/Rectangle%20Overlap.py) | $O(1)$ | $O(1)$ | Math | - | - |
 | 838 | [Push Dominoes](https://leetcode.com/problems/push-dominoes/) | [Python](Python/Push%20Dominoes.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 841 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | [Python](Python/Keys%20and%20Rooms.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [Python](Python/Backspace%20String%20Compare.py) | $O(min(n,m))$ | $O(1)$ | - | - | - |
 | 847 | [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | [Python](Python/Shortest%20Path%20Visiting%20All%20Nodes.py) | $O(n^{2}*2^{n})$ | $O(n*2^{n})$ | BFS | - | - |
-| 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | [Python](Python/Lemonade%20Change.py), [Java](Java/Lemonade%20Change.java) | $O(n)$ | $O(1)$ | - | - | - |
 | 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | [Python](Python/Transpose%20Matrix.py), [Java](Java/Transpose%20Matrix.java) | $O(n*m)$ | $O(1)$ | - | - | - |
 | 869 | [Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/) | [Python](Python/Reordered%20Power%20of%202.py) | $O({\log_{2} n}^{2})$ | $O(\log_{2} n)$ | - | - | - |
 | 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | [Python](Python/Leaf-Similar%20Trees.py) | $O(H)$ | $O(H)$ | - | 91.29% | 87.58% |
 | 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [Python](Python/Koko%20Eating%20Bananas.py) | $O(n * \log_{2} M)$ | $O(1)$ | Binary Search | 98.57% | 62.98% |
 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](Python/Middle%20of%20the%20Linked%20List.py), [Java](Java/Middle%20of%20the%20Linked%20List.java) | $O(n)$ | $O(1)$ | - | 100.00% | 99.73% |
-| 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | [Python](Python/Stone%20Game.py), [Java](Java/Stone%20Game.java) | $O(1)$ | $O(1)$ | - | - | - |
 | 890 | [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/) | [Python](Python/Find%20and%20Replace%20Pattern.py) | $O(n*k)$ | $O(k)$ | - | - | - |
 | 893 | [Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/) | [Python](Python/Groups%20of%20Special-Equivalent%20Strings.py) | $O(n * k * \log_{2} k)$ | $O(n * k)$ | - | 93.51% | 88.11% |
 | 894 | [All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) | [Python](Python/All%20Possible%20Full%20Binary%20Trees.py) | $O(2^{n})$ | $O(2^{n})$ | - | - | - |
@@ -242,7 +226,6 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 959 | [Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/) | [Python](Python/Regions%20Cut%20By%20Slashes.py) | $O(n*m)$ | $O(n*m)$ | DFS | - | - |
 | 967 | [Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/) | [Python](Python/Numbers%20With%20Same%20Consecutive%20Differences.py) | $O(2^{n})$ | $O(2^{n})$ | DFS | - | - |
 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python](Python/Squares%20of%20a%20Sorted%20Array.py) | $O(n)$ | $O(n)$ | - | - | - |
-| 982 | [Triples with Bitwise AND Equal To Zero](https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/) | [Python](Python/Triples%20with%20Bitwise%20AND%20Equal%20To%20Zero.py) | $O(n^{3})$ | $O(n^{2})$ | - | - | - |
 | 985 | [Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/) | [Python](Python/Sum%20of%20Even%20Numbers%20After%20Queries.py), [Java](Java/Sum%20of%20Even%20Numbers%20After%20Queries.java) | $O(n + m)$ | $O(1)$ | - | - | - |
 | 986 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | [Python](Python/Interval%20List%20Intersections.py) | $O(n+m)$ | $O(n+m)$ | - | - | - |
 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | [Python](Python/Add%20to%20Array-Form%20of%20Integer.py) | $O(\log_{10} k)$ | $O(1)$ | - | - | - |
@@ -254,8 +237,6 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1010 | [Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/) | [Python](Python/Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.py), [Java](Java/Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.java) | $O(n)$ | $O(1)$ | - | 96.43% | 85.53% |
 | 1020 | [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) | [Python](Python/Number%20of%20Enclaves.py) | $O(n*m)$ | $O(n*m)$ | DFS | - | - |
 | 1030 | [Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/) | [Python](Python/Matrix%20Cells%20in%20Distance%20Order.py) | - | - | - | - | - |
-| 1039 | [Minimum Score Triangulation of Polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/) | [Python](Python/Minimum%20Score%20Triangulation%20of%20Polygon.py) | $O(n^{2})$ | $O(n^{2})$ | DP | - | - |
-| 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [Python](Python/Remove%20All%20Adjacent%20Duplicates%20In%20String.py) | $O(n)$ | $O(n)$ | Stack | - | - |
 | 1048 | [Longest String Chain](https://leetcode.com/problems/longest-string-chain/) | [Python](Python/Longest%20String%20Chain.py) | $O(n*k^{2})$ | $O(n)$ | - | - | - |
 | 1050 | [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) | [SQL](SQL/Actors%20and%20Directors%20Who%20Cooperated%20At%20Least%20Three%20Times.sql) | SQL | SQL | - | - | - |
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | [Python](Python/Greatest%20Common%20Divisor%20of%20Strings.py) | $O(n+m)$ | $O(n+m)$ | - | - | - |
@@ -265,7 +246,6 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1114 | [Print in Order](https://leetcode.com/problems/print-in-order/) | [Python](Python/Print%20in%20Order.py) | CONCURRENCY | CONCURRENCY | - | - | - |
 | 1131 | [Maximum of Absolute Value Expression](https://leetcode.com/problems/maximum-of-absolute-value-expression/) | [Python](Python/Maximum%20of%20Absolute%20Value%20Expression.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | [Python](Python/N-th%20Tribonacci%20Number.py) | $O(n)$ | $O(1)$ | - | - | - |
-| 1141 | [User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/) | [SQL](SQL/User%20Activity%20for%20the%20Past%2030%20Days%20I.sql) | SQL | SQL | - | - | - |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Python](Python/Longest%20Common%20Subsequence.py) | $O(n * m)$ | $O(n * m)$ | DP | 96.32% | 81.56% |
 | 1148 | [Article Views I](https://leetcode.com/problems/article-views-i/) | [SQL](SQL/Article%20Views%20I.sql) | SQL | SQL | - | - | - |
 | 1155 | [Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) | [Python](Python/Number%20of%20Dice%20Rolls%20With%20Target%20Sum.py) | $O(n*k)$ | $O(n*k)$ | DP | - | - |
@@ -279,10 +259,8 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | [Python](Python/Maximum%20Length%20of%20a%20Concatenated%20String%20with%20Unique%20Characters.py) | $O(n^{2})$ | $O(n^{2})$ | DP | 94.14% | 8.30% |
 | 1249 | [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [Python](Python/Minimum%20Remove%20to%20Make%20Valid%20Parentheses.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 1254 | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | [Python](Python/Number%20of%20Closed%20Islands.py) | $O(n*m)$ | $O(n*m)$ | DFS | - | - |
-| 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | [Python](Python/Shift%202D%20Grid.py) | $O(n^{2})$ | $O(n^{2})$ | - | - | - |
 | 1275 | [Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/) | [Python](Python/Find%20Winner%20on%20a%20Tic%20Tac%20Toe%20Game.py), [Java](Java/Find%20Winner%20on%20a%20Tic%20Tac%20Toe%20Game.java) | $O(1)$ | $O(1)$ | - | - | - |
 | 1306 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | [Python](Python/Jump%20Game%20III.py) | $O(n)$ | $O(1)$ | - | - | - |
-| 1319 | [Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) | [Python](Python/Number%20of%20Operations%20to%20Make%20Network%20Connected.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | [Python](Python/Maximum%2069%20Number.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 1328 | [Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/) | [Python](Python/Break%20a%20Palindrome.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 1331 | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | [Python](Python/Rank%20Transform%20of%20an%20Array.py) | $O(n * \log_{2} n)$ | $O(n)$ | - | - | - |
@@ -302,7 +280,6 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | [Python](Python/Count%20Good%20Nodes%20in%20Binary%20Tree.py) | $O(n)$ | $O(n)$ | DFS | - | - |
 | 1457 | [Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) | [Python](Python/Pseudo-Palindromic%20Paths%20in%20a%20Binary%20Tree.py), [Java](Java/Pseudo-Palindromic%20Paths%20in%20a%20Binary%20Tree.java) | $O(n)$ | $O(n)$ | DFS | - | - |
 | 1466 | [Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | [Python](Python/Reorder%20Routes%20to%20Make%20All%20Paths%20Lead%20to%20the%20City%20Zero.py) | $O(n)$ | $O(n)$ | DFS | - | - |
-| 1472 | [Design Browser History](https://leetcode.com/problems/design-browser-history/) | [Python](Python/Design%20Browser%20History.py) | - | - | - | - | - |
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [Python](Python/Running%20Sum%20of%201d%20Array.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 1484 | [Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/) | [SQL](SQL/Group%20Sold%20Products%20By%20The%20Date.sql) | SQL | SQL | - | - | - |
 | 1493 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | [Python](Python/Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element.py), [Java](Java/Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element.java) | $O(n)$ | $O(1)$ | - | - | - |
@@ -311,31 +288,21 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | [Python](Python/Count%20Odd%20Numbers%20in%20an%20Interval%20Range.py) | - | - | - | - | - |
 | 1527 | [Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | [SQL](SQL/Patients%20With%20a%20Condition.sql) | SQL | SQL | - | - | - |
 | 1539 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/) | [Python](Python/Kth%20Missing%20Positive%20Number.py) | $O(n)$ | $O(n)$ | - | - | - |
-| 1544 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/) | [Python](Python/Make%20The%20String%20Great.py) | $O(n)$ | $O(n)$ | Stack | 94.50% | 97.99% |
-| 1557 | [Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/) | [Python](Python/Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.py), [Java](Java/Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.java) | $O(n)$ | $O(n)$ | - | - | - |
 | 1576 | [Replace All ?'s to Avoid Consecutive Repeating Characters](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) | [Python](Python/Replace%20All%20?'s%20to%20Avoid%20Consecutive%20Repeating%20Characters.py) | $O(n)$ | $O(n)$ | - | - | - |
-| 1578 | [Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) | [Python](Python/Minimum%20Time%20to%20Make%20Rope%20Colorful.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 1581 | [Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/) | [SQL](SQL/Customer%20Who%20Visited%20but%20Did%20Not%20Make%20Any%20Transactions.sql) | SQL | SQL | - | - | - |
 | 1646 | [Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/) | [Python](Python/Get%20Maximum%20in%20Generated%20Array.py) | $O(n)$ | $O(n)$ | - | - | - |
-| 1657 | [Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/) | [Python](Python/Determine%20if%20Two%20Strings%20Are%20Close.py) | $O(n)$ | $O(n)$ | Sorting | 89.60% | 94.00% |
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | [Python](Python/Check%20If%20Two%20String%20Arrays%20are%20Equivalent.py) | $O(n)$ | $O(1)$ | - | 99.41% | 98.50% |
-| 1663 | [Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/) | [Python](Python/Smallest%20String%20With%20A%20Given%20Numeric%20Value.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 1667 | [Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/) | [SQL](SQL/Fix%20Names%20in%20a%20Table.sql) | SQL | SQL | - | - | - |
 | 1669 | [Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/) | [Python](Python/Merge%20In%20Between%20Linked%20Lists.py) | $O(n + m)$ | $O(1)$ | - | - | - |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | [Python](Python/Richest%20Customer%20Wealth.py), [Java](Java/Richest%20Customer%20Wealth.java) | $O(n*m)$ | $O(1)$ | - | - | - |
 | 1680 | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | [Python](Python/Concatenation%20of%20Consecutive%20Binary%20Numbers.py) | $O(n*\log_{2} n)$ | $O(1)$ | - | - | - |
 | 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/) | [Python](Python/Count%20the%20Number%20of%20Consistent%20Strings.py) | $O(n+m)$ | $O(n+m)$ | - | - | - |
-| 1693 | [Daily Leads and Partners](https://leetcode.com/problems/daily-leads-and-partners/) | [SQL](SQL/Daily%20Leads%20and%20Partners.sql) | SQL | SQL | - | - | - |
-| 1729 | [Find Followers Count](https://leetcode.com/problems/find-followers-count/) | [SQL](SQL/Find%20Followers%20Count.sql) | SQL | SQL | - | - | - |
 | 1741 | [Find Total Time Spent by Each Employee](https://leetcode.com/problems/find-total-time-spent-by-each-employee/) | [SQL](SQL/Find%20Total%20Time%20Spent%20by%20Each%20Employee.sql) | SQL | SQL | - | - | - |
 | 1752 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | [Python](Python/Check%20if%20Array%20Is%20Sorted%20and%20Rotated.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 1757 | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | [SQL](SQL/Recyclable%20and%20Low%20Fat%20Products.sql) | SQL | SQL | - | - | - |
-| 1770 | [Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) | [Python](Python/Maximum%20Score%20from%20Performing%20Multiplication%20Operations.py) | $O(m^{2})$ | $O(m)$ | DP | - | - |
 | 1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | [Python](Python/Check%20if%20Binary%20String%20Has%20at%20Most%20One%20Segment%20of%20Ones.py), [Java](Java/Check%20if%20Binary%20String%20Has%20at%20Most%20One%20Segment%20of%20Ones.java) | $O(n)$ | $O(1)$ | - | - | - |
 | 1795 | [Rearrange Products Table](https://leetcode.com/problems/rearrange-products-table/) | [SQL](SQL/Rearrange%20Products%20Table.sql) | SQL | SQL | - | - | - |
-| 1817 | [Finding the Users Active Minutes](https://leetcode.com/problems/finding-the-users-active-minutes/) | [Python](Python/Finding%20the%20Users%20Active%20Minutes.py) | $O(n)$ | $O(n + k)$ | Hashing | - | - |
 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | [Python](Python/Check%20if%20the%20Sentence%20Is%20Pangram.py), [Java](Java/Check%20if%20the%20Sentence%20Is%20Pangram.java) | $O(n)$ | $O(1)$ | - | 92.75% | 95.79% |
-| 1833 | [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/) | [Python](Python/Maximum%20Ice%20Cream%20Bars.py) | $O(sort)$ | $O(n)$ | - | - | - |
 | 1839 | [Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/) | [Python](Python/Longest%20Substring%20Of%20All%20Vowels%20in%20Order.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 1848 | [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | [Python](Python/Minimum%20Distance%20to%20the%20Target%20Element.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 1873 | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/) | [SQL](SQL/Calculate%20Special%20Bonus.sql) | SQL | SQL | - | - | - |
@@ -344,7 +311,6 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | [Python](Python/Largest%20Odd%20Number%20in%20String.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 1905 | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/) | [Python](Python/Count%20Sub%20Islands.py) | $O(n^{2})$ | $O(n^{2})$ | DFS | - | - |
 | 1926 | [Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/) | [Python](Python/Nearest%20Exit%20from%20Entrance%20in%20Maze.py) | $O(n * m)$ | $O(n * m)$ | BFS | 77.25% | 55.57% |
-| 1945 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) | [Python](Python/Sum%20of%20Digits%20of%20String%20After%20Convert.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 1962 | [Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/) | [Python](Python/Remove%20Stones%20to%20Minimize%20the%20Total.py) | $O(n * \log_{2} n)$ | $O(1)$ | Heap | 100.00% | 95.88% |
 | 1965 | [Employees With Missing Information](https://leetcode.com/problems/employees-with-missing-information/) | [SQL](SQL/Employees%20With%20Missing%20Information.sql) | SQL | SQL | - | - | - |
 | 1984 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) | [Python](Python/Minimum%20Difference%20Between%20Highest%20and%20Lowest%20of%20K%20Scores.py) | $O(n*\log_{2} n)$ | $O(1)$ | - | - | - |
@@ -355,15 +321,10 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | [Python](Python/Delete%20the%20Middle%20Node%20of%20a%20Linked%20List.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 2131 | [Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/) | [Python](Python/Longest%20Palindrome%20by%20Concatenating%20Two%20Letter%20Words.py) | - | - | - | - | - |
 | 2136 | [Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/) | [Python](Python/Earliest%20Possible%20Day%20of%20Full%20Bloom.py) | $O(n * \log_{2} n)$ | $O(n)$ | - | - | - |
-| 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | [Python](Python/Counting%20Words%20With%20a%20Given%20Prefix.py) | $O(n*k)$ | $O(1)$ | - | - | - |
 | 2186 | [Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/) | [Python](Python/Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram%20II.py) | $O(n+m)$ | $O(n+m)$ | - | - | - |
-| 2220 | [Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/) | [Python](Python/Minimum%20Bit%20Flips%20to%20Convert%20Number.py), [Java](Java/Minimum%20Bit%20Flips%20to%20Convert%20Number.java) | $O(\log_{2} n)$ | $O(1)$ | - | 100.00% | 97.83% |
 | 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/) | [Python](Python/Find%20Players%20With%20Zero%20or%20One%20Losses.py) | $O(n * \log_{2} n)$ | $O(n)$ | - | 98.66% | 99.40% |
 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | [Python](Python/Calculate%20Digit%20Sum%20of%20a%20String.py) | $O(\log_{k} n)$ | $O(\log_{k} n)$ | - | - | - |
-| 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | [Python](Python/Largest%203-Same-Digit%20Number%20in%20String.py) | $O(n)$ | $O(1)$ | - | - | - |
-| 2269 | [Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/) | [Python](Python/Find%20the%20K-Beauty%20of%20a%20Number.py) | $O(\log_{10} n)$ | $O(1)$ | - | - | - |
 | 2273 | [Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/) | [Python](Python/Find%20Resultant%20Array%20After%20Removing%20Anagrams.py) | $O(n*k)$ | $O(k)$ | - | - | - |
-| 2278 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | [Python](Python/Percentage%20of%20Letter%20in%20String.py), [Java](Java/Percentage%20of%20Letter%20in%20String.java) | $O(n)$ | $O(1)$ | - | - | - |
 | 2279 | [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/) | [Python](Python/Maximum%20Bags%20With%20Full%20Capacity%20of%20Rocks.py) | $O(n * \log_{2} n)$ | $O(n)$ | Greedy | 99.67% | 87.83% |
 | 2294 | [Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/) | [Python](Python/Partition%20Array%20Such%20That%20Maximum%20Difference%20Is%20K.py), [Java](Java/Partition%20Array%20Such%20That%20Maximum%20Difference%20Is%20K.java) | $O(n * \log_{2} n)$ | $O(1)$ | - | - | - |
 | 2299 | [Strong Password Checker II](https://leetcode.com/problems/strong-password-checker-ii/) | [Python](Python/Strong%20Password%20Checker%20II.py) | $O(n)$ | $O(1)$ | - | - | - |
@@ -374,7 +335,6 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2336 | [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/) | [Python](Python/Smallest%20Number%20in%20Infinite%20Set.py) | $O(1) + O(\log_{2} n)$ | $O(n)$ | - | - | - |
 | 2341 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/) | [Python](Python/Maximum%20Number%20of%20Pairs%20in%20Array.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 2347 | [Best Poker Hand](https://leetcode.com/problems/best-poker-hand/) | [Python](Python/Best%20Poker%20Hand.py) | $O(1)$ | $O(1)$ | - | - | - |
-| 2348 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) | [Python](Python/Number%20of%20Zero-Filled%20Subarrays.py) | $O(n)$ | $O(1)$ | Sliding Window | - | - |
 | 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/) | [Python](Python/First%20Letter%20to%20Appear%20Twice.py), [Java](Java/First%20Letter%20to%20Appear%20Twice.java) | $O(n)$ | $O(1)$ | - | 100.00% | 94.36% |
 | 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | [Python](Python/Equal%20Row%20and%20Column%20Pairs.py) | $O(n^{3}) / O(n^{2})$ | $O(1) / O(n)$ | - | - | - |
 | 2357 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | [Python](Python/Make%20Array%20Zero%20by%20Subtracting%20Equal%20Amounts.py) | $O(n)$ | $O(n)$ | - | - | - |
@@ -382,7 +342,6 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2363 | [Merge Similar Items](https://leetcode.com/problems/merge-similar-items/) | [Python](Python/Merge%20Similar%20Items.py) | $O(n*\log_{2} n)$ | $O(n)$ | - | - | - |
 | 2364 | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/) | [Python](Python/Count%20Number%20of%20Bad%20Pairs.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 2367 | [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/) | [Python](Python/Number%20of%20Arithmetic%20Triplets.py) | $O(n)$ | $O(n)$ | - | - | - |
-| 2374 | [Node With Highest Edge Score](https://leetcode.com/problems/node-with-highest-edge-score/) | [Python](Python/Node%20With%20Highest%20Edge%20Score.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 2379 | [Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/) | [Python](Python/Minimum%20Recolors%20to%20Get%20K%20Consecutive%20Black%20Blocks.py) | $O(n)$ | $O(k)$ | - | - | - |
 | 2380 | [Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/) | [Python](Python/Time%20Needed%20to%20Rearrange%20a%20Binary%20String.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 2383 | [Minimum Hours of Training to Win a Competition](https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/) | [Python](Python/Minimum%20Hours%20of%20Training%20to%20Win%20a%20Competition.py), [Java](Java/Minimum%20Hours%20of%20Training%20to%20Win%20a%20Competition.java) | $O(n)$ | $O(1)$ | - | - | - |
@@ -395,12 +354,9 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | [Python](Python/Check%20Distances%20Between%20Same%20Letters.py) | $O(1)$ | $O(1)$ | - | - | - |
 | 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/) | [Python](Python/Most%20Frequent%20Even%20Element.py), [Java](Java/Most%20Frequent%20Even%20Element.java) | $O(n)$ | $O(n)$ | - | - | - |
 | 2405 | [Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/) | [Python](Python/Optimal%20Partition%20of%20String.py), [Java](Java/Optimal%20Partition%20of%20String.java) | $O(n)$ | $O(1)$ | - | - | - |
-| 2406 | [Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/) | [Python](Python/Divide%20Intervals%20Into%20Minimum%20Number%20of%20Groups.py) | $O(n)$ | $O(n)$ | - | - | - |
-| 2409 | [Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/) | [Python](Python/Count%20Days%20Spent%20Together.py) | $O(1)$ | $O(1)$ | - | - | - |
 | 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | [Python](Python/Smallest%20Even%20Multiple.py), [Java](Java/Smallest%20Even%20Multiple.java) | $O(1)$ | $O(1)$ | - | - | - |
 | 2414 | [Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/) | [Python](Python/Length%20of%20the%20Longest%20Alphabetical%20Continuous%20Substring.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people/) | [Python](Python/Sort%20the%20People.py) | $O(n * \log_{2} n)$ | $O(n)$ | - | - | - |
-| 2419 | [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | [Python](Python/Longest%20Subarray%20With%20Maximum%20Bitwise%20AND.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 2424 | [Longest Uploaded Prefix](https://leetcode.com/problems/longest-uploaded-prefix/) | [Python](Python/Longest%20Uploaded%20Prefix.py) | $O(1)$ | $O(n)$ | - | - | - |
 | 2427 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/) | [Python](Python/Number%20of%20Common%20Factors.py) | $O(min(n,m))$ | $O(1)$ | - | - | - |
 | 2428 | [Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/) | [Python](Python/Maximum%20Sum%20of%20an%20Hourglass.py) | $O(n*m)$ | $O(n*m)$ | - | - | - |
@@ -428,5 +384,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2023-12-28 00:26 +0000
+Solution table for problems was generated automatically on 2023-12-28 06:07 +0000
 
