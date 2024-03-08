@@ -67,7 +67,6 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Python](Python/Set%20Matrix%20Zeroes.py) | $O(n * m)$ | $O(n + m)$ | - | 97.19% | 53.65% |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](Python/Search%20a%202D%20Matrix.py), [Java](Java/Search%20a%202D%20Matrix.java) | $O(\log_{2} (n*m))$ | $O(1)$ | Binary Search | - | - |
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | [Python](Python/Word%20Search.py) | $O(n * m * k)$ | $O(k)$ | DFS | 99.72% | 93.26% |
-| 82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [Python](Python/Remove%20Duplicates%20from%20Sorted%20List%20II.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/) | [Python](Python/Partition%20List.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Python](Python/Merge%20Sorted%20Array.py), [Java](Java/Merge%20Sorted%20Array.java) | $O(n + m)$ | $O(1)$ | - | 100.00% | 83.33% |
 | 89 | [Gray Code](https://leetcode.com/problems/gray-code/) | [Python](Python/Gray%20Code.py), [Java](Java/Gray%20Code.java) | $O(2^{n})$ | $O(1)$ | Math | 96.07% | 97.95% |
@@ -394,5 +393,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2024-03-08 06:07 +0000
+Solution table for problems was generated automatically on 2024-03-08 12:09 +0000
 
