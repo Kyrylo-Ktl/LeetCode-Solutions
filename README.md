@@ -53,10 +53,7 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 814 | [Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) | [Python](Python/Binary%20Tree%20Pruning.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [Python](Python/Koko%20Eating%20Bananas.py) | $O(n * \log_{2} M)$ | $O(1)$ | Binary Search | 98.57% | 62.98% |
 | 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | [Python](Python/Delete%20Columns%20to%20Make%20Sorted.py) | $O(m * n * \log_{2} n)$ | $O(n)$ | - | - | - |
-| 1237 | [Find Positive Integer Solution for a Given Equation](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/) | [Python](Python/Find%20Positive%20Integer%20Solution%20for%20a%20Given%20Equation.py) | $O(N + M)$ | $O(1)$ | - | 100.00% | 33.63% |
 | 1338 | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/) | [Python](Python/Reduce%20Array%20Size%20to%20The%20Half.py) | $O(n * \log_{2} n)$ | $O(n)$ | - | - | - |
-| 1345 | [Jump Game IV](https://leetcode.com/problems/jump-game-iv/) | [Python](Python/Jump%20Game%20IV.py) | - | - | - | - | - |
-| 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | [Python](Python/Count%20Odd%20Numbers%20in%20an%20Interval%20Range.py) | - | - | - | - | - |
 | 1848 | [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | [Python](Python/Minimum%20Distance%20to%20the%20Target%20Element.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 2367 | [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/) | [Python](Python/Number%20of%20Arithmetic%20Triplets.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | [Python](Python/Removing%20Stars%20From%20a%20String.py) | - | - | - | - | - |
@@ -64,9 +61,8 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2525 | [Categorize Box According to Criteria](https://leetcode.com/problems/categorize-box-according-to-criteria/) | [Python](Python/Categorize%20Box%20According%20to%20Criteria.py) | $O(1)$ | $O(1)$ | - | - | - |
 | 2529 | [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/) | [Python](Python/Maximum%20Count%20of%20Positive%20Integer%20and%20Negative%20Integer.py) | $O(\log_{2} n)$ | $O(1)$ | - | - | - |
 | 2549 | [Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/) | [Python](Python/Count%20Distinct%20Numbers%20on%20Board.py) | - | - | - | - | - |
-| 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | [Python](Python/Left%20and%20Right%20Sum%20Differences.py) | - | - | - | - | - |
 
 ## Last update
 
-Solution table for problems was generated automatically on 2024-03-09 18:01 +0000
+Solution table for problems was generated automatically on 2024-03-10 00:28 +0000
 
