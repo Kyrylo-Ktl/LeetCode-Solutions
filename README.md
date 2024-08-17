@@ -149,7 +149,6 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](Python/Move%20Zeroes.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | [Python](Python/Word%20Pattern.py) | $O(n)$ | $O(n)$ | - | - | - |
 | 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | [Python](Python/Nim%20Game.py), [Java](Java/Nim%20Game.java) | $O(1)$ | $O(1)$ | Math | - | - |
-| 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Python](Python/Serialize%20and%20Deserialize%20Binary%20Tree.py) | $O(n)$ | $O(n)$ | Preorder | - | - |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Python](Python/Longest%20Increasing%20Subsequence.py) | $O(n*\log_{2} n)$ | $O(n)$ | - | - | - |
 | 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | [Python](Python/Range%20Sum%20Query%202D%20-%20Immutable.py) | $O(n*m) + O(1)$ | $O(n*m) + O(1)$ | - | - | - |
 | 307 | [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) | [Python](Python/Range%20Sum%20Query%20-%20Mutable.py) | $O(n * \log_{2} n) + O(\log_{2} n)$ | $O(n) + O(1)$ | - | - | - |
@@ -475,5 +474,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2024-08-17 12:09 +0000
+Solution table for problems was generated automatically on 2024-08-17 18:08 +0000
 
