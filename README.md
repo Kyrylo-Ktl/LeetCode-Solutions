@@ -443,7 +443,6 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/) | [Python](Python/Most%20Frequent%20Even%20Element.py), [Java](Java/Most%20Frequent%20Even%20Element.java) | $O(n)$ | $O(n)$ | - | - | - |
 | 2405 | [Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/) | [Python](Python/Optimal%20Partition%20of%20String.py), [Java](Java/Optimal%20Partition%20of%20String.java) | $O(n)$ | $O(1)$ | - | - | - |
 | 2406 | [Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/) | [Python](Python/Divide%20Intervals%20Into%20Minimum%20Number%20of%20Groups.py) | $O(n)$ | $O(n)$ | - | - | - |
-| 2409 | [Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/) | [Python](Python/Count%20Days%20Spent%20Together.py) | $O(1)$ | $O(1)$ | - | - | - |
 | 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | [Python](Python/Smallest%20Even%20Multiple.py), [Java](Java/Smallest%20Even%20Multiple.java) | $O(1)$ | $O(1)$ | - | - | - |
 | 2414 | [Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/) | [Python](Python/Length%20of%20the%20Longest%20Alphabetical%20Continuous%20Substring.py) | $O(n)$ | $O(1)$ | - | - | - |
 | 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people/) | [Python](Python/Sort%20the%20People.py) | $O(n * \log_{2} n)$ | $O(n)$ | - | - | - |
@@ -475,5 +474,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2025-05-22 06:13 +0000
+Solution table for problems was generated automatically on 2025-05-22 12:17 +0000
 
