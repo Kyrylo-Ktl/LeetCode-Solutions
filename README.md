@@ -203,7 +203,6 @@ The repository contains the best versions of my solutions to LeetCode problems
 | 620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | [SQL](SQL/Not%20Boring%20Movies.sql) | SQL | SQL | - | - | - |
 | 622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [Python](Python/Design%20Circular%20Queue.py) | $O(k) / O(1)$ | $O(k) / O(1)$ | - | - | - |
 | 623 | [Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) | [Python](Python/Add%20One%20Row%20to%20Tree.py) | $O(n)$ | $O(n)$ | - | - | - |
-| 627 | [Swap Salary](https://leetcode.com/problems/swap-salary/) | [SQL](SQL/Swap%20Salary.sql) | SQL | SQL | - | - | - |
 | 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Python](Python/Average%20of%20Levels%20in%20Binary%20Tree.py) | $O(n)$ | $O(\log_{2} n)$ | - | - | - |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [Python](Python/Maximum%20Average%20Subarray%20I.py) | $O(n)$ | $O(1)$ | Sliding Window | - | - |
 | 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/) | [Python](Python/Set%20Mismatch.py) | $O(n)$ | $O(1)$ | - | 92.30% | 74.26% |
@@ -474,5 +473,5 @@ The repository contains the best versions of my solutions to LeetCode problems
 
 ## Last update
 
-Solution table for problems was generated automatically on 2025-11-18 00:42 +0000
+Solution table for problems was generated automatically on 2025-11-18 06:13 +0000
 
